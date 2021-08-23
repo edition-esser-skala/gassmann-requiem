@@ -32,10 +32,16 @@
           >>
         >>
         \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in C" }
-            % \transpose c c
-            \partCombine \RequiemClarinoI \RequiemClarinoII
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "Trombone"
+            \new Staff {
+              \set Staff.instrumentName = "I"
+              \RequiemTromboneI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "II"
+              \RequiemTromboneII
+            }
           >>
         >>
         \new StaffGroup <<
@@ -96,7 +102,7 @@
         \new FiguredBass { \RequiemBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 65 }
     }
   }
 }
