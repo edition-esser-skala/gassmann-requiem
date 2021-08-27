@@ -135,3 +135,178 @@ RequiemBassFigures = \figuremode {
   r <6 4>8 <7 5 [_!]> <6 4>4 <5 _!>8 <4 2>
   <5 _!>1 %63 finis
 }
+
+TeDecetOrgano = {
+  \relative c {
+    \clef bass
+    \key as \major \time 3/4 \tempoTeDecet
+      \set Score.currentBarNumber = #64
+    R2.
+    \mvTrr es4\pp-\solo g f8 es %65
+    as2.~
+    as8 des, f4 es8 des
+    as'4 as, as'
+    b g es
+    as f c %70
+    des d2
+    es c'4
+    des2 b4
+    c2 as4
+    b2 g4 %75
+    as2 f4
+    des2 es4
+    c2 c'4
+    des2 b4
+    c2 as4 %80
+    b2 g4
+    as2 f4
+    des2 es4
+    as,2 r4
+    \mvTr as'2.\f-\tuttiE %85
+    es
+    as,
+    des4 f es8 des
+    as4 as' c,
+    des2 b4 %90
+    g!^\critnote as2
+    des4 des d
+    es g f8 es
+    b'4 b, b'
+    g b as8 g %95
+    as4 as, as'
+    es es, g'
+    as2 f4
+    d2 es4
+    as2 a4 %100
+    b b, es
+    b' b, b'
+    \mvTr es,2.\p-\solo
+    b
+    es, %105
+    as4 c b8 as
+    es'2 g4
+    as2 f4
+    g2 es4
+    f2 d4 %110
+    es2 c4
+    as2 b4
+    es8 c'\f b as g f
+    e e e e e-\tuttiE e
+    f f f f es es %115
+    d d d d d d
+    d d d d c c
+    h h h h h h
+    c c c c b b
+    a a a a a a %120
+    b b b b as as
+    g! g g g g g
+    as as as as c c
+    des des des d d d
+    es4 es, c'\mfE %125
+    des!2 b4
+    c2 as4
+    b2 g4
+    as2 f'4
+    des2 es4 %130
+    c2 c4\p
+    des2 b4
+    c2 as4
+    b2 g4
+    as2 f'4 %135
+    des2 es4
+    as, d\fE d
+    des2 c4
+    r des d
+    es es es, %140
+    as' c-\solo as
+    b g es
+    as c, f
+    des es es,
+    as r r\fermata \bar "||" %145 finis
+  }
+}
+
+TeDecetBassFigures = \figuremode {
+  r2. %64
+  \bo <[8]>2 \bassFigureExtendersOn <8>8 \bc <[8]> \bassFigureExtendersOff %65
+  r2.
+  <6 4> \bassFigureExtendersOn
+  q4 \bassFigureExtendersOff <5 3>2
+  \bo <[4]>8 <3> \bc <[6]>2
+  \bo <[4]>8 \bc <[3]> <5>4 <6> %70
+  <6 5> <\t \t>2
+  r <6 5->4
+  <9> <8>2
+  <9>4 <8>2
+  <9>4 <8>2 %75
+  <9>4 <8>2
+  <5>4 <6>2
+  q2 <6 5->4
+  <9>4 <8>2
+  <9>4 <8>2 %80
+  <9>4 <8>2
+  <9>4 <8>2
+  <5>4 <6>2
+  r2.
+  r %85
+  r
+  r
+  r
+  <6 4>4 <5 3> <6 [5-]>
+  <9> <8>2 %90
+  <6 5>2.
+  <7>4 <6> <\t>8 <5>
+  r2.
+  <_!>
+  <6>4 \bo <[6 4]> \bc <[4! 2]>8 <6> %95
+  r2.
+  r2 <6 5->4
+  <9> <8>2
+  <6>2.
+  <6 5>2 <\t \t>4 %100
+  <[_!]>2.
+  \bo <[5 4]>4 <\t _!> \bc <[7 \t]>4
+  r2.
+  <[_!]>
+  r %105
+  \bo <[8]>2 \bassFigureExtendersOn <8>8 \bc <[8]> \bassFigureExtendersOff
+  <6 4>4 <5 3> <[6 5-]>
+  <9> <8> <6! 5>
+  \bo <9 [5!]> \bc <8 [\t]> <6 5>
+  <9> <8> <6 5> %110
+  <9> <8> <3>
+  <6 5>2 <[_!]>4
+  r2.
+  <7->
+  <6 4>4 <5 3> <6> %115
+  <7 [5!] _+>2 <6 4>4
+  <\t \t> <5! _+> <\t \t>
+  <7- [5! _!]>2.
+  <6 4>4 <5 3> <6 4!>
+  <6>4. <7- [5-]> %120
+  <6- 4>4 <5 _-> <6 4!>
+  <6>4. <[7-] 5->
+  \bo <[6-] 4>4 \bc <[5] 3> <6 [5-]>
+  <[_-]>4. <6 5 [_!]>
+  <4>4 <3> <6> %125
+  <9> <8> <6 5>
+  <9> <8> <6 5>
+  <9> <8> <6 5>
+  <9> <8> <[3]>
+  <6 5>2. %130
+  <6>
+  <9>4 <8> <6 5>
+  <9> <8> <6 5>
+  <9> <8> <6 5>
+  <9> <8> <3> %135
+  <6 5>2.
+  r4 <6 5>2
+  <6 4 2> <6>4
+  r2 <6 5>4
+  <5 4>2 <\t 3>4 %140
+  r <6>2
+  <4>8 <3> <6>2
+  <4>8 <3> <6>2
+  <6 5>2.
+  r %145 finis
+}

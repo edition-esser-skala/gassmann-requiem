@@ -64,3 +64,59 @@ RequiemTromboneII = {
     c r\fermata \bar "||" %63 finis
   }
 }
+
+TeDecetTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key as \major \time 3/4 \tempoTeDecet
+      \set Score.currentBarNumber = #64
+    R2.*23 %86
+    as4\fE c b8 as
+    des2 des4
+    des c as
+    as as b %90
+    b as8 as as as
+    as4 b b8 b
+    b8. b16 b4 r
+    R2.*2 %95
+    as4 c b8 as
+    b2 es4
+    es es f
+    f2 es8 es
+    es4 es8 es es es %100
+    d2 es4
+    es8 es d4. d8
+    es4 r r
+    R2.*10 %113
+    r4 b2
+    b4 as g %115
+    a4. a8 g b
+    d?4 d r
+    r f!2~
+    f4 es e
+    f4. es8 es es %120
+    es4 des! d
+    es4. des8 des des
+    des4 c es
+    des4. b8 b b
+    b4 b r %125
+    f'2\mfE f4
+    es2.
+    des
+    c2 c4
+    b2 b4 %130
+    as r es'\p
+    f2.
+    es
+    des
+    c2 c4 %135
+    b2 b4
+    c b\f b
+    b2 as4
+    r as b
+    b2 b4 %140
+    as r r
+    R2.*3
+    R2.\fermata \bar "||" %145 finis
+  }
+}

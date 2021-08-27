@@ -63,3 +63,93 @@ RequiemViolinoI = {
     g2 r\fermata \bar "||" %63 finis
   }
 }
+
+TeDecetViolinoI = {
+  \relative c' {
+    \clef treble
+    \key as \major \time 3/4 \tempoTeDecet
+      \set Score.currentBarNumber = #64
+    as'4-\mezzavoce c b8 as
+    es'2.~ %65
+    es8 c \appoggiatura f es4 des8( c)
+    f2.~
+    f4 es8( as) c,( es)
+    es( des) r b'-! b,-! des-!
+    des( c) r \parOn as'-\parenthesize-! as,-! \parOff c-\parenthesize-! %70
+    c( b) r c( b as)
+    g-! b-! es,4 es'~
+    es8 a, b c des4~
+    des8 g, as b c4~
+    c8 f, g as b4~ %75
+    b8 es, f g as4~
+    as8 f b as g4
+    as8 b c des es4~
+    es8 a, b c des4~
+    des8 g, as b c4~ %80
+    c8 f, g as b4~
+    b8 es, f g as4~
+    as8 f b as g4
+    as8 f es des c b
+    as as'\f c4 b8 as %85
+    \once \tieDashed es'2.~
+    es8 c es4 des8 c
+    \once \tieDashed f2.~
+    f4 es8 as c, es
+    es4 des8 b f des' %90
+    des4 c8 as es-\critnote c'
+    c4 b8 f' f, as
+    g8. f16 es4 r
+    b' d c8 b
+    es4 es, es'~ %95
+    es es2~
+    es8 es, r es b' des!
+    c as' r es, as c
+    b f' r as, g es'
+    f, c' r f, c' es %100
+    d b f' as, g es'
+    f, es' f, d' f, d'
+    \mvTr es4\pE-\dolce g f8 es
+    b'2.~
+    b8 g b4 as8( g) %105
+    c2 c4
+    c b b~
+    b8 e, f g as4~
+    as8 d, es f g4~
+    g8 c, d es f4~ %110
+    f8 b, c d es4~
+    es8 c f es d4
+    es8 c\f b as g f
+    e des'! des des des des
+    des4 c g' %115
+    <fis a,>8 c c c b b
+    b4 a c,
+    \kneeBeam h8 as''! as as as as
+    as as g g g g
+    f f f ges ges ges %120
+    ges ges f f f f
+    es es es des! des des
+    des des c c es es
+    des fes? fes f f f
+    f es es es es4~\mf %125
+    es8 a, b c des4~
+    des8 g, as b c4~
+    c8 f, g as b4~
+    b8 es, f g as4~
+    as8 f b as g4 %130
+    as8 b c des es4~\p
+    es8 a, b c des4~
+    des8 g, as b c4~
+    c8 f, g as b4~
+    b8 es, f g as4~ %135
+    as8 f b as g4
+    as as\f as
+    g2 as4
+    r as b
+    b2 b4 %140
+    as r8 as'-! c,-! es-!
+    es( des) r b'-! b,-! des-!
+    des( c) r es-! as,-! c-!
+    c( b) r b-! g-! b-!
+    as4 r r\fermata \bar "||" %145 finis
+  }
+}

@@ -683,8 +683,12 @@ tocLabelLong = #(define-music-function
 )
 
 
+mezzavoce = \markup \remark "mezza voce"
+mezzavoceE = \markup \remarkE "mezza voce"
+
 
 tempoRequiem = \tempoMarkup "Adagio"
+  tempoTeDecet = \tempoMarkup "Andante"
 
 
 \include "notes/ob1.ly"

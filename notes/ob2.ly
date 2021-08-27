@@ -68,3 +68,62 @@ RequiemOboeII = {
     R1\fermata \bar "||" %63 finis
   }
 }
+
+TeDecetOboeII = {
+  \relative c' {
+    \clef treble
+    \key as \major \time 3/4 \tempoTeDecet
+      \set Score.currentBarNumber = #64
+    R2.*21 %84
+    as'4\f c \once \slurDashed b8( as) %85
+    es'2 es4
+    c es des8 c
+    f2.~
+    f4 es es
+    es des des %90
+    des c \once \tieDashed c~
+    c b b8 as
+    g8. f16 es4 r
+    b' d c8 b
+    es4 es es~ %95
+    es es es
+    es es des!
+    c c c
+    b2 b4
+    c2 c4 %100
+    b2 b4
+    b2 as4
+    g r r
+    R2.*10 %113
+    r4 des'!2
+    des4 c c %115
+    c4. c8 b b
+    b4 a r
+    r d2
+    c4 c c
+    c4. c8 c c %120
+    b4 b b
+    b4. b8 b b
+    as4 as as
+    as4. as8 as as
+    as4 g es'~\mfE %125
+    es des!2~
+    des4 c c~
+    c b2~
+    b4 as2~
+    as8 f b as g4 %130
+    as r \once \tieDashed es'~\p
+    es des2~
+    des4 c2~
+    c4 b2~
+    b4 as2~ %135
+    as8 f b as g4
+    as as\f as
+    g2 as4
+    r as as
+    as2 g4 %140
+    as r r
+    R2.*3
+    R2.\fermata \bar "||" %145 finis
+  }
+}

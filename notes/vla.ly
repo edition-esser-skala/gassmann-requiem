@@ -69,3 +69,91 @@ RequiemViola = {
     c r\fermata \bar "||" %63 finis
   }
 }
+
+TeDecetViola = {
+  \relative c' {
+    \clef alto
+    \key as \major \time 3/4 \tempoTeDecet
+      \set Score.currentBarNumber = #64
+    R2.
+    g'4-\mezzavoce b as8 g %65
+    as2.~
+    as~
+    as4 as as
+    f( es8) es g b
+    es,4 f es %70
+    f f2
+    es2 ges4
+    f2~ f8 f-!
+    es2~ es8 es-!
+    des2~ des8 des-! %75
+    c2~ c8 c-\parenthesize-!
+    b2~ b8 b-\parenthesize-!
+    as2~ as8 ges'
+    f2~ f8 f-!
+    es2~ es8 es-! %80
+    des2~ des8 des-!
+    c2~ c8 c-!
+    b2 b4
+    as r r
+    R2.*2 %86
+    as4\f c b8 as
+    des2.~
+    des4 c ges'?
+    f2 des4 %90
+    b as as'
+    as f b,
+    b b r
+    R2.*2 %95
+    as4 c b8 as
+    g2 es'4
+    es2 f4
+    f2 b,4
+    c2 f4 %100
+    f2 es4
+    b b b
+    b r r
+    R2.
+    \mvTr es4\pE-\dolce g f8( es) %105
+    as2 as4
+    as g es
+    es2 d4
+    d2 c4
+    c2 b4 %110
+    b2 c4
+    c2 b4
+    b8 c\f b as g f
+    e g' g g g g
+    f f f f es! es %115
+    d? fis fis fis g d
+    d d d d c c
+    h d d d d d
+    c c c c c c
+    c c c c c c %120
+    b b b b b b
+    b es es fes^\critnote fes fes
+    fes fes es es as, as
+    as des! des b b b
+    b b b b as\mf as %125
+    as2 g'4
+    g2 f4
+    f2 es4
+    es2 f4
+    f2 es4 %130
+    es2 es8\p as
+    as2 g4
+    g2 f4
+    f2 es4
+    es2 f4 %135
+    f2 es4
+    c b\f b
+    b2 as4
+    r f' f
+    es2 des4 %140
+    c es as
+    f es g
+    es es c
+    f des b
+    c r r\fermata \bar "||" %145 finis
+  }
+}

@@ -121,3 +121,111 @@ RequiemAltoLyrics = \lyricmode {
   % Chri -- ste e -- lei -- son.
   % Ky -- ri -- e e -- lei -- son.
 }
+
+TeDecetAlto = {
+  \relative c' {
+    \clef treble
+    \key as \major \time 3/4 \autoBeamOff \tempoTeDecet
+      \set Score.currentBarNumber = #64
+    R2.*22 %85
+    \mvTr es4\fE^\tuttiE g f8([ es)]
+    as2 as4
+    as as as
+    as as ges
+    f f f %90
+    es2 es4
+    f f f8 f
+    es8. d?16 es4 r
+    R2.
+    es4 g f8([ es)] %95
+    as2 as4
+    g g b
+    b8([ as)] as4 as
+    as as8 as g g
+    f2 f4 %100
+    f2 g4
+    f2 f4
+    es r r
+    R2.*10 %113
+    r4 g2^\critnote
+    f4 f g %115
+    fis4. fis8 g g
+    g4 fis r
+    r as!2
+    as4 g g
+    f4. ges8 ges ges %120
+    ges4 f f
+    es4. fes8 fes fes
+    fes4 es ges
+    fes4. f8 f f
+    es4 es as^\mezzavoceE %125
+    as as g
+    g2 f4
+    f2 es4
+    es2 f4
+    f2 es4 %130
+    es r as\p
+    as as g
+    g2 f4
+    f2 es4
+    es2 f4 %135
+    f2 es4
+    es f\f f
+    es2 es4
+    r f f
+    es2 es4 %140
+    es r r
+    R2.*3
+    R2.\fermata \bar "||" %145 finis
+  }
+}
+
+TeDecetAltoLyrics = \lyricmode {
+  Te de -- cet %86
+  hy -- mnus,
+  De -- us, in
+  Si -- on, et
+  ti -- bi red -- %90
+  de -- tur
+  vo -- tum in Ie --
+  ru -- sa -- lem,
+
+  te de -- cet %95
+  hy -- mnus, De --
+  us, in
+  Si -- on, et
+  ti -- bi red -- de -- tur
+  vo -- tum %100
+  in Ie --
+  ru -- sa --
+  lem:
+
+  Ex -- %114
+  au -- di o -- %115
+  ra -- ti -- o -- nem
+  me -- am,
+  ex --
+  au -- di o --
+  ra -- ti -- o -- nem %120
+  me -- am, o --
+  ra -- ti -- o -- nem
+  me -- am, o --
+  ra -- ti -- o -- nem
+  me -- am, ad %125
+  te o -- mnis
+  ca -- ro,
+  o -- mnis
+  ca -- ro
+  ve -- ni -- %130
+  et, ad
+  te o -- mnis
+  ca -- ro,
+  o -- mnis
+  ca -- ro %135
+  ve -- ni --
+  et, ad te
+  o -- mnis
+  ca -- ro
+  ve -- ni -- %140
+  et. %141 finis
+}

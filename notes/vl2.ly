@@ -69,3 +69,92 @@ RequiemViolinoII = {
     e2 r\fermata \bar "||" %63 finis
   }
 }
+
+TeDecetViolinoII = {
+  \relative c' {
+    \clef treble
+    \key as \major \time 3/4 \tempoTeDecet
+      \set Score.currentBarNumber = #64
+    R2.*2 %65
+    as'4-\mezzavoce c b8( as)
+    des2.~
+    des4 c8( as') c,( es)
+    es( des) r b'-! b,-! des-!
+    des( c) r \parOn as'-\parenthesize-! as,-! \parOff c-\parenthesize-! %70
+    c( b) r c( b as)
+    g-! b-! es,4 es'~
+    es8 a, b c des4~
+    des8 g, as b c4~
+    c8 f, g as b4~ %75
+    b8 es, f g as4~
+    as8 f b as g4
+    as8 b c des es4~
+    es8 a, b c des4~
+    des8 g, as b c4~ %80
+    c8 f, g as b4~
+    b8 es, f g as4~
+    as8 f b as g4
+    as8 f es des c b
+    as4 r r %85
+    g'\f b as8 g
+    as2.
+    as
+    as2 ges4
+    f2. %90
+    es
+    f4. f'8 f, as
+    g8. f16 es4 r
+    R2.
+    es4 g f8 es %95
+    as2 as4
+    g r8 es b' des!
+    c as' r es, as c
+    b f' r as, g es'
+    f, c' r f, c' es %100
+    d b f' as, g es'
+    f, es' f, d' f, d'
+    es4 r r
+    \mvTr b\pE-\dolce d c8( b)
+    es2.~ %105
+    es
+    es2 des!4
+    c2~ c8 c-!
+    b2~ b8 b-!
+    as2~ as8 as-! %110
+    g2~ g8 g-!
+    f2~ f8 f-!
+    es c'\f b as g f
+    e b' b b b b
+    b4 as c %115
+    <c d,?>8 a a a g g
+    g4 fis c
+    \kneeBeam h8 f'' f f f f
+    f f es es e e
+    f c c es es es %120
+    es es des! des d d
+    es b b b b b
+    b b as as ges ges
+    fes? as as as as as
+    as g g g as\mf ges %125
+    f2~ f8 f-\parenthesize-!
+    es2~ es8 es-\parenthesize-!
+    des2~ des8 des-!
+    c2~ c8 c-!
+    b2~ b8 b-! %130
+    as2 as'8\p ges
+    f2~ f8 f-!
+    es2~ es8 es-!
+    des2~ des8 des-!
+    c2~ c8 c-! %135
+    b2~ b8 b-!
+    as4 f'\f f
+    es2 es4
+    r as as
+    as2 g4 %140
+    as r8 as'-! c,-! es-!
+    es( des) r b'-! b,-! des-!
+    des( c) r es-! as,-! c-!
+    c( b) r b-! g-! b-!
+    as4 r r\fermata \bar "||" %145 finis
+  }
+}
