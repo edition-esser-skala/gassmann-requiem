@@ -689,6 +689,8 @@ mezzavoceE = \markup \remarkE "mezza voce"
 
 tempoRequiem = \tempoMarkup "Adagio"
   tempoTeDecet = \tempoMarkup "Andante"
+tempoKyrie = \tempoMarkup "Grave"
+  tempoKyrieFuga = \tempoMarkup "Allabreve"
 
 
 \include "notes/ob1.ly"

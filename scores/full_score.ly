@@ -105,11 +105,99 @@
   %     \midi { \tempo 4 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     subtitle = "T E   D E C E T   H Y M N U S"
+  %   }
+  %   \tocSubsection "1.2" "Te decet hymnus"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \TeDecetOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \TeDecetOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "trb"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \TeDecetTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \TeDecetTromboneII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \TeDecetViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \TeDecetViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \TeDecetViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \TeDecetSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \TeDecetSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \TeDecetAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \TeDecetAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \TeDecetTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \TeDecetTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \TeDecetBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \TeDecetBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \TeDecetOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \TeDecetBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
     \header {
-      subtitle = "T E   D E C E T   H Y M N U S"
+      subtitle = "R E Q U I E M   –   K Y R I E"
     }
-    \tocSubsection "1.2" "Te decet hymnus"
+    \tocSubsection "1.3" "Requiem – Kyrie"
     \score {
       <<
         \new StaffGroup <<
@@ -117,11 +205,11 @@
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \TeDecetOboeI
+              \KyrieOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \TeDecetOboeII
+              \KyrieOboeII
             }
           >>
         >>
@@ -130,11 +218,11 @@
             \set GrandStaff.instrumentName = "trb"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \TeDecetTromboneI
+              \KyrieTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \TeDecetTromboneII
+              \KyrieTromboneII
             }
           >>
         >>
@@ -143,54 +231,54 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \TeDecetViolinoI
+              \KyrieViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \TeDecetViolinoII
+              \KyrieViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \TeDecetViola
+            \KyrieViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \TeDecetSoprano }
+            \new Voice = "Soprano" { \dynamicUp \KyrieSoprano }
           }
-          \new Lyrics \lyricsto Soprano \TeDecetSopranoLyrics
+          \new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \TeDecetAlto }
+            \new Voice = "Alto" { \dynamicUp \KyrieAlto }
           }
-          \new Lyrics \lyricsto Alto \TeDecetAltoLyrics
+          \new Lyrics \lyricsto Alto \KyrieAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \TeDecetTenore }
+            \new Voice = "Tenore" { \dynamicUp \KyrieTenore }
           }
-          \new Lyrics \lyricsto Tenore \TeDecetTenoreLyrics
+          \new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \TeDecetBasso }
+            \new Voice = "Basso" { \dynamicUp \KyrieBasso }
           }
-          \new Lyrics \lyricsto Basso \TeDecetBassoLyrics
+          \new Lyrics \lyricsto Basso \KyrieBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \TeDecetOrgano
+            \KyrieOrgano
           }
         >>
-        \new FiguredBass { \TeDecetBassFigures }
+        \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 2 = 120 }
     }
   }
 }

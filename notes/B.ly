@@ -209,3 +209,235 @@ TeDecetBassoLyrics = \lyricmode {
   ve -- ni -- %140
   et. %141 finis
 }
+
+KyrieBasso = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \autoBeamOff \tempoKyrie
+      \set Score.currentBarNumber = #146
+    \mvTr f8.\fE^\tuttiE f16 f8 f des4 des
+    b8 b b b g4. g8
+    as4 as' as g
+    g8. g16 f4 f8. f16 es4
+    d d8 d d2 %150
+    g,4 r r2
+    r4 as'2 g8 fis \noBreak
+    g2 g,4 r\fermata \bar "||"
+    \time 2/2 \tempoKyrieFuga \newSpacingSection
+      R1*16 %169
+    c1 %170
+    d
+    es2 e
+    f1~
+    f2 es!
+    d1 %175
+    c2 \once \tieDashed c~
+    c4 es d c
+    b! d \once \tieDashed g2~
+    g f!4 es
+    d2 g4 f %180
+    es1
+    d
+    c2 d
+    g( as!)
+    g1 %185
+    c,
+    d
+    es
+    f
+    g %190
+    as
+    as
+    g
+    f2. es4
+    d2 g4 f %195
+    es2 c
+    g'2. f4
+    es2 c
+    f d
+    g1 %200
+    r2 f,
+    b( g)
+    c c
+    d1~
+    d~ %205
+    d~
+    d~
+    d~
+    d
+    g, %210
+    R1*9 %210
+    c1 %220
+    d
+    es2 e
+    f1~
+    f2 es!
+    d1 %225
+    c2 c
+    d1
+    es2 es
+    f1
+    g2 g %230
+    as( a)
+    b b
+    c1~
+    c4 es d c
+    h2 b %235
+    b4( des c b)
+    a2 as
+    as4( c b as)
+    g2 g
+    g4( b a g) %240
+    fis2 f
+    f4( as g f)
+    es2 e
+    f( fis)
+    g1 %245
+    g1
+    g~
+    g~
+    g
+    g %250
+    c,
+    d
+    es2 e
+    f2. es4
+    d2 g4 f %255
+    es2 as
+    f g4 f
+    es2 c
+    f( d)
+    g1 %260
+    c,
+    d
+    es2 e
+    f fis
+    g as! %265
+    f g
+    c,1
+    c
+    \tieDashed c~
+    c~ %270
+    c~
+    c~
+    c \tieSolid
+    c
+    c %275
+    h~
+    h
+    c
+    c
+    \once \tieDashed c1~ %280
+    c
+    c\breve*1/2\fermata \bar "|." %282 finis
+  }
+}
+
+KyrieBassoLyrics = \lyricmode {
+  Re -- qui -- em ae -- ter -- nam %146
+  do -- na e -- is, Do -- mi --
+  ne: Et lux per --
+  pe -- tu -- a lu -- ce -- at,
+  lu -- ce -- at e -- %150
+  is,
+  lu -- ce -- at
+  e -- is.
+
+  Ky -- %170
+  ri --
+  e e --
+  lei --
+  _
+  _ %175
+  son, e --
+  _ _ _
+  lei -- _ _
+  _ _
+  _ _ _ %180
+  _
+  _
+  son, e --
+  lei --
+  son, %185
+  Ky --
+  ri --
+  e
+  e --
+  lei -- %190
+  _
+  \xE son,
+  e --
+  lei -- _
+  _ _ _ %195
+  \x son, e --
+  lei -- _
+  _ _
+  _ _
+  son, %200
+  e --
+  lei --
+  son, e --
+  lei --
+
+  son, %210
+
+  Ky -- %220
+  ri --
+  e e --
+  lei --
+  _
+  _ %225
+  son, e --
+  lei --
+  son, e --
+  lei --
+  son, e -- %230
+  lei --
+  son, e --
+  lei --
+  _ _ _
+  son, e -- %235
+  lei --
+  son, e --
+  lei --
+  son, e --
+  lei -- %240
+  son, e --
+  lei --
+  son, e --
+  lei --
+  son, %245
+  e --
+  lei --
+
+  son, %250
+  Ky --
+  ri --
+  e e --
+  lei -- _
+  _ _ _ %255
+  _ _
+  _ _ _
+  son, e --
+  lei --
+  son, %260
+  Ky --
+  ri --
+  e e --
+  lei -- _
+  _ _ %265
+  _ _
+  son,
+  e --
+  lei --
+
+  son, %274
+  e -- %275
+  lei --
+
+  son,
+  e --
+  lei -- %280
+
+  son. %282 finsi
+}

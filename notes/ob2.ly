@@ -127,3 +127,138 @@ TeDecetOboeII = {
     R2.\fermata \bar "||" %145 finis
   }
 }
+
+KyrieOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoKyrie
+      \set Score.currentBarNumber = #146
+    as'2\fE as
+    des des
+    c4 as b2
+    as g
+    fis4 g2 fis4 %150
+    g r r2
+    r4 c2 c4~ \noBreak
+    c h8 a h4 r\fermata \bar "||"
+    \time 2/2 \tempoKyrieFuga \newSpacingSection
+      r2 c~ \noBreak
+    c b!4 as %155
+    g2 c~
+    c d4 c
+    h2 c~
+    c h
+    c4 b a g %160
+    fis2 fis
+    g4 a b2
+    c1
+    b2 d
+    es4 d c b! %165
+    a2 b
+    c1~
+    c2 d4 c
+    h1
+    c %170
+    R1*7 %177
+    g1
+    a
+    b2 h %180
+    c1~
+    c2 b
+    a1
+    g2 f!~
+    f4 as! g f %185
+    es g c2~
+    c b!4 as
+    g2 g
+    as1
+    g2 r %190
+    R1
+    f
+    g
+    as2 a
+    b h %195
+    c \once \tieDashed c~
+    c b!4 as!
+    g2 c~
+    c d4 c
+    b1 %200
+    c
+    d
+    es4 d c b!
+    a2 fis
+    g a4 g %205
+    fis2 g
+    e fis
+    g g~
+    g fis
+    g g~ %210
+    g f!4 es
+    d2 g4 f
+    es1
+    f
+    es2 r %215
+    R1
+    g
+    a
+    b2 h
+    c1~ %220
+    c2 b!4 as
+    g2 \once \tieDashed c~
+    c d4 c
+    h2 c~
+    c h %225
+    c c~
+    c b!4 as
+    g2 g
+    as1
+    g2 h %230
+    c1
+    f,2 d'
+    es4 d c b
+    a1
+    d %235
+    g,
+    c
+    f,
+    b
+    es, %240
+    a
+    d,
+    c2 g'
+    as! a
+    g g %245
+    as!1
+    g
+    f
+    es
+    d %250
+    c2 r
+    R1*6 %257
+    g'1
+    a
+    b2 h %260
+    c c~
+    c b!4 as!
+    g2 c
+    c1
+    h2 c~ %265
+    c h
+    c1
+    c~
+    c2 \once \tieDashed b!~
+    b as~ %270
+    as g~
+    g f~
+    f e
+    f1
+    f~ %275
+    f2 \once \tieDashed f'~
+    f f
+    f1~
+    f
+    c~ %280
+    c
+    c\breve*1/2\fermata \bar "|." %282 finis
+  }
+}

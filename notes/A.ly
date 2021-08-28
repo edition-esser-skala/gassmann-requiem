@@ -229,3 +229,281 @@ TeDecetAltoLyrics = \lyricmode {
   ve -- ni -- %140
   et. %141 finis
 }
+
+KyrieAlto = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoKyrie
+      \set Score.currentBarNumber = #146
+    \mvTr f8.\fE^\tuttiE f16 f8 f f4 f
+    f8 f f f es4. es8
+    es4 es f es
+    es8. es16 d!4 d8. d16 c4
+    d d8 d d2 %150
+    d4 f!2 es8 d
+    es1~ \noBreak
+    es4 d8[ c] d4 r\fermata \bar "||"
+    \time 2/2 \tempoKyrieFuga \newSpacingSection
+      c1 \noBreak
+    d %155
+    es2 e
+    f1~
+    f2 es!
+    d1
+    c2 c~ %160
+    c4 es d c
+    b d g2~
+    g f!4 es
+    d2 g
+    g a4 g %165
+    fis2 \once \tieDashed g~
+    g fis
+    g as!
+    d,1
+    c4 d es2 %170
+    f1
+    es2 g
+    as4 g f es
+    d2 es
+    f1 %175
+    es4 d c b!
+    a2 d
+    d1
+    c2 r
+    r d %180
+    es( g)
+    fis g
+    g( fis)
+    g c,
+    d1 %185
+    es
+    f
+    es2 r
+    R1
+    r2 g~ %190
+    g f4( es)
+    d2 d
+    es e
+    f1
+    f2 r %195
+    c1
+    d
+    es2 e
+    f( fis)
+    g g %200
+    g f!4 es
+    d2 g
+    g r
+    r d
+    es1 %205
+    d
+    c
+    b
+    a
+    g %210
+    R1*2
+    c1
+    d
+    es2 e %215
+    f( fis)
+    g g~
+    g f!4( es!)
+    d2 g4( f)
+    es1 %220
+    f
+    es2 g
+    as!1
+    g
+    f %225
+    es2 es
+    f1
+    es2 r
+    R1
+    r2 g~ %230
+    g f4( es)
+    d f b2~
+    b a4 g
+    fis1
+    f4( as! g f) %235
+    e1
+    es4 g f es
+    d1~
+    d4 f es d
+    c1~ %240
+    c4 es d c
+    h1
+    c2 c
+    c( d)
+    d g~ %245
+    g f~
+    f es~
+    es d~
+    d c~
+    c h %250
+    c r
+    R1*4 %255
+    c1
+    d
+    es2 e
+    f( fis)
+    g g4( f) %260
+    es1
+    f
+    es2 g
+    as( a)
+    g es %265
+    as( g)
+    g1
+    e
+    f2 g4 f
+    e2 f %270
+    d e
+    c1
+    b
+    as
+    d %275
+    \once \tieDashed d~
+    d
+    c
+    c
+    \once \tieDashed c~ %280
+    c
+    c\breve*1/2\fermata \bar "|." %282 finis
+  }
+}
+
+KyrieAltoLyrics = \lyricmode {
+  Re -- qui -- em ae -- ter -- nam %146
+  do -- na e -- is, Do -- mi --
+  ne: Et lux per --
+  pe -- tu -- a lu -- ce -- at,
+  lu -- ce -- at e -- %150
+  is, lu -- ce -- at
+  e --
+  _ is.
+  Ky --
+  ri -- %155
+  e e --
+  lei --
+  _
+  _
+  son, e -- %160
+  _ _ _
+  lei -- _ _
+  _ _
+  son, e --
+  lei -- _ _ %165
+  _ _
+  _
+  _ _
+  _
+  son, e -- lei -- %170
+  _
+  son, e --
+  lei -- _ _ _
+  _ _
+  _ %175
+  _ _ _ _
+  _ _
+  _
+  son,
+  e -- %180
+  lei --
+  son, e --
+  lei --
+  son, e --
+  lei -- %185
+  _
+  _
+  son,
+
+  e -- %190
+  lei --
+  son, e --
+  lei -- _
+  son, __
+  %195
+  Ky --
+  ri --
+  e e --
+  lei --
+  son, e -- %200
+  lei -- _ _
+  _ _
+  son,
+  e --
+  lei -- %205
+  _
+  _
+  _
+  _
+  son, %210
+
+  Ky -- %213
+  ri --
+  e e -- %215
+  lei --
+  son, e --
+  lei --
+  son, e --
+  lei -- %220
+  _
+  son, e --
+  lei --
+  _
+  _ %225
+  son, e --
+  lei --
+  son,
+
+  e -- %230
+  lei --
+  son, e -- lei --
+  _ _
+  son,
+  e -- %235
+  lei --
+  _ _ _ _
+  _
+  _ _ _
+  _ %240
+  _ _ _
+  _
+  son, e --
+  lei --
+  son, e -- %245
+  lei --
+  _
+  _
+  _
+  _ %250
+  son,
+
+  Ky -- %256
+  ri --
+  e e --
+  lei --
+  son, e -- %260
+  lei --
+  _
+  son, e --
+  lei --
+  son, e -- %265
+  lei --
+  son,
+  e --
+  lei -- _ _
+  _ _ %270
+  _ _
+  _
+  _
+  son,
+  e -- %275
+  lei --
+
+  son,
+  e --
+  lei -- %280
+
+  son. %282 finis
+}

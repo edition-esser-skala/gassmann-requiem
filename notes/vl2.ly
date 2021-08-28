@@ -158,3 +158,145 @@ TeDecetViolinoII = {
     as4 r r\fermata \bar "||" %145 finis
   }
 }
+
+KyrieViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoKyrie
+      \set Score.currentBarNumber = #146
+    c8\fE f as c des, f as des
+    des, f b des b, es g b
+    c, es as c r16 b8 b16 r b8 b16
+    r as8 as16 r as8 as16 r g8 g16 r g8 g16
+    r c8 c16 r b!8 b16 r g8 g16 r fis8 fis16 %150
+    g4 d'2 c8( h)
+    c1~ \noBreak
+    c4 h8( a) h4 r\fermata \bar "||"
+    \time 2/2 \tempoKyrieFuga \newSpacingSection
+      c,1 \noBreak
+    d %155
+    es2 e
+    f1~
+    f2 es!
+    d1
+    c2 c~ %160
+    c4 es d c
+    b d g2~
+    g f!4 es
+    d2 g
+    g a4 g %165
+    fis2 g~
+    g fis
+    g as!
+    d,1
+    c4 d es2 %170
+    f1
+    es2 g
+    as4 g f es
+    d2 es
+    f1 %175
+    es4 d c b!
+    a2 d
+    d1
+    c2 r
+    r d %180
+    es g
+    fis g~
+    g fis
+    g c,
+    d1 %185
+    es
+    f
+    es2 r
+    R1
+    r2 g~ %190
+    g f4 es
+    d2 d
+    es e
+    f1~
+    f2 r %195
+    c1
+    d
+    es2 e
+    f fis
+    g g~ %200
+    g f!4 es
+    d2 g
+    g r
+    r d
+    es1 %205
+    d
+    c
+    b
+    a
+    g %210
+    R1*2
+    c1
+    d
+    es2 e %215
+    f fis
+    g g~
+    g f!4 es!
+    d2 g4 f
+    es1 %220
+    f
+    es2 g
+    as!1
+    g
+    f %225
+    es2 es
+    f1
+    es2 r
+    R1
+    r2 g~ %230
+    g f4 es
+    d f b2~
+    b a4 g
+    fis1
+    f4 as! g f %235
+    e1
+    es4 g f es
+    d1~
+    d4 f es d
+    c1~ %240
+    c4 es d c
+    h1
+    c2 c~
+    c d~
+    d g~ %245
+    g f~
+    f es~
+    es d~
+    d c~
+    c h %250
+    c r
+    R1*4 %255
+    c1
+    d
+    es2 e
+    f fis
+    g g4 f %260
+    es1
+    f
+    es2 g
+    as a
+    g es %265
+    as g
+    g1
+    e
+    f2 g4 f
+    e2 f %270
+    d e
+    c1
+    b
+    as
+    d~ %275
+    d2 f~
+    f f
+    \once \tieDashed f1~
+    f
+    e %280
+    d
+    e\breve*1/2\fermata \bar "|." %282 finis
+  }
+}

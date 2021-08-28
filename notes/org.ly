@@ -310,3 +310,307 @@ TeDecetBassFigures = \figuremode {
   <6 5>2.
   r %145 finis
 }
+
+KyrieOrgano = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoKyrie
+      \set Score.currentBarNumber = #146
+    \mvTr f8\fE-\tuttiE f f f des des des des
+    b b b b g g g g
+    as as' as as as as g g
+    g g f f f f es es
+    d d d d d d d d %150
+    g4 r r2
+    r4 as2 g8 fis \noBreak
+    g4 g, g r\fermata \bar "||"
+    \clef treble \time 2/2 \tempoKyrieFuga \newSpacingSection
+    << {
+      r2 c''~ \noBreak
+      c b!4 as %155
+      g2 c
+      c d4 c
+      h2 c~
+      c h
+      c4 b a g %160
+      fis2 fis
+    } \\ {
+      c1
+      d %155
+      es2 e
+      f1~
+      f2 es!
+      d1
+      c2 \once \tieDashed c~ %160
+      c4 es d c
+    } >>
+    \clef "treble_8" g1
+    a
+    b2 h
+    \once \tieDashed c1~ %165
+    c2 b!
+    a1
+    g2 \once \tieDashed f!~
+    f4 as g f
+    \clef bass c1 %170
+    d
+    es2 e
+    \once \tieDashed f1~
+    f2 es!
+    d1 %175
+    c2 c
+    c4 es d c
+    b! d g2~
+    g f!4 es
+    d2 g4 f %180
+    es1
+    d
+    c2 d
+    g as!
+    g1 %185
+    c,
+    d
+    es
+    f
+    g %190
+    as
+    as
+    g
+    f2. es4
+    d2 g4 f %195
+    es2 c
+    g'2. f4
+    es2 c
+    f d
+    g1 %200
+    r2 f,
+    b g
+    c1
+    d2 \once \tieDashed d~-\tasto
+    d1~ %205
+    d~
+    d~
+    d~
+    d
+    <g g,>^\vlcE_\bassiE %210
+    \clef "treble_8" a
+    b2 h
+    c1~
+    c2 b!4 as!
+    g2 c4 b %215
+    a2 d4 c
+    b2 es4 d
+    c2 d4 c
+    b2 g
+    \clef bass c,1 %220
+    d
+    es2 e
+    f1~
+    f2 es!
+    d1 %225
+    c2 c
+    d1
+    es2 es
+    f1
+    g2 g %230
+    as a
+    b b
+    \once \tieDashed c1~
+    c4 es d c
+    h2 b %235
+    b4 des c b
+    a2 as~
+    as4 c b as
+    g2 g~
+    g4 b a g %240
+    fis2 f~
+    f4 as g f
+    es2 e
+    f fis
+    g2 g~-\tasto %245
+    \tieDashed g1~
+    g~
+    g~
+    g~
+    g \tieSolid %250
+    c,
+    d
+    << {
+      g1
+      a1
+      b2 h %255
+      c s
+    } \\ {
+      es, e
+      f2. es4
+      d2 g4 f %255
+      es2 as
+    } >>
+    f g4 f
+    es2 c
+    f d
+    g1 %260
+    c,
+    d
+    es2 e
+    f fis
+    g as! %265
+    f g
+    c,1~
+    \tieDashed c~-\tasto
+    c~
+    c~ %270
+    c~
+    c~
+    c~
+    c \tieSolid
+    c %275
+    h~
+    h
+    c2 c
+    c c
+    \tieDashed c1~ %280
+    c~ \tieSolid
+    c\breve*1/2\fermata \bar "|." %282 finis
+  }
+}
+
+KyrieBassFigures = \figuremode {
+  r1 %146
+  <_->2 <6 5->
+  r <4- [2]>4 <6 5->
+  <4 2> <6! 5> <4! 2> <6>
+  <7 [5! _+]> <6- 4> <5! \t> <\t _+> %150
+  r1
+  r4 <5 3>2 <6 4>8 <7 5 [_!]>
+  <6 4>4 <5 _!>8 <4 2!> <5 _!>2
+  r1
+  r %155
+  r
+  r
+  r
+  r
+  r %160
+  r
+  r
+  <7>2 <6!>4 <5>
+  r2 <6>
+  r <8 6!>4 <7 5> %165
+  <6! 4+>2 <6>
+  <7> <6\\>
+  <4> <6 _->4 <5>
+  <6 4!>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  r1 %170
+  <7>2 <6->4 <5>
+  r2 <6>
+  r <8 6>4 <7 5>
+  <6 4!>2 <6>
+  <7> <6!> %175
+  r \bo <[8 6!]>4 \bc <[7- 5]>
+  <6! 4+>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  <6>1
+  <2!>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  <6>2 <_!> %180
+  <6>1
+  <7 [5!] _+>2 <6 4>
+  <6! 5> <[5!] _+>
+  r <6!>
+  <_!>1 %185
+  r
+  <7>2 <6->4 <5>
+  r1
+  <7>2 <6>4 <5>
+  <_!>1 %190
+  <7>2 <6>4 <5>
+  <6 4 2>1
+  <6>2 <6!>
+  <_->2 <_!>4 <\t>
+  <6>2 <_!> %195
+  <6>1
+  <5 4>2 <\t _->4 <6 _->
+  <[6]>2 <_!>
+  r <[5!] _+>
+  <_->1 %200
+  r2 <_!>
+  r <_!>
+  r <8 6!>4 <7- 5>
+  <5! _+>1
+  r %205
+  r
+  r
+  r
+  r
+  r %210
+  <7>2 <6!>4 <5>
+  r2 <6>
+  r1
+  <4 2>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  <6>2 <_!> %215
+  <6> <[5!] _+>
+  <6>1
+  <6! 5>2 <5! _!>4 <6! _->
+  r2 <_!>
+  r1 %220
+  <7>2 <6->4 <5>
+  r2 <6>
+  <5> <6>4 <5>
+  <4!>2 <6>
+  <7> <6!> %225
+  r1
+  <7>2 <6->4 <5>
+  r1
+  <7>2 <6>4 <5>
+  <_!>1 %230
+  <7>2 <6>4 <5>
+  r1
+  <7>2 \bo <[8] 6!>4 \bc <[7] 5>
+  <6! 4+>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  <[5!]>4 <7-> <6> <5> %235
+  <6 4!>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  <5->4 <[7]> <6> <5>
+  <6 4>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  <5>4 <7> <6> <5>
+  \bo <6 4 [2!]>2. \bassFigureExtendersOn \bc q4 %240
+  \bo <5 [_!]>4 <7 _!> <6 _!> \bc <5 [_!]>
+  <6 4!>2. q4 \bassFigureExtendersOff
+  <6>2 <6 5->
+  <_-> <6 5 [_!]>
+  <5 _!>1 %245
+  r
+  r
+  r
+  r
+  r %250
+  r
+  r
+  r
+  r
+  r %255
+  r
+  <6 5>2 <5 _->4 <6 _->
+  r2 <_!>
+  <_!> <5! _+>
+  <_-> <_!> %260
+  r1
+  <7>2 <6->4 <5>
+  r2 <6>
+  <_-> <6 5 [_!]>
+  <_!>1 %265
+  <6 5>2 <_!>
+  r1
+  r
+  r
+  r %270
+  r
+  r
+  r
+  r
+  <6 4 2> %275
+  <[7] 5 3>
+  r
+  <6 4>
+  <\t \t>
+  <5 _!> %280
+  <4 2>
+  <5 _!> %282 finis
+}

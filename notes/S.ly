@@ -100,13 +100,6 @@ RequiemSopranoLyrics = \lyricmode {
   ce -- at e --
   _
   is. %63 finis
-
-
-  % Re -- qui -- em ae -- ter -- nam do -- na e -- is, Do -- mi -- ne:
-  % Et lux per -- pe -- tu -- a lu -- ce -- at e -- is.
-  % Ky -- ri -- e e -- lei -- son.
-  % Chri -- ste e -- lei -- son.
-  % Ky -- ri -- e e -- lei -- son.
 }
 
 TeDecetSoprano = {
@@ -217,4 +210,268 @@ TeDecetSopranoLyrics = \lyricmode {
   ca -- ro
   ve -- ni -- %140
   et. %141 finis
+}
+
+KyrieSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoKyrie
+      \set Score.currentBarNumber = #146
+    \mvTr as'8.\fE^\tuttiE as16 as8 as as4 as
+    b8 b b b b4. b8
+    as4 c b b
+    as8. as16 as4 g8. g16 g4
+    fis4 g8 g g4( fis) %150
+    g r r2
+    r4 c2 c8 a \noBreak
+    g2 g4 r\fermata \bar "||"
+    \time 2/2 \tempoKyrieFuga \newSpacingSection
+      r2 c~ \noBreak
+    c b!4( as) %155
+    g2 c
+    c d4 c
+    h2 c~
+    c h
+    c4 b a g %160
+    fis2 fis
+    g4 a b2
+    c1
+    b2 d
+    es4 d c b! %165
+    a2 b
+    c1~
+    c2 d4 c
+    h1
+    c %170
+    R1*7 %177
+    g1
+    a
+    b2 h %180
+    c1~
+    c2 b
+    a1
+    g2 f!
+    f4 as! g f %185
+    es g c2~
+    c b!4 as
+    g2 g
+    as1
+    g2 r %190
+    R1
+    f
+    g
+    as2 a
+    b( h) %195
+    c c~
+    c b!4( as!)
+    g2 c~
+    c d4 c
+    b1 %200
+    c
+    d
+    es4 d c b!
+    a2 fis
+    g a4 g %205
+    fis2 g
+    e fis
+    g g
+    g( fis)
+    g g~ %210
+    g f!4( es)
+    d2 g4( f)
+    es1
+    f
+    es2 r %215
+    R1
+    g
+    a
+    b2 h
+    c1~ %220
+    c2 b!4 as
+    g2 \once \tieDashed c~
+    c d4 c
+    h2 c~
+    c h %225
+    c c~
+    c b!4( as)
+    g2 g
+    as1
+    g2 h %230
+    c1
+    f,2 d'
+    es4 d c b
+    a1
+    d %235
+    g,
+    c
+    f,
+    b
+    es, %240
+    a
+    d,
+    c2 g'
+    as!( a)
+    g g %245
+    as!1
+    g
+    f
+    es
+    d %250
+    c2 r
+    R1*6 %257
+    g'1
+    a
+    b2 h %260
+    c1~
+    c2 b!4 as!
+    g2 c
+    c1
+    h2 \once \tieDashed c~ %265
+    c h
+    c1
+    c~
+    c2 b!~
+    b as~ %270
+    as g~
+    g f~
+    f e
+    f1
+    f %275
+    f~
+    f
+    f
+    f
+    e %280
+    d
+    e\breve*1/2\fermata \bar "|." %282 finis
+  }
+}
+
+KyrieSopranoLyrics = \lyricmode {
+  Re -- qui -- em ae -- ter -- nam %146
+  do -- na e -- is, Do -- mi --
+  ne: Et lux per --
+  pe -- tu -- a lu -- ce -- at,
+  lu -- ce -- at e -- %150
+  is,
+  lu -- ce -- at
+  e -- is.
+  Ky --
+  ri -- %155
+  e e --
+  lei -- _ _
+  _ _
+  _
+  _ _ _ _ %160
+  son, e --
+  lei -- _ _
+  _
+  son, e --
+  lei -- _ _ _ %165
+  _ _
+  _
+  _ _
+  _
+  son, %170
+
+  Ky -- %178
+  ri --
+  e e -- %180
+  lei --
+  _
+  _
+  son, e --
+  lei -- _ _ _ %185
+  _ _ _
+  _ _
+  son, e --
+  lei --
+  son, %190
+
+  Ky --
+  ri --
+  e e --
+  lei -- %195
+  son, e --
+  lei --
+  son, e --
+  lei -- _
+  _ %200
+  _
+  _
+  _ _ _ _
+  son, e --
+  lei -- _ _ %205
+  _ _
+  _ _
+  son, e --
+  lei --
+  son, e -- %210
+  lei --
+  son, e --
+  lei --
+  _
+  son, %215
+
+  Ky --
+  ri --
+  e e --
+  lei -- %220
+  _ _
+  son, e --
+  _ _
+  lei -- _
+  _ %225
+  son, e --
+  lei --
+  son, e --
+  lei --
+  son, e -- %230
+  lei --
+  son, e --
+  lei -- _ _ _
+  _
+  _ %235
+  _
+  _
+  _
+  _
+  _ %240
+  _
+  _
+  son, e --
+  lei --
+  son, e -- %245
+  lei --
+  _
+  _
+  _
+  _ %250
+  son,
+
+  Ky -- %258
+  ri --
+  e e -- %260
+  lei --
+  _ _
+  son, e --
+  lei --
+  _ _ %265
+  _
+  son,
+  e --
+  lei --
+  _ %270
+  _
+  _
+  _
+  son,
+  e -- %275
+  lei --
+
+  son,
+  e --
+  lei -- %280
+  _
+  son. %282 finis
 }
