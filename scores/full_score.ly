@@ -281,12 +281,100 @@
   %     \midi { \tempo 2 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     number = "2"
+  %     title = "S E Q U E N T I A"
+  %   }
+  %   \tocSection "2" "Sequentia"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DiesOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DiesOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "trb"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DiesTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DiesTromboneII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DiesViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DiesViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \DiesViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \DiesSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \DiesSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \DiesAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \DiesAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \DiesTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \DiesTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \DiesBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \DiesBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \DiesOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \DiesBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
     \header {
-      number = "2"
-      title = "S E Q U E N T I A"
+      subtitle = "T U B A   M I R U M"
     }
-    \tocSection "2" "Sequentia"
+    \tocSubsection "2.2" "Tuba mirum"
     \score {
       <<
         \new StaffGroup <<
@@ -294,11 +382,11 @@
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DiesOboeI
+              \TubaOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DiesOboeII
+              \TubaOboeII
             }
           >>
         >>
@@ -307,11 +395,11 @@
             \set GrandStaff.instrumentName = "trb"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DiesTromboneI
+              \TubaTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DiesTromboneII
+              \TubaTromboneII
             }
           >>
         >>
@@ -320,54 +408,54 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DiesViolinoI
+              \TubaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DiesViolinoII
+              \TubaViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \DiesViola
+            \TubaViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \DiesSoprano }
+            \new Voice = "Soprano" { \dynamicUp \TubaSoprano }
           }
-          \new Lyrics \lyricsto Soprano \DiesSopranoLyrics
+          \new Lyrics \lyricsto Soprano \TubaSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \DiesAlto }
+            \new Voice = "Alto" { \dynamicUp \TubaAlto }
           }
-          \new Lyrics \lyricsto Alto \DiesAltoLyrics
+          \new Lyrics \lyricsto Alto \TubaAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \DiesTenore }
+            \new Voice = "Tenore" { \dynamicUp \TubaTenore }
           }
-          \new Lyrics \lyricsto Tenore \DiesTenoreLyrics
+          \new Lyrics \lyricsto Tenore \TubaTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \DiesBasso }
+            \new Voice = "Basso" { \dynamicUp \TubaBasso }
           }
-          \new Lyrics \lyricsto Basso \DiesBassoLyrics
+          \new Lyrics \lyricsto Basso \TubaBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \DiesOrgano
+            \TubaOrgano
           }
         >>
-        \new FiguredBass { \DiesBassFigures }
+        \new FiguredBass { \TubaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 2 = 65 }
     }
   }
 }

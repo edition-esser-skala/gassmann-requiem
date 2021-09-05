@@ -692,6 +692,7 @@ tempoRequiem = \tempoMarkup "Adagio"
 tempoKyrie = \tempoMarkup "Grave"
   tempoKyrieFuga = \tempoMarkup "Allabreve"
 tempoDies = \tempoMarkup "Andante maestoso"
+  tempoTuba = \tempoMarkup "Andante"
 
 
 \include "notes/ob1.ly"

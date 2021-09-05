@@ -327,3 +327,107 @@ DiesOboeI = {
     R\fermata \bar "||" %65 finis
   }
 }
+
+TubaOboeI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 2/2 \tempoTuba
+      \set Score.currentBarNumber = #66
+    r4 b'2(\fE es4)
+    r d2( f4)
+    r d2( f4)
+    r b,2( es4)
+    r c2( es4) %70
+    r b2( es4)
+    as,2( g)
+    f r
+    r4 b2( es4)
+    es( d) d2 %75
+    r4 f2 as,4
+    as( g) g2
+    c1
+    b
+    as2. g4 %80
+    g( f) f2
+    R1
+    c'2( f)
+    f es
+    d g %85
+    c, es
+    g1
+    c,2 es4-! g-!
+    as r f f
+    f2 r %90
+    r es4 des
+    c r es es
+    es2 r
+    r d
+    c1 %95
+    d
+    c2 b!
+    b a
+    g4 b2 b4~
+    b b2 \once \tieDashed b4~ %100
+    b a a2
+    g4 d'4.\p c8 b a
+    g4 es'4. d8 c b
+    a4 a'4. fis8 d c
+    b[ a16 b] \appoggiatura d c8 b16 a g4 fis %105
+    g r r2
+    r4 d'2\f c8( b)
+    b4.( a8) a2
+    r4 es'2 d8( c)
+    c4.( b8) b2 %110
+    d1
+    es
+    f
+    f4.( es8) es2
+    r des %115
+    c4 b as2
+    as2. b4
+    b1
+    as4 es'4.\p des8( c b)
+    as4 f'4. es8( des c) %120
+    b4 b'4. g8( es des)
+    c \once \slurDashed b16( c) es([ des c b)] as4 g
+    as2 r
+    c1\f
+    c %125
+    c2. b4
+    as2 g
+    as r
+    R1
+    r4 f'2 as,4 %130
+    g2 b
+    f'4 f2 as,4
+    g2 f
+    es r
+    R1 %135
+    d'2. d4
+    es2 b
+    d es~
+    es d
+    es r %140
+    R1*4
+    r4 b2\f b4 %145
+    b( ces) ces2
+    ces1
+    b~
+    b
+    b4( as) as2 %150
+    as1
+    g
+    f2 c'
+    b1~
+    b %155
+    a2 as
+    g!4 as g f
+    es2 es'4\ff es
+    es1
+    es %160
+    es
+    es2 d
+    es r
+    R1\fermata \bar "||" %164 finis
+  }
+}

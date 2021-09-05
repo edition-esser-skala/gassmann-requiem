@@ -324,3 +324,101 @@ DiesTromboneII = {
     R\fermata \bar "||" %65 finis
   }
 }
+
+TubaTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key es \major \time 2/2 \tempoTuba
+      \set Score.currentBarNumber = #66
+    \mvTr b1\fE-\solo
+    d
+    d
+    b
+    c %70
+    b
+    b
+    b2 r
+    es1-\tutti
+    es4 f f2 %75
+    d1
+    d4 es es2
+    c1
+    b
+    b %80
+    b2 b
+    R1
+    r2 c
+    c1
+    r2 d %85
+    c es
+    g,1
+    c2 c4-\solo b!
+    as r d! d
+    d2 r %90
+    r es4 des
+    c r c c
+    c2 r
+    r h-\tutti
+    c1 %95
+    d
+    es2 e
+    d d
+    b2. b4
+    b2 b %100
+    b4 a? a2
+    g r
+    R1*4 %106
+    r4 d'2\fE d4
+    d2 d
+    c2. d4
+    d2 d %110
+    d f!
+    es es
+    f2. d4
+    b2 b
+    g b %115
+    as4 g as2
+    as2. b4
+    b1
+    c2 r
+    R1*4 %123
+    e1\f
+    f %125
+    e
+    f2 e
+    f r
+    R1
+    r4 d2 d4 %130
+    es2 es
+    d2. d4
+    es2 b
+    b r
+    R1 %135
+    b2. b4
+    b1
+    f'2 es~
+    es d
+    es r %140
+    R1*4
+    es,1\f %145
+    es
+    f
+    b~
+    b
+    c %150
+    d
+    c
+    c
+    d2 es!
+    b es %155
+    c b
+    b4 c es d
+    es2 r
+    es1\ff
+    b %160
+    c
+    b
+    b2 r
+    R1\fermata \bar "||" %164 finis
+  }
+}

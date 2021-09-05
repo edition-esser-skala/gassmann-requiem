@@ -595,26 +595,6 @@ DiesSopranoLyrics = \lyricmode {
   dis -- cus -- su --
   rus. %63 finis
 
-  % Tu -- ba mi -- rum spar -- gens so -- num
-  % per se -- pul -- cra re -- gi -- o -- num
-  % co -- get o -- mnes an -- te thro -- num.
-  %
-  % Mors stu -- pe -- bit et na -- tu -- ra,
-  % cum re -- sur -- get cre -- a -- tu -- ra,
-  % iu -- di -- can -- ti re -- spon -- su -- ra.
-  %
-  % Li -- ber scri -- ptus pro -- fe -- re -- tur,
-  % in quo to -- tum con -- ti -- ne -- tur,
-  % un -- de mun -- dus iu -- di -- ce -- tur.
-  %
-  % Iu -- dex er -- go cum se -- de -- bit,
-  % quid -- quid la -- tet ap -- pa -- re -- bit:
-  % Nil in -- ul -- tum re -- ma -- ne -- bit.
-  %
-  % Quid sum mi -- ser tunc di -- ctu -- rus?
-  % Quem pa -- tro -- num ro -- ga -- tu -- rus,
-  % cum vix iu -- stus sit se -- cu -- rus?
-  %
   % Rex tre -- men -- dae ma -- ie -- sta -- tis,
   % qui sal -- van -- dos sal -- vas gra -- tis:
   % Sal -- va me, fons pi -- e -- ta -- tis.
@@ -661,4 +641,179 @@ DiesSopranoLyrics = \lyricmode {
   % Hu -- ic er -- go par -- ce De -- us.
   % Pi -- e Ie -- su Do -- mi -- ne,
   % do -- na e -- is re -- qui -- em. A -- men.
+}
+
+TubaSoprano = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 2/2 \autoBeamOff \tempoTuba
+      \set Score.currentBarNumber = #66
+    R1*8 %73
+    r4 \mvTr b'2\fE^\tuttiE es4
+    es( d) d2 %75
+    r4 f2 as,4
+    as( g) g2
+    c2. c,4
+    b2 b
+    as'2. g4 %80
+    g( f) f2
+    f b
+    b4( a) a2
+    g c
+    c h %85
+    c es
+    g1
+    c,2 r
+    R1
+    r2 d4 d %90
+    d es r2
+    R1
+    r2 es4 es
+    es2 d
+    c c %95
+    d d
+    c b!
+    b a
+    g g
+    g g %100
+    g4 g g( fis)
+    g2 r
+    R1*4 %106
+    r4 d'2 c8([ b)]
+    b4.( a8) a2
+    r4 es'2 d8([ c)]
+    c4.( b8) b2 %110
+    d d
+    es b
+    r4 f'2 as,4
+    as4.( g8) g2
+    es des' %115
+    c4( b) as2
+    as2. as4
+    as2( g)
+    as r
+    R1*4 %123
+    r4 c2 b4
+    as2 f %125
+    c'2. b4
+    as2( g)
+    as r
+    R1
+    r4 f'2 as,4 %130
+    g2 b
+    f'2. as,4
+    g2( f)
+    es r
+    R1 %135
+    d'2. d4
+    es2 b
+    as ges
+    f1
+    es2 r %140
+    R1*4
+    r4 b'2 b4 %145
+    b( ces) ces2
+    ces2. b8([ as)]
+    b2 b
+    b b
+    b4( as) as2 %150
+    as2. g8([ f)]
+    g2 g
+    f c'
+    b b
+    b b %155
+    a as
+    g!4 as g( f)
+    es2 es'4\ffE es
+    es1
+    es, %160
+    c'2 es
+    f,1
+    es2 r
+    R1\fermata \bar "||" %164 finis
+  }
+}
+
+TubaSopranoLyrics = \lyricmode {
+  Tu -- ba %74
+  mi -- rum %75
+  spar -- gens
+  so -- num
+  per se --
+  pul -- cra
+  re -- gi -- %80
+  o -- num
+  co -- get
+  o -- mnes,
+  co -- get
+  o -- mnes %85
+  an -- te
+  thro --
+  num.
+
+  Mors stu -- %90
+  pe -- bit
+
+  et na --
+  tu -- ra,
+  cum re -- %95
+  sur -- get
+  cre -- a --
+  tu -- ra,
+  iu -- di --
+  can -- ti %100
+  re -- spon -- su --
+  ra.
+
+  Li -- ber %107
+  scri -- ptus
+  pro -- fe --
+  re -- tur, %110
+  in quo
+  to -- tum
+  con -- ti --
+  ne -- tur,
+  un -- de %115
+  mun -- dus
+  iu -- di --
+  ce --
+  tur.
+
+  Iu -- dex %124
+  er -- go %125
+  cum se --
+  de --
+  bit,
+
+  quid -- quid %130
+  la -- tet
+  ap -- pa --
+  re --
+  bit:
+  %135
+  Nil in --
+  ul -- tum
+  re -- ma --
+  ne --
+  bit. %140
+
+  Quid sum %145
+  mi -- ser
+  tunc di --
+  ctu -- rus?
+  Quem pa --
+  tro -- num %150
+  ro -- ga --
+  tu -- rus,
+  cum vix
+  iu -- stus,
+  cum vix %155
+  iu -- stus
+  sit se -- cu --
+  rus, cum vix
+  iu --
+  stus %160
+  sit se --
+  cu --
+  rus? %163 finis
 }

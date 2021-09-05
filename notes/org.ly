@@ -754,3 +754,212 @@ DiesBassFigures = \figuremode {
   <6 5>4 \bc <[_! \l]>2
   r2. %65 finis
 }
+
+TubaOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 2/2 \tempoTuba
+      \set Score.currentBarNumber = #66
+    \mvTr es2\f-\solo es-!\p
+    b'\f b,-!\p
+    b\f b'-!\p
+    es\f es,-!\p
+    as\f as,-!\p %70
+    es'\f es,-!\p
+    d'\f es-!\p
+    b'4 as g f
+    \mvTr es2\f-\tuttiE es
+    b' b, %75
+    b b'
+    es es,
+    as as,
+    es' es,
+    d'4 b es es, %80
+    b' b b b
+    b b b b
+    f' f f, f
+    c' c c c
+    g' g g, g %85
+    c-! c-! es-! es-!
+    g-! g-! g,-! g-!
+    c2 c'4-\solo b!
+    as r8. as16 as4. as8
+    as2 as4-\tutti as %90
+    g c c-\solo b!
+    as r8. as16 as4 as
+    as2 as4-\tutti as
+    g g g g
+    as as a a %95
+    b b h h
+    c c cis cis
+    d d d, d
+    es! es es d
+    cis cis cis cis %100
+    d d d d,
+    g2 \mvTr b\pE-\solo
+    c c
+    d fis
+    g4 c, d d, %105
+    g' r g, r
+    g' \mvTr a?\f-\tutti b c
+    d d, fis d
+    fis fis fis fis
+    g g, b g %110
+    r b' b, as'!
+    g es g es
+    d b d b
+    es es b g
+    es es' g es %115
+    as es f c
+    des des d d
+    es es es, es'
+    as,2 \mvTr c\p-\solo
+    des des %120
+    es g
+    as4 des, es es,
+    as \mvTr as'\f-\tutti g f
+    e c e c
+    f f as f %125
+    c c e c
+    f as c c,
+    f f, f' es!
+    d! es d c
+    b b d b %130
+    es es es, es'
+    b b d b
+    es g b b,
+    es es, es' des
+    c c ces ces %135
+    b b b b
+    b b b b
+    b b b b
+    b b b b
+    es2 \mvTr ges\pE-\solo %140
+    as as
+    b b,
+    es4 as b b,
+    es b es,2
+    es'4 r \mvTr es\f-\tuttiE r %145
+    es r es r
+    d r d r
+    des r des r
+    c r c r
+    c r c r %150
+    h r h r
+    b r b r
+    as r as' r
+    as r g r
+    ges r ges r %155
+    f es d b
+    es c b b
+    es2 r
+    c'4\ff c c c
+    g g g g %160
+    as as as as
+    b b b, b
+    es es b b
+    es,2 r\fermata \bar "||" %164 finis
+  }
+}
+
+TubaBassFigures = \figuremode {
+  <5 3>1 %66
+  q
+  q
+  q
+  q %70
+  q
+  <[6 5]>
+  r
+  <5 3>
+  \bo <[6] 4>4 \bc <[5] 3>2. %75
+  r1
+  <4 2>4 <3 [1]>2.
+  r1
+  r
+  \bo <[6 5]>2 <9 4>4 \bc <[8 3]> %80
+  \bo <[6 4]> \bc <[5 3]>2.
+  r1
+  <5 4>4 <\t _!>2.
+  <5 4>2 <\t 3>
+  <5 4> <\t _!> %85
+  r1
+  r
+  r2. <6 _->4
+  r4.. <6 4! 2!>16 \bassFigureExtendersOn q2
+  q1 %90
+  q4 \bassFigureExtendersOff r2 <6 _->4
+  r4.. <6\\ 5 3>16 r2
+  <\t \t \t>1
+  <[6 4]>2 <5 _!>
+  <5> <6 5> %95
+  r <6 5>
+  r <7- _!>
+  <6 4> <5! _+>
+  <5 3>2. <6 4>4
+  <7 [_!]>1 %100
+  <6 4>4 <5! \t>2 <\t _+>4
+  r2 \bo <[6 \l]>
+  r1
+  <5! _+>2 <6 _!>
+  r <6 4>4 \bc <[5! _+]> %105
+  r1
+  \bo <[5 3]>2 \bassFigureExtendersOn <5 3>4 \bassFigureExtendersOff <8 6!>8 \bc <[7 5]>
+  <6 4>2 <[6]>
+  <7- [_!]>2. <[6 \t]>4
+  <[9!] 4>2 <6> %110
+  r4 <5! 3>2 <\t \t>4
+  <6>1
+  <6 5>
+  <[9] 4>2 <[6 4]>
+  r <6 5-> %115
+  r2. <6>4
+  <5>2 <6 5>
+  <5 4> <\t 3>
+  r2 \bo <[6 \l]>
+  r1 %120
+  r2 <6>
+  r <6 4>4 \bc <[5 3]>
+  r2 <6!>
+  <6 5>1
+  r %125
+  <_!>
+  r2 <_!>
+  r2. <6 4!>4
+  <6 3> \bassFigureExtendersOn <6 3\!> q q \bassFigureExtendersOff
+  r1 %130
+  r
+  <[7]>
+  r
+  r
+  <6>2 <\t \t> %135
+  <7>1
+  <6- 4>
+  <7 3>2 <6- 4>
+  <5 \t> <\t 3>
+  \bo <[_- \l]> <6> %140
+  <_->1
+  r
+  <_->4 q <6- 4> <5 3>
+  \bc <[_- \l]>1
+  <5 _-> %145
+  <\t \t>4 <6- 4>2.
+  <7- 3>1
+  <6 4!>
+  <7 _!>
+  <\t \t>4 <6 4>2. %150
+  <7 5>1
+  <6 4!>
+  <6>
+  <6 4>2 <6->
+  <\t>1 %155
+  \bo <[_!\l ]>4 <\t> <6 5-> <\t \t>
+  <_!> <6> <6 4> <5 3>
+  r1
+  r
+  <6> %160
+  r
+  <5 4>2 \bc <[\t 3]>
+  r1
+  r %164 finis
+}

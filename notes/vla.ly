@@ -361,3 +361,110 @@ DiesViola = {
     g r4\fermata \bar "||" %65 finis
   }
 }
+
+TubaViola = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 2/2 \tempoTuba
+      \set Score.currentBarNumber = #66
+    r8 b(\f es) b-! r b(\p es) b-!
+    r f(\f b) f-! r b(\p d) b-!
+    r b(\f d) b-! r f(\p b) f-!
+    r b(\f es) b-! r b(\p es) b-!
+    r c,(\f es) c-! r c(\p es) c-! %70
+    r es(\f g) es-! r es(\p g) es-!
+    r b'(\f f') d-! r b(\p es) b-!
+    b2 b
+    r8 b(\f es) b-! r b( es) b-!
+    r b( d) b-! r f( b) f-! %75
+    r f( b) f-! r b( d) b-!
+    r b( es)^\critnote b-! r b( es) b-!
+    r es,( as) es-! r es( as) es-!
+    r b'( es) b-! r b( es) b-!
+    r b( d) b-! r b( es) b-! %80
+    r4 b b2
+    d8 d d d d d d d
+    c c c c c c c c
+    c c c c c g' g g
+    g g g g g d d d %85
+    c c c c es es es es
+    g g g g g g g g
+    c,2 c4 b!
+    as r8. as'16 as4. as8
+    as2 r %90
+    r c,4 b!
+    as r8. fis'16 fis4 fis
+    fis2 r
+    r r8 g h g
+    as4 as, a a %95
+    b b h h
+    c c cis cis
+    d d d d
+    es! es es d
+    e8 e e e e e e e %100
+    d d d d d d d d
+    d1\p
+    es4 g2 a8( g)
+    fis4 fis2 a4
+    d, es8( d16 c) b4 a %105
+    g8 d' b d g,4 r
+    g' g2\f es4
+    d d2 d4~
+    d a'2 d,4~
+    d d2 g4 %110
+    f! f2 b,4~
+    b b2 b4~
+    b b2 b4~
+    b b2 b4
+    b2 b %115
+    as4 es' c c
+    des des d f
+    es es es, es'
+    c2 as\p
+    as4 as'2 b8( as) %120
+    g2 es
+    es4 f8 es16 des c4 b
+    as c'2\f c4
+    c8 g e g c g e g
+    f c as' f c4 f %125
+    e8 g e g c g e g
+    f as f c e g e c
+    as4 c2 c4
+    b g' f a
+    f d b d %130
+    es b' g b
+    f d b d
+    es b' as2
+    g4 b2 b4
+    es, es es es %135
+    f b, b b
+    b b b b
+    f'8 f f f es es es b
+    b b b b b b b b
+    b2 b-\dolce %140
+    ces4 es es f8 es
+    d4 d2 d4
+    es ces8 b16 as ges4 f
+    es2 r
+    r8 es'(\f ges es) r es( ges es) %145
+    r es( as es) r es( as es)
+    r f( d f) r f( d f)
+    r es( des es) r es( des es)
+    r e( c e) r e( c e)
+    r f( c f) r f( c f) %150
+    r d!( h d) r d( h d)
+    r c( b c) r c( b c)
+    r c( as c) r c( as c)
+    r b( f b) r b( g b)
+    r b( ges b) r b( ges b) %155
+    c4 c b d
+    b c b2
+    b r
+    c'4\ff c c c
+    g g g g %160
+    as as as as
+    b b b, b
+    es b b b
+    b2 r\fermata \bar "||" %164 finis
+  }
+}

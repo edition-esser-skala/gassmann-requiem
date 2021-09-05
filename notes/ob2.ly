@@ -333,3 +333,101 @@ DiesOboeII = {
     R\fermata \bar "||" %65 finis
   }
 }
+
+TubaOboeII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 2/2 \tempoTuba
+      \set Score.currentBarNumber = #66
+    r4 g'2(\fE b4)
+    r f2( as4)
+    r f2( as4)
+    r g2( b4)
+    r as2( c4) %70
+    r g2( b4)
+    f2( es)
+    d r
+    r b'
+    b1 %75
+    b
+    b
+    as
+    g
+    f2. es4 %80
+    es( d) d2
+    f b~
+    b4 a a2
+    g c~
+    c h %85
+    c es
+    g1
+    c,2 es4-! des-!
+    c r d d
+    d2 r %90
+    r g,4 g
+    as r c c
+    c2 r
+    r d
+    c1 %95
+    b2 g
+    g1
+    g2 fis
+    g4 g2 g4~
+    g g2 \once \tieDashed g4~ %100
+    g g2 fis4
+    g r r2
+    R1*4 %106
+    r4 b2\f c8( b)
+    b4.( a8) a2
+    r4 c2 d8( c)
+    c4.( b8) b2 %110
+    b1
+    b
+    b
+    as4.( g8) g2
+    r b %115
+    as4 g as2
+    as1
+    as2 g
+    as r
+    R1*4 %123
+    c1\f
+    c %125
+    c2. b4
+    as2 g
+    as r
+    R1
+    b1~ %130
+    b~
+    b~
+    b2 d
+    es r
+    R1 %135
+    b
+    b
+    as2 ges
+    f1
+    es2 r %140
+    R1*4
+    r4 ges2\f ges4 %145
+    ges( as) as2
+    as1
+    \once \tieDashed g!~
+    g
+    g4( f) f2 %150
+    f1
+    e
+    f
+    d!2 es
+    es1 %155
+    f
+    es2. d4
+    es2 r
+    g1\ff
+    b %160
+    c
+    f,
+    es2 r
+    R1\fermata \bar "||" %164 finis
+  }
+}

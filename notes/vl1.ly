@@ -342,7 +342,7 @@ DiesViolinoI = {
     des\f des des des c\p c c c c c c c
     f\f f f f f\p f f f f f f f
     ges\f ges ges ges ges\p ges ges ges f f f f
-    f\f f f f f\p f f f f f f f %50
+    f\f f f   f f\p f f f f f f f %50
     e\f e e e e\p e e e e e e e
     g\f g g g g\p g g g g g g g
     as\f as as as as\p as as as as as as as
@@ -358,5 +358,112 @@ DiesViolinoI = {
     c4 es2\pp
     d2.
     c2 r4\fermata \bar "||" %65 finis
+  }
+}
+
+TubaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 2/2 \tempoTuba
+      \set Score.currentBarNumber = #66
+    r8 es(\f g) es-! r es(\p g) es-!
+    r d(\f f) d-! r f(\p as) f-!
+    r f(\f as) f-! r d(\p f) d-!
+    r g(\f b) g-! r es(\p g) es-!
+    r as,(\f c) as-! r as(\p c) as-! %70
+    r g(\f b) g-! r g(\p b) g-!
+    r f''(\f d) as-! r g(\p b) g-!
+    f2 b,4 d
+    r8 es(\f g) es-! r es( g) es-!
+    r g( as) f-! r d( f) d-! %75
+    r d( f) d-! r f( as) f-!
+    r g( b) g-! r es( g) es-!
+    r c( es) c-! r c( es) c-!
+    r es( g) es-! r es( g) es-!
+    r f( as) f-! r as( g) b-! %80
+    r g( f) b-! b,2
+    R1
+    c'8 c c c f f f f
+    f f f f es es es es
+    d d d d g g g g %85
+    c, c c c es es es es
+    g g g g g g g g
+    c,2 es4 <g b, es,>
+    <as c, es,> r8. <as h,>16 q4. q8
+    q2 r %90
+    r <es es,>4 <des es,>
+    <c es,> r8. <es fis,>16 q4 q
+    q2 r
+    r r8 d g f
+    es c c c c f f f %95
+    f d d d d g g g
+    g c, c c b! b' b b
+    b b, b b a a a a
+    g b' b b b b b b
+    b b, b b b b b b %100
+    b b a a a a a a
+    g4 d'4.\p c8 b a
+    g4 es'4. d8 c b
+    a4 a'4. fis8 d c
+    b[ a16 b] \appoggiatura d c8 b16 a g4 fis %105
+    g8 b, d b g g' b c
+    d4 d2\f c8( b)
+    b4.( a8) a-! a16( b) c([ b c d)]
+    es4 es2 d8( c)
+    c4.( b8) b-! b16( c) d([ c b c)] %110
+    d4 f!4. d8 b d
+    es4 b'4. es,8 g b
+    b,4 f'4. d8 b as!
+    as4.( g8) g b es b
+    g4 b'4. des,8 es des %115
+    c c b b as as as' as
+    as as as as as as as as
+    as as as as g g g g
+    as4^\critnote es4.\p des8( c b)
+    as4 f'4. es8( des c) %120
+    b4 b'4. g8( es des)
+    c \once \slurDashed b16( c) es([ des c b)] as4 g
+    as c4.\f e8 f as
+    g4 g4. c,8 g' b
+    as4 c,4. f8 as f %125
+    g4 c,4. c8 g' b
+    as f c as' g e c g'
+    f4 c'4. f,8 a c
+    b4 b,4. f'8 es c
+    d4 f4. d8 b as! %130
+    g4 g'4. b8 g es
+    d4 f4. d8 b as
+    g g' es b d b d f
+    es4 g4. b8 es, g
+    as4 as,4. es'8 as as %135
+    as f f f d! f f f
+    ges es es es b es es es
+    d d d d es b b ges
+    f f f f f f f f
+    es4 b''4.-\dolce as8 ges f %140
+    es4 ces'4. b8 as ges
+    f4 f4. d8 b as
+    ges[ f16 ges] \appoggiatura b as8 ges16 f es4 d
+    es b es8 f ges as
+    b b([\f es b)] r b( es b) %145
+    r es( ces es) r ces( es ces)
+    r ces( as' ces,) r ces( as' ces,)
+    r b( g'! b,) r b( g' b,)
+    r b( g' b,) r b( g' b,)
+    r as( f' as,) r as( f' as,) %150
+    r as( f' as,) r as( f' as,)
+    r g( e' g,) r g( e' g,)
+    r f( c' f,) r f( c' f,)
+    r d'!( b' d,) r es( b es)
+    r es( b es) r es( b es) %155
+    r a,( f' a,) r as( f' as,)
+    g!4 as g f
+    es8 es g b <es es,>\ff q4 \tieDashed q8~
+    q q4 q q q8~
+    q q4 q q q8~ %160
+    q q4 q q q8~ \tieSolid
+    <es f,> q4 q8 <d f,> q4 q8
+    <es es,> g,4 b f d8
+    es2 r\fermata \bar "||" %164 finis
   }
 }

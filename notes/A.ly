@@ -627,3 +627,178 @@ DiesAltoLyrics = \lyricmode {
   dis -- cus -- su --
   rus. %63 finis
 }
+
+TubaAlto = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 2/2 \autoBeamOff \tempoTuba
+      \set Score.currentBarNumber = #66
+    R1*8 %73
+    r4 \mvTr g'2\fE^\tuttiE g4
+    g(^\critnote f) f2 %75
+    r4 as2 f4
+    f( es) es2
+    es2. as,4
+    g2 g
+    f'2. es4 %80
+    es( d) d2
+    d f
+    f f
+    f es
+    d d %85
+    c es
+    g1
+    c,2 r
+    R1
+    r2 h'4 h %90
+    h c r2
+    R1
+    r2 fis,4 fis
+    g2 g
+    es f %95
+    f g
+    g g
+    g fis
+    g2. d4
+    e2 e %100
+    d4 d d2
+    d r
+    R1*4 %106
+    r4 b'2 a8([ g)]
+    g4.( fis8) fis2
+    a2. a4
+    a4.( g8) g2 %110
+    b b
+    b g
+    r4 as!2 f4
+    f4.( es8) es2
+    es es %115
+    es c
+    f2. f4
+    es1
+    es2 r
+    R1*4 %123
+    r4 g2 g4
+    f2 as %125
+    g2. g4
+    f2( e)
+    f r
+    R1
+    r4 as2 f4 %130
+    es2 g
+    as2. f4
+    es2( d)
+    es r
+    R1 %135
+    f2. f4
+    es2 es
+    d es
+    es( d)
+    es r %140
+    R1*4
+    r4 ges2 ges4 %145
+    ges( as) as2
+    as2. f4
+    g!2 g
+    g g
+    g4( f) f2 %150
+    f2. f4
+    e2 e
+    f f
+    f g
+    es es %155
+    f f
+    es4 es es( d)
+    es2 r
+    g\ffE g
+    b es, %160
+    es es
+    es( d)
+    es r
+    R1\fermata \bar "||" %164 finis
+  }
+}
+
+TubaAltoLyrics = \lyricmode {
+  Tu -- ba %74
+  mi -- rum %75
+  spar -- gens
+  so -- num
+  per se --
+  pul -- cra
+  re -- gi -- %80
+  o -- num
+  co -- get
+  o -- mnes,
+  co -- get
+  o -- mnes %85
+  an -- te
+  thro --
+  num.
+
+  Mors stu -- %90
+  pe -- bit
+
+  et na --
+  tu -- ra,
+  cum re -- %95
+  sur -- get
+  cre -- a --
+  tu -- ra,
+  iu -- di --
+  can -- ti %100
+  re -- spon -- su --
+  ra.
+
+  Li -- ber %107
+  scri -- ptus
+  pro -- fe --
+  re -- tur, %110
+  in quo
+  to -- tum
+  con -- ti --
+  ne -- tur,
+  un -- de %115
+  mun -- dus
+  iu -- di --
+  ce --
+  tur.
+
+  Iu -- dex %124
+  er -- go %125
+  cum se --
+  de --
+  bit,
+
+  quid -- quid %130
+  la -- tet
+  ap -- pa --
+  re --
+  bit:
+  %135
+  Nil in --
+  ul -- tum
+  re -- ma --
+  ne --
+  bit. %140
+
+  Quid sum %145
+  mi -- ser
+  tunc di --
+  ctu -- rus?
+  Quem pa --
+  tro -- num %150
+  ro -- ga --
+  tu -- rus,
+  cum vix
+  iu -- stus,
+  cum vix %155
+  iu -- stus
+  sit se -- cu --
+  rus,
+  cum vix
+  iu -- stus %160
+  sit se --
+  cu --
+  rus? %163 finis
+}
