@@ -256,3 +256,74 @@ KyrieOboeI = {
     c\breve*1/2\fermata \bar "|." %282 finis
   }
 }
+
+DiesOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \tempoDies
+    r4 \mvTr c'\fE-\tuttiE c
+    h8. a16 g4 r
+    r h d
+    g,2 r4
+    r c des %5
+    des2 c4
+    c2.
+    h2 r4
+    r g as
+    b2 g4 %10
+    f8. as16 g4 f
+    g b b
+    b2 r4
+    b2 g4
+    f8. b16 as4 g %15
+    f r r
+    r b'-\dolce as
+    g r r
+    r as ges
+    f r r %20
+    r g! f
+    e r r
+    r f f
+    e r r
+    r as\f g %25
+    r f f
+    e8. d16 c4 r
+    r c c
+    c8. b16 as4 r
+    r f' es! %30
+    es2.~
+    es
+    d4 d r
+    r f g
+    f2. %35
+    es2 d4
+    es2 d8 c
+    h2 r4
+    d2.
+    c8. d16 es4 d %40
+    c2 r4
+    des2-\solo r4
+    des2 r4
+    c2-\tutti r4
+    b2 r4 %45
+    b2 r4
+    des c r
+    as2 r4
+    ges2 r4
+    des'2 r4 %50
+    g,2 r4
+    g2 r4
+    c2 r4
+    c2 r4
+    d!2 c4 %55
+    R2.*2
+    des2 r4
+    c2 r4
+    r es es %60
+    es2.~
+    es4 d2
+    c r4
+    R2.
+    R\fermata \bar "||" %65 finis
+  }
+}

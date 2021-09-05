@@ -300,3 +300,75 @@ KyrieViolinoII = {
     e\breve*1/2\fermata \bar "|." %282 finis
   }
 }
+
+DiesViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \tempoDies
+    c4\fE <es g,>8 q4 q8
+    <d g,>4 g,8. d'32 c h8. c32 d
+    g,4 h8 d4 f8
+    <es g,>4 c8. g'32 f es8. f32 g
+    c,8 c'4 c8 b8. b,32 as %5
+    g8 b'4 b8 as8. as32 g
+    f8 as4 c as8
+    g4 g, r
+    r es' f
+    g2 es4 %10
+    es es d
+    es g f
+    <e g,> e f
+    g2 e4
+    f f e %15
+    f f'-\dolce es!
+    d r r
+    r es des
+    c r r
+    r des c %20
+    b r r
+    r c b
+    as as8.( b32 c) c8.( b32 as)
+    g4 g'8.(\f as32 b) b8.( as32 g)
+    f8.( g32 as) f4 e %25
+    f f,8 as4 as8
+    g4 c,8. g'32 f e8. f32 g
+    c,4 e8 g4 g8
+    f4 f8. c'32 b as8. b32 c
+    f,4 f'es %30
+    as,8 as4 as8 g4
+    c8 c4 c c8
+    b4 b, r
+    r d' es
+    f2 d4 %35
+    es es d
+    es g, as
+    d, h' c
+    d2 h4
+    c c h %40
+    c16 c, c c c\p c c c c c c c
+    g\f g g g g\p g g g g g g g
+    b\f b b b b\p b b b b b b b
+    as\f as as as as\p as as as as as as as
+    as\f as as as as\p as as as g g g g %45
+    b\f b b b b\p b b b b b b b
+    b\f b b b as\p as as as as as as as
+    as\f as as as as\p as as as as as as as
+    es'\f es es es es\p es es es des des des des
+    des\f des des des des\p des des des des des des des %50
+    g,\f g g g g\p g g g g g g g
+    e'\f e e e e\p e e e e e e e
+    f\f f f f f\p f f f f f f f
+    es!\f es es es es\p es es es es es es es
+    d!\f d d d d\p d d d c c c c %55
+    c8. d16 c4 h
+    c16\f c c c c\p c c c c c c c
+    des\f des des des des\p des des des des des des des
+    c\f c c c c\p c c c c c c c
+    c\fE c c c c\pE c c c c c c c %60
+    c c c c c c c c c c c c
+    c c c c c c c c h h h h
+    c2 \once \tieDashed c4~\pp
+    c h2
+    c r4\fermata \bar "||" %65 finis
+  }
+}

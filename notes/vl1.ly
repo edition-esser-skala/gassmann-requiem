@@ -288,3 +288,75 @@ KyrieViolinoI = {
     g\breve*1/2\fermata \bar "|." %282 finis
   }
 }
+
+DiesViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \tempoDies
+    c4\fE <es c'>8 q4 q8
+    <d h'>4 g,8. d'32 c h8. c32 d
+    g,4 <g g'>8 q4 q8
+    q4 c8. g'32 f es8. f32 g
+    c,8 es'4 es8 des8. b,32 as %5
+    g8 des''4 des8 c8. as32 g
+    f8 c'4 as' c,8
+    h4 g, r
+    r g' as
+    b2 g4 %10
+    f8. as16 g4 f
+    g8 b4 b b8
+    b4 g as
+    b2 g4
+    f8. b16 as4 g %15
+    f r r
+    r b'-\dolce as
+    g r r
+    r as ges
+    f r r %20
+    r g! f
+    e r r
+    r f8.( g32 as) as8.( g32 f)
+    e4 b'8.(\f c32 des) des8.( c32 b)
+    as8.( b32 c) as4 g %25
+    f f,8 f'4 f8
+    e4 c,8. g'32 f e8. f32 g
+    c,4 g''8 c,4 b8
+    as8. g16 f8. c'32 b as8. b32 c
+    f,4 <b as'> <b g'> %30
+    es8 es,4 es es'8~
+    es es,4 es' es8
+    d4 b, r
+    r f'' g
+    as2 f8. b16 %35
+    b8. c16 g4 f
+    es g8 es d c
+    h4 d es
+    f2 d4
+    c8. d16 es4 d %40
+    c16 c, c c c\p c c c c c c c
+    des\f des des des des\p des des des des des des des
+    des\f des des des des\p des des des des des des des
+    c\f c c c c\p c c c c c c c
+    b\f b b b b\p b b b b b b b %45
+    des\f des des des des\p des des des des des des des
+    des\f des des des c\p c c c c c c c
+    f\f f f f f\p f f f f f f f
+    ges\f ges ges ges ges\p ges ges ges f f f f
+    f\f f f f f\p f f f f f f f %50
+    e\f e e e e\p e e e e e e e
+    g\f g g g g\p g g g g g g g
+    as\f as as as as\p as as as as as as as
+    ges\f ges ges ges ges\p ges ges ges ges ges ges ges
+    f\f f f f f\p f f f es es es es %55
+    f4( es d)
+    c16\f c c c c\p c c c c c c c
+    e\f e e e e\p e e e e e e e
+    f\f f f f f\p f f f f f f f
+    es\f es es es es\p es es es es es es es %60
+    es es es es es es es es es es es es
+    es es es es d d d d d d d d
+    c4 es2\pp
+    d2.
+    c2 r4\fermata \bar "||" %65 finis
+  }
+}

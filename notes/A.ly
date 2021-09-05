@@ -507,3 +507,123 @@ KyrieAltoLyrics = \lyricmode {
 
   son. %282 finis
 }
+
+DiesAlto = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \autoBeamOff \tempoDies
+    r4 \mvTr g'\fE^\tuttiE g
+    g d r
+    r g f
+    es8.([ d16)] c4 r
+    r f f %5
+    es2 es4
+    f2 d!4
+    d d r
+    r es f
+    g2 es4 %10
+    es8. f16 es4( d)
+    es2 r4
+    r e f
+    g2 e4
+    f8. f16 f4( e) %15
+    f2 r4
+    R2.*9 %25
+    r4 f f
+    e8.([ d16)] c4 r
+    r e g
+    f c r
+    r f es! %30
+    es2 es4
+    es2 es4
+    d d r
+    r f g
+    as2 f4 %35
+    es8. es16^\critnote es4( d)
+    es2 r4
+    r d es
+    f2 d4
+    c8. c16 c4( h) %40
+    c2 r4
+    R2.*2
+    r4 es es
+    es2 es4 %45
+    des2 des4
+    des c r
+    r f f
+    es2 des4
+    r des des %50
+    c c r
+    e2 e4
+    f2 f4
+    r es! es
+    d!2 c4 %55
+    c8 c c4( h)
+    c2 r4
+    r des des
+    c2 c4
+    r es es %60
+    es2 es4
+    es8. es16 d2
+    c r4
+    R2.
+    R\fermata \bar "||" %65 finis
+  }
+}
+
+DiesAltoLyrics = \lyricmode {
+  Di -- es
+  ir -- ae,
+  di -- es
+  il -- la
+  sol -- vet %5
+  sae -- clum
+  in fa --
+  vil -- la:
+  Te -- ste
+  Da -- vid %10
+  cum Si -- byl --
+  la,
+  te -- ste
+  Da -- vid
+  cum Si -- byl -- %15
+  la.
+
+  Di -- es %26
+  ir -- ae,
+  di -- es
+  il -- la
+  sol -- vet %30
+  sae -- clum
+  in fa --
+  vil -- la:
+  Te -- ste
+  Da -- vid %35
+  cum Si -- byl --
+  la,
+  te -- ste
+  Da -- vid
+  cum Si -- byl -- %40
+  la.
+
+  Quan -- tus %44
+  tre -- mor %45
+  est fu --
+  tu -- rus,
+  quan -- do
+  iu -- dex
+  est ven -- %50
+  tu -- rus,
+  cun -- cta
+  stri -- cte,
+  cun -- cta
+  stri -- cte %55
+  dis -- cus -- su --
+  rus,
+  cun -- cta
+  stri -- cte,
+  cun -- cta %60
+  stri -- cte
+  dis -- cus -- su --
+  rus. %63 finis
+}

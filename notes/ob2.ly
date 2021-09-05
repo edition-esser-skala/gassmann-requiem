@@ -262,3 +262,74 @@ KyrieOboeII = {
     c\breve*1/2\fermata \bar "|." %282 finis
   }
 }
+
+DiesOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \tempoDies
+    r4 \mvTr es\fE-\tuttiE es
+    d2 r4
+    r g f
+    es2 r4
+    r f f %5
+    b2 as4
+    as2.
+    g2-\critnote r4
+    r4 es f
+    g2 es4 %10
+    es2 d4
+    es g f
+    e2 r4
+    g2 e4
+    f2 e4 %15
+    f f'-\dolce es!
+    d r r
+    r es des
+    c r r
+    r des c %20
+    b r r
+    r c b
+    as as as
+    g r r
+    r f'\f e %25
+    r as, as
+    g8. f16 e4 r
+    r c' b
+    as8. g16 f4 r
+    r as g %30
+    as2 g4
+    c2 f,4
+    f f r
+    r d' es
+    d2. %35
+    es4 g, f
+    es2 as4
+    g2 r4
+    h2.
+    c2 h4 %40
+    c2 r4
+    g2-\solo r4
+    b2 r4
+    as2-\tutti r4
+    g2 r4 %45
+    g2 r4
+    b as r
+    f2 r4
+    es!2 r4
+    f2 r4 %50
+    e2 r4
+    e2 r4
+    f2 r4
+    es!2 r4
+    f2 es4 %55
+    R2.*2
+    e2 r4
+    f2 r4
+    r c' c %60
+    c2.
+    c2 h4
+    c2 r4
+    R2.
+    R\fermata \bar "||" %65 finis
+  }
+}

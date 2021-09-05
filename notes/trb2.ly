@@ -252,3 +252,75 @@ KyrieTromboneII = {
     g\breve*1/2\fermata \bar "|." %282 finis
   }
 }
+
+DiesTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \minor \time 3/4 \tempoDies
+    r4 \mvTr es\fE-\tuttiE es
+    d8. c16 h4 r
+    r h d
+    c g r
+    r es' des %5
+    b2 c4
+    c2-\critnote c4
+    h2 r4
+    r es d
+    es2 b4 %10
+    c b2
+    b r4
+    r c c
+    c2 c4
+    c8. des16 c2 %15
+    c r4
+    b2-\solo-\dolceE r4
+    R2.
+    as2 r4
+    R2. %20
+    g2 r4
+    R2.
+    f2 r4
+    R2.
+    r4 c'\fE c %25
+    f, c'-\tutti c
+    c2 r4
+    r e c
+    c2 r4
+    r b b %30
+    as es'2~
+    es2.
+    d4 r r
+    r d es
+    d2. %35
+    es4 es d
+    es2 r4
+    r d c
+    h2.
+    c4 c h %40
+    c2 r4
+    des2-\solo r4
+    b2 r4
+    c2-\tutti r4
+    b2 r4 %45
+    b2 r4
+    b as r
+    c2 r4
+    es2 r4
+    des2 r4 %50
+    c2 r4
+    e2 r4
+    c2 r4
+    c2 r4
+    g!2 g4 %55
+    r c h
+    c2 r4
+    des2 r4
+    c2 r4
+    r c c %60
+    c2 c4
+    c2 h4
+    c2 r4
+    R2.
+    R\fermata \bar "||" %65 finis
+  }
+}

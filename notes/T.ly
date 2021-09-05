@@ -484,3 +484,123 @@ KyrieTenoreLyrics = \lyricmode {
   _
   son. %282 finis
 }
+
+DiesTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 3/4 \autoBeamOff \tempoDies
+    r4 \mvTr es\fE^\tuttiE es
+    d8.([ c16)] h4 r
+    r h d
+    c g r
+    r es' des %5
+    des2 c4
+    c2 c4
+    h h r
+    r b as
+    g2 b4 %10
+    c8. c16 b2
+    b r4
+    r c c
+    c2 c4
+    c8. des16 c2 %15
+    c r4
+    R2.*9 %25
+    r4 c c
+    c g r
+    r c c
+    c8.([ b16)] as4 r
+    r b b %30
+    as2 b4
+    c2 c4
+    b b r
+    r d es
+    f2 d4 %35
+    es8. c16 b4.( as8)
+    g2 r4
+    r h c
+    d2 h4
+    c8. as16 g2 %40
+    g r4
+    R2.*2
+    r4 c c
+    b2 b4 %45
+    b2 b4
+    b as r
+    r c c
+    as2 as4
+    r b g %50
+    g g r
+    des'2 des4
+    c2 c4
+    r c c
+    g!2 g4 %55
+    as8 as g2
+    g4 r r
+    r g g
+    f2 f4
+    r c' c %60
+    c2 c4
+    c8. c16 c4( h)
+    c2 r4
+    R2.
+    R\fermata \bar "||" %65 finis
+  }
+}
+
+DiesTenoreLyrics = \lyricmode {
+  Di -- es
+  ir -- ae,
+  di -- es
+  il -- la
+  sol -- vet %5
+  sae -- clum
+  in fa --
+  vil -- la:
+  Te -- ste
+  Da -- vid %10
+  cum Si -- byl --
+  la,
+  te -- ste
+  Da -- vid
+  cum Si -- byl -- %15
+  la.
+
+  Di -- es %26
+  ir -- ae,
+  di -- es
+  il -- la
+  sol -- vet %30
+  sae -- clum
+  in fa --
+  vil -- la:
+  Te -- ste
+  Da -- vid %35
+  cum Si -- byl --
+  la,
+  te -- ste
+  Da -- vid
+  cum Si -- byl -- %40
+  la.
+
+  Quan -- tus %44
+  tre -- mor %45
+  est fu --
+  tu -- rus,
+  quan -- do
+  iu -- dex
+  est ven -- %50
+  tu -- rus,
+  cun -- cta
+  stri -- cte,
+  cun -- cta
+  stri -- cte %55
+  dis -- cus -- su --
+  rus,
+  cun -- cta
+  stri -- cte,
+  cun -- cta %60
+  stri -- cte
+  dis -- cus -- su --
+  rus. %63 finis
+}

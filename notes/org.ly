@@ -614,3 +614,143 @@ KyrieBassFigures = \figuremode {
   <4 2>
   <5 _!> %282 finis
 }
+
+DiesOrgano = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 3/4 \tempoDies
+    \mvTr c'4\fE-\tuttiE c,8. c32 d es8. es32 f
+    g4 g,8. d'32 c h8. c32 d
+    g,4 g'8. g32 a? h8. a?32 h
+    c4 c,8. g'32 f es8. f32 g
+    c,8. c'32 b! a8. g32 a b8. b32 as %5
+    g8. es32 f g8. f32 g as8. as32 g
+    f8. as32 g f8. es32 f f8 d!16 es32 f
+    g8 g, g' as g f
+    es es es es es es
+    es es es es g g %10
+    as8. f16 b8 b, b b
+    es es es es des des
+    c c c c c c
+    c c c c c c
+    as'8. b16 c8 c c, c %15
+    f4 a8.(-\dolce-\soloE b32 c) f,8.( g32 a)
+    b2.~
+    b4 g8.( as!32 b) es,8.( f32 g)
+    as2.~
+    as4 f8.( g32 as) des,8.( es32 f) %20
+    g!2.~
+    g4 e8.( f32 g) c,8.( d32 e)
+    f4 f f,
+    c'' e,\fE e
+    f8 f c' c c, c %25
+    f4 f8.-\tutti f32 g as8. as32 b
+    c4 c,8. g'32 f e8. f32 g
+    c,4 c8. c32 d e8. d32 e
+    f4 f8. c'32 b as8. b32 c
+    f,8. f32 es! d8. c32 d es8. d32 es %30
+    c8. as32 b c8. b32 c b8. as32 g
+    as8. as32 b c8. c32 b a8. g32 a
+    b4 b'8 f d f
+    b, b b b b b
+    b b b b as as %35
+    g8. as16 b8 b b b
+    es es es es f f
+    g g, g g g g
+    g g g g f' f
+    es8. f16 g8 g g, g %40
+    c c \mvTr c\p-\solo c c c
+    b!\f b b\p b b b
+    g\f g g\p g g g
+    as\fE as \mvTr as\pE-\tuttiE as as as
+    es'\f es es\p es es es %45
+    e\f e e\p e e e
+    f\f f f\p f f f
+    f\f f f\p f f f
+    c\f c c\p c des des
+    b\f b b\p b b b %50
+    c\f c c\p c c c
+    b\f b b\p b b b
+    as\f as as\p as as as
+    a\f a a\p a a a
+    h\fE h h\pE h c c %55
+    as' f g g g, g
+    c\f c c\p c c c
+    b!\f b b\p b b b
+    as\f as as\p as as as
+    as\fE as as\pE as g g %60
+    fis fis fis fis fis fis
+    g g g g g g
+    c c c c as\ppE as
+    f f g g g g
+    c2 r4\fermata \bar "||" %65 finis
+  }
+}
+
+DiesBassFigures = \figuremode {
+  r2 <6>4
+  <_!>2.
+  <_!>2 <6 5>4
+  r2.
+  r4 <6 5> <_-> %5
+  <6 5->2.
+  r2 <6 5!>4
+  <_!>2.
+  <[5-] 3>2 <4 2>4
+  <5 3>2 <6>4 %10
+  <6 5> <6 4> <5 3>
+  r2 <6>4
+  <7 _!>2 <6 4>4
+  <7 5 _!>2.
+  <6>8. <_->16 <6 4>4 <5 _!> %15
+  r4 \bo <[6 \l]> <7- _!>
+  <8>2 <7>4
+  <6 4> <6> <7->
+  <8>2 <7->4
+  <6 4-> <6-> <7> %20
+  <8 5->2 <7 \t>4
+  <6! 4> <6> <7 _!>
+  r2.
+  <_!>4 <7->2
+  r4 <6 4> \bc <[5 _!]> %25
+  r2 <[6]>4
+  <_!>2.
+  <_!>2 <[6 5]>4
+  r2.
+  r4 <6 5>2 %30
+  <6>2 <6 4>4
+  r <6> <6 5>
+  r2.
+  <5 3>2 <6 4>4
+  <7 5>2 <6 4>4 %35
+  <6>4 <6 4> <5 3>
+  r2 <6>8 <5>
+  <5 _!>2 <6 4>4
+  <7 5 [_!]>2 <6 4!>4
+  <6> <6 4> <5 _!> %40
+  r2.
+  <6 4 _->
+  <6 5->
+  r
+  <5 4>2 <[\t 3]>4 %45
+  <7- 5 3>2.
+  <6- 4>4 <5 3>2
+  r2.
+  <6 5->
+  <5 _->2 <[6 \t]>4 %50
+  <_!>2.
+  <6 4! _->
+  <6>
+  <7- [5-]>
+  <6! 5> %55
+  \bo <[6 \l]>4 <6 4> \bc <[5 _!]>
+  r2.
+  <6 4! _->
+  \bo <[6 \l]>
+  <6\\>2 <6 4>4 %60
+  <7 _!>2.
+  <6 4>4 <5 \t> <\t _!>
+  r2.
+  <6 5>4 \bc <[_! \l]>2
+  r2. %65 finis
+}

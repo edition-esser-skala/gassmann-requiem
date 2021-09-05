@@ -441,3 +441,123 @@ KyrieBassoLyrics = \lyricmode {
 
   son. %282 finsi
 }
+
+DiesBasso = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 3/4 \autoBeamOff \tempoDies
+    r4 \mvTr c\fE^\tuttiE es
+    g g, r
+    r g' h
+    c c, r
+    r a' b %5
+    g2 as4
+    f2 f4
+    g g r
+    r g f
+    es2 g4 %10
+    as8. f16 b4.( as8)
+    g2 r4
+    r c f,
+    e( g) b
+    as8. b16 c2 %15
+    f, r4
+    R2.*9 %25
+    r4 f as
+    c c, r
+    r c e
+    f f, r
+    r d' es! %30
+    c2 b4
+    as2 a4
+    b b r
+    r b' es,
+    d( f) as %35
+    g8. as16 b4( b,)
+    es2 r4
+    r g c,
+    h( d) f
+    es8. f16 g4( g,) %40
+    c2 r4
+    R2.*2
+    r4 as as
+    es'2 es4 %45
+    e2 e4
+    f f r
+    r f f
+    c2 des4
+    r b b %50
+    c c r
+    b2 b4
+    as2 as4
+    r a a
+    h2 c4 %55
+    as'8 f g2
+    c, r4
+    r b! b
+    as2 as4
+    r as g %60
+    fis2 fis4
+    g8. g16^\critnote g2
+    c r4
+    R2.
+    R\fermata \bar "||" %65 finis
+  }
+}
+
+DiesBassoLyrics = \lyricmode {
+  Di -- es
+  ir -- ae,
+  di -- es
+  il -- la
+  sol -- vet %5
+  sae -- clum
+  in fa --
+  vil -- la:
+  Te -- ste
+  Da -- vid %10
+  cum Si -- byl --
+  la,
+  te -- ste
+  Da -- vid
+  cum Si -- byl -- %15
+  la.
+
+  Di -- es %26
+  ir -- ae,
+  di -- es
+  il -- la
+  sol -- vet %30
+  sae -- clum
+  in fa --
+  vil -- la:
+  Te -- ste
+  Da -- vid %35
+  cum Si -- byl --
+  la,
+  te -- ste
+  Da -- vid
+  cum Si -- byl -- %40
+  la.
+
+  Quan -- tus %44
+  tre -- mor %45
+  est fu --
+  tu -- rus,
+  quan -- do
+  iu -- dex
+  est ven -- %50
+  tu -- rus,
+  cun -- cta
+  stri -- cte,
+  cun -- cta
+  stri -- cte %55
+  dis -- cus -- su --
+  rus,
+  cun -- cta
+  stri -- cte,
+  cun -- cta %60
+  stri -- cte
+  dis -- cus -- su --
+  rus. %63 finis
+}

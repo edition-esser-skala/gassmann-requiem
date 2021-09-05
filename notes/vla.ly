@@ -289,3 +289,75 @@ KyrieViola = {
     c\breve*1/2\fermata \bar "|." %282 finis
   }
 }
+
+DiesViola = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 3/4 \tempoDies
+    c4\fE c8. c32 d es8. d32 c
+    g'4 g,8. d'32 c h8. c32 d
+    g,4 g'8. g32 a h8. a32 h
+    c4 c,8. g'32 f es8. f32 g
+    c,8. c'32 b! a8. g32 a b8. b32 as? %5
+    g8. es32 f g8. f32 g as8. as32 g
+    f8. as32 g f8. es32 f f8 d!16 es32 f
+    g8 g, g' as g f
+    es es es es es es
+    es es es es b b %10
+    c c b b b b
+    b4 es des
+    c8 c c c c c
+    e,4 g b
+    as8. des16 c4 c %15
+    c r f-\dolceE
+    f d8.( es32 f) b,8.( c32 d)
+    es2.~
+    es4 c8.( des?32 es) as,8.( b32 c)
+    des2.~ %20
+    des4 b8.( c32 des) g,!8.( as32 b)
+    c2.~
+    c4 c c
+    c e\f e
+    f8 f c c c c %25
+    c4 c c
+    c c8. g'32 f e8. f32 g
+    c,4 c8. c32 d e8. d32 e
+    f4 f8. c32 b as8. b32 c
+    f,8. f'32 es! d8. c32 d es8. d32 es %30
+    c8. as32 b c8. b32 c b8. as32 g
+    as8. as32 b c8. c32 b a8. g32 a
+    b4 b'8 f d f
+    b, b b b b b
+    b b b b b b %35
+    b8. as16 b8 b b b
+    b4 es, f
+    g f' es
+    h d g
+    g8. as16 g4 g %40
+    g16 c,, c c c\p c c c c c c c
+    es\f es es es es\p es es es es es es es
+    es\f es es es es\p es es es es es es es
+    es\f es es es es\p es es es es es es es
+    es\f es es es es\p es es es es es es es %45
+    g\f g g g g\p g g g g g g g
+    f\f f f f f\p f f f f f f f
+    c\f c c c c\p c c c c c c c
+    as'\f as as as as\p as as as as as as as
+    b\f b b b b\p b b b b b b b %50
+    c\f c c c c\p c c c c c c c
+    des\f des des des des\p des des des des des des des
+    c\f c c c c\p c c c c c c c
+    c\f c c c c\p c c c c c c c
+    g!\f g g g g\p g g g g g g g %55
+    as4^\critnote g2
+    es16\f es es es es\p es es es es es es es
+    g\f g g g g\p g g g g g g g
+    as\f as as as as\p as as as as as as as
+    fis'\f fis fis fis fis\p fis fis fis g g g g %60
+    a a a a a a a a a a a a
+    g g g g g g g g g g g g
+    c,4 g\pp as~
+    as g2
+    g r4\fermata \bar "||" %65 finis
+  }
+}
