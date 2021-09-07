@@ -738,3 +738,35 @@ TubaBassoLyrics = \lyricmode {
   cu --
   rus? %163 finis
 }
+
+RexBasso = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \autoBeamOff \tempoRex
+      \set Score.currentBarNumber = #165
+    R1
+    \mvTr c'4.\fE^\tuttiE g8 c g es c
+    g' g r4 r2
+    g4. g8 d' h g f
+    es c r4 f d
+    es c as a %170
+    b8 b r4 es c
+    d r fis d
+    g r es d
+    c cis cis4. cis8
+    d2 d4 r\fermata \bar "||" %175 finis
+  }
+}
+
+RexBassoLyrics = \lyricmode {
+  Rex tre -- men -- dae ma -- ie -- %166
+  sta -- tis,
+  rex tre -- men -- dae ma -- ie --
+  sta -- tis, qui sal --
+  van -- dos sal -- vas %170
+  gra -- tis: Sal -- va
+  me, sal -- va
+  me, sal -- va
+  me, fons pi -- e --
+  ta -- tis. %175 finis
+}

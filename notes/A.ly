@@ -802,3 +802,35 @@ TubaAltoLyrics = \lyricmode {
   cu --
   rus? %163 finis
 }
+
+RexAlto = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoRex
+      \set Score.currentBarNumber = #165
+    R1
+    \mvTr g'4.\fE^\tuttiE g8 g g g g
+    g g r4 r2
+    g4. g8 g g g g
+    g g r4 f4. f8
+    es8.([ d16)] es4 c es %170
+    d8 d r4 es4. es8
+    d4 r a'? fis
+    g r g g
+    g e e4. e8
+    d2 d4 r\fermata \bar "||" %175 finis
+  }
+}
+
+RexAltoLyrics = \lyricmode {
+  Rex tre -- men -- dae ma -- ie -- %166
+  sta -- tis,
+  rex tre -- men -- dae ma -- ie --
+  sta -- tis, qui sal --
+  van -- dos sal -- vas %170
+  gra -- tis: Sal -- va
+  me, sal -- va
+  me, sal -- va
+  me, fons pi -- e --
+  ta -- tis. %175 finis
+}

@@ -468,3 +468,22 @@ TubaViola = {
     b2 r\fermata \bar "||" %164 finis
   }
 }
+
+RexViola = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 4/4 \tempoRex
+      \set Score.currentBarNumber = #165
+    c8.(\fE d32 h) c8-! es-! g,-! c-! es-! g-!
+    c8.( d32 h) c8 g c g es c
+    g'8. as32( fis) g8 c, h g h d
+    g8.( as32 fis) g8 g d' h g f
+    es8.( f32 d) es8 c f f d d
+    es es c c as as a a %170
+    b b d b es es c c
+    d d fis a? fis fis d d
+    g g, b g es' es d d
+    c c cis cis cis cis cis cis
+    d d d d d4 r\fermata \bar "||" %175 finis
+  }
+}

@@ -431,3 +431,13 @@ TubaOboeII = {
     R1\fermata \bar "||" %164 finis
   }
 }
+
+RexOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoRex
+      \set Score.currentBarNumber = #165
+    R1*10 %174
+    R1\fermata \bar "||" %175 finis
+  }
+}

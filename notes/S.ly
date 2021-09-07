@@ -594,53 +594,6 @@ DiesSopranoLyrics = \lyricmode {
   stri -- cte
   dis -- cus -- su --
   rus. %63 finis
-
-  % Rex tre -- men -- dae ma -- ie -- sta -- tis,
-  % qui sal -- van -- dos sal -- vas gra -- tis:
-  % Sal -- va me, fons pi -- e -- ta -- tis.
-  %
-  % Re -- cor -- da -- re Ie -- su pi -- e,
-  % quod sum cau -- sa tu -- ae vi -- ae:
-  % Ne me per -- das il -- la di -- e.
-  %
-  % Quae -- rens me, se -- di -- sti las -- sus:
-  % Re -- de -- mi -- sti cru -- cem pas -- sus:
-  % Tan -- tus la -- bor non sit cas -- sus.
-  %
-  % Iu -- ste iu -- dex ul -- ti -- o -- nis,
-  % do -- num fac re -- mis -- si -- o -- nis,
-  % an -- te di -- em ra -- ti -- o -- nis.
-  %
-  % In -- ge -- mi -- sco, tam -- quam re -- us:
-  % Cul -- pa ru -- bet vul -- tus me -- us:
-  % Sup -- pli -- can -- ti par -- ce De -- us.
-  %
-  % Qui Ma -- ri -- am ab -- sol -- vi -- sti,
-  % et la -- tro -- nem ex -- au -- di -- sti,
-  % mi -- hi quo -- que spem de -- di -- sti.
-  %
-  % Pre -- ces me -- ae non sunt di -- gnae:
-  % Sed tu bo -- nus fac be -- ni -- gne,
-  % ne per -- en -- ni cre -- mer i -- gne.
-  %
-  % In -- ter o -- ves lo -- cum prae -- sta,
-  % et ab hae -- dis me se -- que -- stra,
-  % sta -- tu -- ens in par -- te dex -- tra.
-  %
-  % Con -- fu -- ta -- tis ma -- le -- di -- ctis,
-  % flam -- mis a -- cri -- bus ad -- di -- ctis,
-  % vo -- ca me cum be -- ne -- di -- ctis.
-  %
-  % O -- ro sup -- plex et ac -- cli -- nis,
-  % cor con -- tri -- tum qua -- si ci -- nis:
-  % Ge -- re cu -- ram me -- i fi -- nis.
-  %
-  % La -- cri -- mo -- sa di -- es il -- la,
-  % qua re -- sur -- get ex fa -- vil -- la
-  % iu -- di -- can -- dus ho -- mo re -- us:
-  % Hu -- ic er -- go par -- ce De -- us.
-  % Pi -- e Ie -- su Do -- mi -- ne,
-  % do -- na e -- is re -- qui -- em. A -- men.
 }
 
 TubaSoprano = {
@@ -817,3 +770,78 @@ TubaSopranoLyrics = \lyricmode {
   cu --
   rus? %163 finis
 }
+
+RexSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoRex
+      \set Score.currentBarNumber = #165
+    R1
+    \mvTr c'4.\fE^\tuttiE h8 c c c es
+    es d r4 r2
+    h4. h8 h d h h
+    c c r4 as4. b8
+    g8.([ f16)] es4 f4. f8 %170
+    f f r4 g4. a8
+    fis4 r c'4. d8
+    b4 r c d
+    es g, g4. g8
+    g4.( a16[ g)] fis4 r\fermata \bar "||" %175 finis
+  }
+}
+
+RexSopranoLyrics = \lyricmode {
+  Rex tre -- men -- dae ma -- ie -- %166
+  sta -- tis,
+  rex tre -- men -- dae ma -- ie --
+  sta -- tis, qui sal --
+  van -- dos sal -- vas %170
+  gra -- tis: Sal -- va
+  me, sal -- va
+  me, sal -- va
+  me, fons pi -- e --
+  ta -- tis. %175 finis
+}
+
+% Re -- cor -- da -- re Ie -- su pi -- e,
+% quod sum cau -- sa tu -- ae vi -- ae:
+% Ne me per -- das il -- la di -- e.
+%
+% Quae -- rens me, se -- di -- sti las -- sus:
+% Re -- de -- mi -- sti cru -- cem pas -- sus:
+% Tan -- tus la -- bor non sit cas -- sus.
+%
+% Iu -- ste iu -- dex ul -- ti -- o -- nis,
+% do -- num fac re -- mis -- si -- o -- nis,
+% an -- te di -- em ra -- ti -- o -- nis.
+%
+% In -- ge -- mi -- sco, tam -- quam re -- us:
+% Cul -- pa ru -- bet vul -- tus me -- us:
+% Sup -- pli -- can -- ti par -- ce De -- us.
+%
+% Qui Ma -- ri -- am ab -- sol -- vi -- sti,
+% et la -- tro -- nem ex -- au -- di -- sti,
+% mi -- hi quo -- que spem de -- di -- sti.
+%
+% Pre -- ces me -- ae non sunt di -- gnae:
+% Sed tu bo -- nus fac be -- ni -- gne,
+% ne per -- en -- ni cre -- mer i -- gne.
+%
+% In -- ter o -- ves lo -- cum prae -- sta,
+% et ab hae -- dis me se -- que -- stra,
+% sta -- tu -- ens in par -- te dex -- tra.
+%
+% Con -- fu -- ta -- tis ma -- le -- di -- ctis,
+% flam -- mis a -- cri -- bus ad -- di -- ctis,
+% vo -- ca me cum be -- ne -- di -- ctis.
+%
+% O -- ro sup -- plex et ac -- cli -- nis,
+% cor con -- tri -- tum qua -- si ci -- nis:
+% Ge -- re cu -- ram me -- i fi -- nis.
+%
+% La -- cri -- mo -- sa di -- es il -- la,
+% qua re -- sur -- get ex fa -- vil -- la
+% iu -- di -- can -- dus ho -- mo re -- us:
+% Hu -- ic er -- go par -- ce De -- us.
+% Pi -- e Ie -- su Do -- mi -- ne,
+% do -- na e -- is re -- qui -- em. A -- men.

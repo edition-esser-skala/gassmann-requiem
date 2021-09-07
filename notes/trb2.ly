@@ -422,3 +422,22 @@ TubaTromboneII = {
     R1\fermata \bar "||" %164 finis
   }
 }
+
+RexTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \minor \time 4/4 \tempoRex
+      \set Score.currentBarNumber = #165
+    R1
+    es4. d8 es4 es
+    g, r r2
+    d'4. d8 d4 d
+    c r r b
+    b c2 es4 %170
+    d r r es
+    d-\critnote r r d
+    d r r b
+    a b2 b4
+    b r r2\fermata \bar "||" %175 finis
+  }
+}

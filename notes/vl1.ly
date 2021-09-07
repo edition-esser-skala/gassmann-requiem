@@ -467,3 +467,22 @@ TubaViolinoI = {
     es2 r\fermata \bar "||" %164 finis
   }
 }
+
+RexViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoRex
+      \set Score.currentBarNumber = #165
+    c8.(\fE d32 h) c8-! es-! g,-! c-! es-! g-!
+    c8.( d32 h) c8 r r2
+    g8.( as32 fis) g8 c, h g h d
+    g8.( as32 fis) g8 r r2
+    es8.( f32 d) es16 g g g as as as as as as as as
+    g g g g g g g g f f f f f f f f %170
+    f b d b f' f, as f g g g g g g g g
+    fis fis fis fis d d fis d a' c c c c c c c
+    b b b b g g b g c c c c d d d d
+    es g, g g g g g g g g g g g g g g
+    g4.( a16 g) fis4 r\fermata \bar "||" %175 finis
+  }
+}

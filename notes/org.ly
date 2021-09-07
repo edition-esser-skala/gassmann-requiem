@@ -963,3 +963,36 @@ TubaBassFigures = \figuremode {
   r1
   r %164 finis
 }
+
+RexOrgano = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoRex
+      \set Score.currentBarNumber = #165
+    \mvTr c8.(\fE-\tutti-\unisonoE d32 h) c8-! es-! g,-! c-! es-! g-!
+    c8.( d32 h) c8 g c g es c
+    g'8. as32( fis) g8-\unisonoE c, h g h d
+    g8.( as32 fis) g8 g d' h g f
+    es8.( f32 d) es8 c f f d d
+    es es c c as as a a %170
+    b b d b es es c c
+    d d fis a? fis fis d d
+    g g, b g es' es d d
+    c c cis cis cis cis cis cis
+    d d d d d4 r\fermata \bar "||" %175 finis
+  }
+}
+
+RexBassFigures = \figuremode {
+  r1 %165
+  r4. <_!>4 <6 4>8 <6>4
+  \bo <[6 4]>8 \bc <[5 _!]>2..
+  <[_!]>2 <6! 4>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <6>2. <6 5>4
+  r <3> <6> <6 5> %170
+  r2. \bo <[5]>8 \bc <[6!]>
+  <5! _+>2 \bo <[6 5]>4 \bc <[\t \t]>
+  r <6> q <6 4>
+  <6! 5> <7 [_!]>2.
+  <6 4>2 <5! _+> %175 finis
+}

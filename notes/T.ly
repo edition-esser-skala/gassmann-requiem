@@ -779,3 +779,35 @@ TubaTenoreLyrics = \lyricmode {
   cu --
   rus? %163 finis
 }
+
+RexTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 4/4 \autoBeamOff \tempoRex
+      \set Score.currentBarNumber = #165
+    R1
+    \mvTr es4.\fE^\tuttiE d8 es es c c
+    c h r4 r2
+    d4. d8 d d d d
+    es es r4 c b
+    b c c4. c8 %170
+    b b r4 b c
+    a r d4. d8
+    d4 r c b
+    a b b4. b8
+    b4.( c16[ b]) a4 r\fermata \bar "||" %175 finis
+  }
+}
+
+RexTenoreLyrics = \lyricmode {
+  Rex tre -- men -- dae ma -- ie -- %166
+  sta -- tis,
+  rex tre -- men -- dae ma -- ie --
+  sta -- tis, qui sal --
+  van -- dos sal -- vas %170
+  gra -- tis: Sal -- va
+  me, sal -- va
+  me, sal -- va
+  me, fons pi -- e --
+  ta -- tis. %175 finis
+}

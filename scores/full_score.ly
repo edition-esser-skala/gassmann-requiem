@@ -370,11 +370,99 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     subtitle = "T U B A   M I R U M"
+  %   }
+  %   \tocSubsection "2.2" "Tuba mirum"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \TubaOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \TubaOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "trb"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \TubaTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \TubaTromboneII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \TubaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \TubaViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \TubaViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \TubaSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \TubaSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \TubaAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \TubaAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \TubaTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \TubaTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \TubaBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \TubaBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \TubaOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \TubaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 65 }
+  %   }
+  % }
   \bookpart {
     \header {
-      subtitle = "T U B A   M I R U M"
+      subtitle = "R E X   T R E M E N D Æ"
     }
-    \tocSubsection "2.2" "Tuba mirum"
+    \tocSubsection "2.3" "Rex tremendae"
     \score {
       <<
         \new StaffGroup <<
@@ -382,11 +470,11 @@
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \TubaOboeI
+              \RexOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \TubaOboeII
+              \RexOboeII
             }
           >>
         >>
@@ -395,11 +483,11 @@
             \set GrandStaff.instrumentName = "trb"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \TubaTromboneI
+              \RexTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \TubaTromboneII
+              \RexTromboneII
             }
           >>
         >>
@@ -408,54 +496,54 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \TubaViolinoI
+              \RexViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \TubaViolinoII
+              \RexViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \TubaViola
+            \RexViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \TubaSoprano }
+            \new Voice = "Soprano" { \dynamicUp \RexSoprano }
           }
-          \new Lyrics \lyricsto Soprano \TubaSopranoLyrics
+          \new Lyrics \lyricsto Soprano \RexSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \TubaAlto }
+            \new Voice = "Alto" { \dynamicUp \RexAlto }
           }
-          \new Lyrics \lyricsto Alto \TubaAltoLyrics
+          \new Lyrics \lyricsto Alto \RexAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \TubaTenore }
+            \new Voice = "Tenore" { \dynamicUp \RexTenore }
           }
-          \new Lyrics \lyricsto Tenore \TubaTenoreLyrics
+          \new Lyrics \lyricsto Tenore \RexTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \TubaBasso }
+            \new Voice = "Basso" { \dynamicUp \RexBasso }
           }
-          \new Lyrics \lyricsto Basso \TubaBassoLyrics
+          \new Lyrics \lyricsto Basso \RexBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \TubaOrgano
+            \RexOrgano
           }
         >>
-        \new FiguredBass { \TubaBassFigures }
+        \new FiguredBass { \RexBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 65 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }
