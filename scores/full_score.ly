@@ -458,11 +458,99 @@
   %     \midi { \tempo 2 = 65 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     subtitle = "R E X   T R E M E N D Æ"
+  %   }
+  %   \tocSubsection "2.3" "Rex tremendae"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \RexOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \RexOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "trb"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \RexTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \RexTromboneII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \RexViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \RexViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \RexViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \RexSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \RexSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \RexAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \RexAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \RexTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \RexTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \RexBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \RexBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \RexOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \RexBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
     \header {
-      subtitle = "R E X   T R E M E N D Æ"
+      subtitle = "R E C O R D A R E"
     }
-    \tocSubsection "2.3" "Rex tremendae"
+    \tocSubsection "2.4" "Recordare"
     \score {
       <<
         \new StaffGroup <<
@@ -470,11 +558,11 @@
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \RexOboeI
+              \RecordareOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \RexOboeII
+              \RecordareOboeII
             }
           >>
         >>
@@ -483,11 +571,11 @@
             \set GrandStaff.instrumentName = "trb"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \RexTromboneI
+              \RecordareTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \RexTromboneII
+              \RecordareTromboneII
             }
           >>
         >>
@@ -496,51 +584,51 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \RexViolinoI
+              \RecordareViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \RexViolinoII
+              \RecordareViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \RexViola
+            \RecordareViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \RexSoprano }
+            \new Voice = "Soprano" { \dynamicUp \RecordareSoprano }
           }
-          \new Lyrics \lyricsto Soprano \RexSopranoLyrics
+          \new Lyrics \lyricsto Soprano \RecordareSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \RexAlto }
+            \new Voice = "Alto" { \dynamicUp \RecordareAlto }
           }
-          \new Lyrics \lyricsto Alto \RexAltoLyrics
+          \new Lyrics \lyricsto Alto \RecordareAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \RexTenore }
+            \new Voice = "Tenore" { \dynamicUp \RecordareTenore }
           }
-          \new Lyrics \lyricsto Tenore \RexTenoreLyrics
+          \new Lyrics \lyricsto Tenore \RecordareTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \RexBasso }
+            \new Voice = "Basso" { \dynamicUp \RecordareBasso }
           }
-          \new Lyrics \lyricsto Basso \RexBassoLyrics
+          \new Lyrics \lyricsto Basso \RecordareBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \RexOrgano
+            \RecordareOrgano
           }
         >>
-        \new FiguredBass { \RexBassFigures }
+        \new FiguredBass { \RecordareBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 60 }

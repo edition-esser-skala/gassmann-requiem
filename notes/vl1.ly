@@ -486,3 +486,105 @@ RexViolinoI = {
     g4.( a16 g) fis4 r\fermata \bar "||" %175 finis
   }
 }
+
+RecordareViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoRecordare
+      \set Score.currentBarNumber = #176
+    r16 d\p d d r d d d r es es es r es es es
+    r es es es r d d d r d d d r d d d
+    r es es es r es es es r e e e r d d d
+    r d d d r d d d r d d d r es es es
+    r c c c r c c c r c c c r c c d %180
+    r es es es r es es es r d d d r d d d
+    r c c c r c c c r d d d r f f f
+    r g g g r g f f f4\fermata f8 r
+    r g16 g f f f f f4 r8 c'
+    h4 r8 d c4 r8 d %185
+    cis4 r8 e d4 r
+    r16 b b b b b b b b8 a g16 g g g
+    g g g g fis fis fis fis g g g g g g g g
+    a a a a a a a a b g g g g g g g
+    g g g g g g g g g g g g g g g g %190
+    g g g g g g g g a4 r
+    r2 r8 g4 fis8
+    g4 r r8 g4 fis8
+    g'32([\f a b d,)] es( d es c) b([ c d g,)] a( b c fis,) g8 b,32([ c b a)] g16 d' b' c
+    d d[ d d] r d d d r es es es r es es es %195
+    r es es es r d d d r d d d r d d d
+    r es es es r es es d r cis cis cis r d d d
+    r d d d r d d d r h h h r c c c
+    r c c c r c b b r b a a r a a a
+    r b b b r b b b r b h h r c c c %200
+    r c c c r c c c r c c c b b es es
+    <d f,> q q q <c f,> q q q b f[\p f f] r d d d
+    r es es es r es es es r d d d r d d d
+    r c c c r c c c r d d d r d d d
+    r g g g r g f f f4~ f8 r %205
+    r g16 g f f es es d d'[\f d d] r d d d
+    d4\p r8 d r16 es\f es es r es d d
+    r es\p es es r g, g g r es'\f es es r d d d
+    r cis\p cis cis r e e e r f\f f f r f e e
+    r f f f r a, a a r es'!es es r es d c %210
+    r h h h r c c c r des des des r des c b
+    r a! a a r b b b r ges' ges ges r b, b b
+    b b a a c c es es <des f,> q q q <c f,> q q q
+    b4 r8 c\p d4 r8 d
+    c4 r8 d e4 r8 e %215
+    d4 r8 e d4. d8
+    cis4 cis r16 cis\f cis cis r cis cis cis
+    r d d d r d d d r e e e r g, g g
+    r g f f r f f f r a a a r a a a
+    r b b b r d d d r c c c r es es es %220
+    r es d d r f f f r b, b b r es es es
+    r c c c r c as f g g g g f f f f
+    es b'[\p b b] r b b b r c c c r c c c
+    r b b b r b b b r b b b r b b b
+    r as as as r as as as r g g g r g g g %225
+    r as as as r a a a r d, d d r d d d
+    r f f f r f f f r es es es r es es es
+    r d d d r d d d r g g g r g g g
+    r as as as r c c c r c c c r h h h
+    r c\f c c r c c c r c h h r h h h %230
+    r b b b r des c b r b as as r a a a
+    r b b b r b b b r b a a r a a a
+    r as as as r c b as r as g g r g g g
+    r as as as r a a a r b b b r h h h
+    r c c c r c c c r c es es r d c c %235
+    b b b b a a a a r b\p b b r b b b
+    r g g g r g g g r a a a r a a a
+    r f f f r f f f r b b b r b b b
+    g4 r r16 b b b b b a a
+    r d\f d d r d d d r es es es r es es es %240
+    r es es es r es es es r es d d r d d d
+    r f f f r f f f r f es es r g g g
+    r f f f r f es es r es d d r f f f
+    r g g g r g g g r g g g r g g g
+    r g as f es es d d c c[\p c c] r c c c %245
+    r c c c r c c c r b b b r b b b
+    r b b b r b b b r c c c r c c c
+    r d d d r d d d r es\f es es r es es es
+    r es d d r d d d r d d d r d d d
+    r d c c r c c c r b! b b r des des des %250
+    r c c c r c c c r c c c r c c c
+    r c b b r b b b r b b b r b b b
+    r a a a r a a a r a b g f f e e
+    d4 r8 e\p d4 r8 d
+    e4 r8 a a d4 cis8 %255
+    d16 d[\f d d] r d d d r d d d r c c c
+    r b b b r d c c a a b b g, d'' d d
+    r c c c r c c c r b b b r b b b
+    r b a a a a b b b8 a r4
+    r16 a\p a a r a a a r b b b r b b b %260
+    r d d d r d d d r g, g g r g g g
+    g'\f g g g fis a a, c b b c c b b a a
+    g b[\p b b] r b c b r a a a r a a a
+    r b b b r b c b r d d d r d d d
+    r g, g g r g g g g'\f g g g fis a a, c %265
+    b b c c b b a a g b' b b b b b b
+    b b b b b b b b a a a a a a a a
+    g32[ a b d,] es d es c b[ c d g,] a b c fis, g[ a b d,] es d es c b[ c d g] a,16 fis'
+    g4 r r2\fermata \bar "||" %269 finis
+  }
+}

@@ -996,3 +996,171 @@ RexBassFigures = \figuremode {
   <6! 5> <7 [_!]>2.
   <6 4>2 <5! _+> %175 finis
 }
+
+RecordareOrgano = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \tempoRecordare
+      \set Score.currentBarNumber = #176
+    \mvTr g'8\p-\soloE-\senzaOrg r g r g r g r
+    g r fis r g r g r
+    g r g r g r f r
+    f r f r f r es r
+    es r es r f r f r %180
+    f r f r f r f r
+    f r f r b r d, r
+    es r es r es4\fermata d8 r
+    r es f f, b4 r8 as'
+    g4 r8 h c4 r8 b %185
+    a!4 r8 cis d4 r
+    r8 es,! es es d4 b
+    c d es e
+    f fis g es
+    b c d es~ %190
+    es8 es es es d4 r
+    r2 r8 es c d
+    g,4 r r8 es' c d
+    g\f^\critnote c, d d, g g' g,4
+    g'8-\tuttiE-\colOrg r g r g r g r %195
+    g r fis r g r g r
+    g r g r g r f r
+    f r f r f r es! r
+    es r e r f r es r
+    d r d r es r es r %200
+    es r es r es es d c
+    f f f, f b \mvTr b'\p-\soloE-\senzaOrg b,4
+    f'8 r f r f r f r
+    f r f r f r f r
+    es r es r es4( d8) r %205
+    r es f f, \mvTr b\fE-\tuttiE-\colOrg r r as'
+    g4\p r8 h c\f r g r
+    c\p r c, r c'\f r b r
+    a\pE r cis, r d\fE r a' r
+    d, r d r c c c c %210
+    d d c c b b b b
+    c c b b es r e r
+    f f es c f f f, f
+    b4 r8 \mvTr as'\p-\soloE-\senzaOrg g!4 r8 h
+    c4 r8 b a4 r8 cis %215
+    d4 r8 c b4. b8
+    a4 a \mvTr a8\f-\tuttiE-\colOrgE r a r
+    f r d r cis r a r
+    d r d r c r c r
+    b r b' r a r f r %220
+    b r b, r es r g r
+    as r as r b b b, b
+    es r \mvTr es\pE-\soloE-\senzaOrg r es r es r
+    d r d r es r es r
+    c r d r h r c r %225
+    f r fis r g r g, r
+    g' r g r g r g r
+    g r g r es r es r
+    f r f r g r g, r
+    \mvTr c\f-\tuttiE-\colOrgE r fis r g r g r %230
+    e r e r f r es r
+    d r e r f r f r
+    d! r d r es r es r
+    c r es r des r f r
+    es r es r d c b c %235
+    d d d, d g r \mvTr g'\p-\soloE-\senzaOrg r
+    c, r es r f r a r
+    b r b, r d r d r
+    es4. es8 d g es f
+    \mvTr b,\f-\tuttiE-\colOrgE r b' r b r b r %240
+    a r a r b r b, r
+    d r d r es r es r
+    as r as a b r b, r
+    es r d r c r h r
+    c f g g, c r \mvTr es\p-\soloE-\senzaOrg r %245
+    f r as r b r b, r
+    es r g r as r a r
+    b r h r \mvTr c\f-\tuttiE-\colOrgE r fis, r
+    g r g, r h r h r
+    c r a r b r e r %250
+    f r f r a, r a r
+    b r d r es r e r
+    f r e r d g a a,
+    d4 r8 \mvTr c'!\p-\soloE-\senzaOrgE b4 r8 b
+    a4 r8 cis d b g a %255
+    \mvTr d,\fE-\tuttiE-\colOrgE r c! r b r a r
+    g r g c d g g, r
+    c r c r cis r cis r
+    d r d cis d d d, r
+    fis'\pE r fis r g r g, r %260
+    h r h r c r c r
+    es16\f es es es d d fis fis g g c, c d d d, d
+    g8 r g'\pE r fis r fis r
+    g r g r h, r h r
+    c r c r es16\f es es es d d fis fis %265
+    g g c, c d d d, d g g g g es' es es es
+    d d d d cis cis cis cis d d d d d d d d
+    g,8 c d d, g c d d,
+    g4 r r2\fermata \bar "||" %269 finis
+  }
+}
+
+RecordareBassFigures = \figuremode {
+  r1*19 %194
+  <5 3>2 <6 4> %195
+  <4 2>4 <6 5> \bo <[9 4]>8 \bc <[8 3]>4.
+  <6>2 <[6!] 4+ 2>4 <6>
+  <6 _->2 <4!>4 <6>
+  r <6 5-> \bo <[9 4]>8 \bc <[8 3]> <4>4
+  <[6]> <6 5-> \bo <[5]>8 \bc <[5!]> <6>4 %200
+  r2 <4! 2>4 <6->8 <5 3>
+  <6 4>4 <5 \t>8 <\t 3> r2
+  r1*3 %205
+  r2 <5 3>4. <6 4>8
+  <7 _!>4. <[6]> <6 4>8 <5 _!>
+  r2. <6>4
+  <5! _+> <6 5 [_!]>2 <6 4>8 <5! _+>
+  r2 <6 4+ _-> %210
+  <6! _!>4 <_-> <6 4! _->2
+  <6! 4 _->4 <_-> q <7- [_!]>
+  \bo <[9 4]>8 \bc <[8 3]> <6 _-> <5-> <6- 4>4 <5 \t>8 <\t 3>
+  <[_-]>1
+  r1*2 %216
+  r2 <5! _+>
+  <6> <6 5 [_!]>4 <\t \t \t>
+  \bo <[9! 4]>8 \bc <[8 3]>4. <6 _->2
+  r \bo <[6 5]>4 \bc <[\t \t]> %220
+  \bo <[9 4]>8 <8 3> <7->2 \bc <[6 \l]>4
+  r <[5]>8 <6> <6 4>4 <5 3>
+  r1*7 %229
+  <5 3>4 <7 _!> <5 4>8 <\t _!>4. %230
+  <6 5>2 \bo <[9 4]>8 \bc <[8 _-]> <4!>4
+  <6> <7-> <5 4>8 <\t _!>4.
+  <6 5->2 \bo <[9] 4->8 \bc <[8] 3>4.
+  <6->4 <6 4! _-> <6> <6! 4! _->
+  <6>2 <7 5! _+>8 <4+ [3]> <6> <5> %235
+  <[6 4]>4 <5 \t>8 <\t _+> r2
+  r1*3
+  r4 <5 3> <6 4 [2]>2 %240
+  <6 5> \bo <[9 4]>8 \bc <[8 3]>4.
+  <6 5->2 \bo <[9] 4->8 \bc <[8] 3>4.
+  <6 [5]>2 \bo <[9] 4>8 \bc <[8] 3>4.
+  r4 <6!>2 <6 5>4
+  r8 <[6 _-]> <6 4> <5 _!> r2 %245
+  r1*2
+  r2 <5 3>4 <[7 _!]>
+  \bo <[6] 4>8 \bc <[5] _!>4. <6 5>2
+  \bo <[9 4]>8 \bc <[8 3]> <6 5>2 <7->4 %250
+  \bo <[4]>8 \bc <[3]>4. <6 5>2
+  \bo <[9 4]>8 <8 3> \bc <[6 \l]>2 <6 5>4
+  r <6\\> r8 <[6!]> <6 4> <5! _+>
+  r1*2 %255
+  r4 <_+> <6> <[7]>8 <6\\>
+  r2 <_+>
+  <6-> <7 [_!]>
+  <6 4>8 <5 _+> <\t \t> <7 [_!]> <6 4> <5 _+>4.
+  <6 5>1 %260
+  <6 5>
+  <6\\>4 \bo <[_+ \l]>8 <6 5!>4 \bc <[6 5]>8 \bo <[6] 4> \bc <[5] _+>
+  r2 <6 5>
+  r q
+  r <6\\>4 <_+>8 <[6 5!]> %265
+  r <[6 5]> \bo <[6] 4> \bc <[5] _+> r4 <5 3>
+  <6 4> <7 5 [_!]> <5 4> <\t _+>
+  r <6 4>8 <5 _+> r4 <6 4>8 <5 _+>
+  r1 %269 finis
+}

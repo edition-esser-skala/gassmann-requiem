@@ -451,3 +451,78 @@ RexTromboneI = {
     g r r2\fermata \bar "||" %175 finis
   }
 }
+
+RecordareTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 4/4 \tempoRecordare
+      \set Score.currentBarNumber = #176
+    R1*7 %182
+    r2 r4\fermata r
+    R1*11 %194
+    g'4.\fE g8 g4. es8 %195
+    es4 d8 a' a16 g g8 r4
+    g4. g8 e4 f!8 r
+    as4. as8 g4 g8 r
+    g4. g8 g f r4
+    b as g g^\critnote %200
+    g4. g8 f f f g
+    f2 f4 r
+    R1*3 %205
+    r2 f4 f
+    g r8 g g4. g8
+    g16 f es8 r4 g g
+    a a a4. a8
+    a16 g f8 r4 fis4. fis8 %210
+    f4 es! e4. e8
+    es4 des ges g~
+    g8 f ges8 ges f2~
+    f4 r r2
+    R1*2 %216
+    r2 a4. a8
+    a4 a g4. e8
+    e d d4 f4. f8
+    f4 f f4. f8 %220
+    f f r4 es4. es8
+    es es es f es4 d
+    es r r2
+    R1*6 %229
+    g4 a! g g %230
+    g4. g8 g f r4
+    f g f f
+    f f f8 es es4
+    es ges f as
+    g4. g8 fis fis g g %235
+    g4. fis8 g4 r
+    R1*3
+    r8 f4 b8 g4 g %240
+    f4. f8 f f r4
+    as4. as8 as g g4
+    f4. es8 es d r4
+    g f es f
+    es8 f16 d c8 h c4 r %245
+    R1*2
+    r2 g'4 a!
+    g g f4. d8
+    d c r4 f g %250
+    f f es4. c8
+    c b r4 g' g
+    f g f8 g16 e? d8 cis
+    d4 r r2
+    R1 %255
+    a'4 a g4. fis8
+    g4. g8 fis g r4
+    as4. as8 g4. g8
+    g fis4 g8 g fis r4
+    a4.\p a8 g4 r %260
+    g4. g8 g4 r
+    g8.\f g16 fis8 a g a \appoggiatura g fis4
+    g r a4.\p a8
+    g4 r g4. g8
+    g4 r g8.\f g16 fis8 a %265
+    g a \appoggiatura g fis4 g g
+    g g g fis
+    g r r2
+    R1\fermata \bar "||" %269 finis
+  }
+}

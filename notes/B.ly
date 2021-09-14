@@ -770,3 +770,144 @@ RexBassoLyrics = \lyricmode {
   me, fons pi -- e --
   ta -- tis. %175 finis
 }
+
+RecordareBasso = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \autoBeamOff \tempoRecordare
+      \set Score.currentBarNumber = #176
+    R1*7 %182
+    r2 r4\fermata r
+    R1*11 %194
+    \mvTr g'4\fE^\tuttiE g g g %195
+    g fis g8 g r4
+    g4. g8 g4 f8 r
+    f4. f8 f4 es8 r
+    es4 e f8 f r4
+    d d es es %200
+    es4. es8 es es d c
+    f2 b,4 r
+    R1*3 %205
+    r2 b'4 as
+    g r8 h c4 g
+    c8 c, r4 c' b
+    a cis, d a'
+    d,8 d r4 c4. c8 %210
+    d4 c b4. b8
+    c4 b es e
+    f8 f es c f2
+    b,4 r r2
+    R1*2 %216
+    r2 a'4. g8
+    f4 d cis4. cis8
+    d4 d c4. c8
+    b4 b' a4. f8 %220
+    b b, r4 es g
+    as8 as as as b4( b,)
+    es r r2
+    R1*6 %229
+    c4 fis g g %230
+    e4. e8 f f r4
+    d^\critnote e f f
+    d! d es es
+    c es des f
+    es4. es8 d c b c %235
+    d2 g4 r
+    R1*3
+    b4 b b b %240
+    a4. a8 b b, r4
+    d4. d8 es4 es
+    as4. a8 b b, r4
+    es d c h
+    c8 f g4 c, r %245
+    R1*2
+    r2 c4 fis
+    g g, h4. h8
+    c c r4 b e %250
+    f f a,4. a8
+    b b r4 es e
+    f e d8 g a4
+    d, r r2
+    R1 %255
+    d'4 c! b a
+    g4. c,8 d g r4
+    c,4. c8 cis4. cis8
+    d4. cis8 d d r4
+    fis4.\p fis8 g4 r %260
+    h,4. h8 c4 r
+    es8.\f es16 d8 fis g c, d4
+    g r fis4.\p fis8
+    g4 r h,4. h8
+    c4 r es8.\fE es16 d8 fis %265
+    g c, d4 g es
+    d cis d2
+    g,4 r r2
+    R1\fermata \bar "||" %269 finis
+  }
+}
+
+RecordareBassoLyrics = \lyricmode {
+  Re -- cor -- da -- re %195
+  Ie -- su pi -- e,
+  quod sum cau -- sa,
+  quod sum cau -- sa
+  tu -- ae vi -- ae:
+  Ne me per -- das, %200
+  ne me per -- das il -- la
+  di -- e.
+
+  Quae -- rens %206
+  me, se -- di -- sti
+  las -- sus: Re -- de --
+  mi -- sti cru -- cem
+  pas -- sus: Tan -- tus %210
+  la -- bor, tan -- tus
+  la -- bor, tan -- tus
+  la -- bor non sit cas --
+  sus.
+
+  Iu -- ste %217
+  iu -- dex ul -- ti --
+  o -- nis, do -- num
+  fac re -- mis -- si -- %220
+  o -- nis, an -- te
+  di -- em ra -- ti -- o --
+  nis.
+
+  In -- ge -- mi -- sco, %230
+  tam -- quam re -- us:
+  Cul -- pa ru -- bet
+  vul -- tus me -- us:
+  Sup -- pli -- can -- ti,
+  sup -- pli -- can -- ti par -- ce %235
+  De -- us.
+
+  Qui Ma -- ri -- am %240
+  ab -- sol -- vi -- sti,
+  et la -- tro -- nem
+  ex -- au -- di -- sti,
+  mi -- hi quo -- que
+  spem de -- di -- sti. %245
+
+  Pre -- ces %248
+  me -- ae non sunt
+  di -- gnae: Sed tu %250
+  bo -- nus fac be --
+  ni -- gne, ne per --
+  en -- ni cre -- mer i --
+  gne.
+  %255
+  In -- ter o -- ves
+  lo -- cum prae -- sta,
+  et ab hae -- dis
+  me se -- que -- stra,
+  sta -- tu -- ens, %260
+  sta -- tu -- ens,
+  sta -- tu -- ens in par -- te dex --
+  tra, sta -- tu --
+  ens, sta -- tu --
+  ens, sta -- tu -- ens in %265
+  par -- te dex -- tra, in
+  par -- te dex --
+  tra. %268 finis
+}

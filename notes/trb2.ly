@@ -441,3 +441,78 @@ RexTromboneII = {
     b r r2\fermata \bar "||" %175 finis
   }
 }
+
+RecordareTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \minor \time 4/4 \tempoRecordare
+      \set Score.currentBarNumber = #176
+    R1*7 %182
+    r2 r4\fermata r
+    R1*11 %194
+    b4.\fE d8 c4. es16 d %195
+    c4 d d8 d r4
+    b4. b8 a4 a8 r
+    d f4 d8 d4 c8 r
+    g c4 c8 c c r4
+    f f es^\critnote es %200
+    es4. es8 c c d es
+    b4. a8 b4 r
+    R1*3 %205
+    r2 d4 d
+    d r8 d c4. h8
+    c g r4 c d
+    e e d4. cis8
+    d a r4 a4. a8 %210
+    g4 g g4. g8
+    f4 f r8 b4 des8
+    c c c c b4. a8
+    b4 r r2
+    R1*2 %216
+    r2 e4. e8
+    d4 f a,4. a8
+    a4 a es'!4. es8
+    d4 d es4. c8 %220
+    c b r4 g b
+    c8 es es c b4. as8
+    g4 r r2
+    R1*6 %229
+    es'4 es d d %230
+    c4. c8 c c r4
+    d des c c
+    b b b b
+    c c des d
+    es c a!8 a b es %235
+    d2 d4 r
+    R1*3
+    r8 b4 d8 c4 c %240
+    c4. c8 c b r4
+    f'4. f8 f es es4
+    es4. c8 c b r4
+    b h c d
+    c8 as g4 g r %245
+    R1*2
+    r2 es'4 es
+    es8 d d4 g,4. g8
+    g g r4 d' des %250
+    c c f,4. f8
+    f f r4 b c
+    c cis d8 b a4
+    a r r2
+    R1 %255
+    f'4 fis g8 d d4
+    d4. es8 d d r4
+    es4. es8 e4. e8
+    d4. e8 d d r4
+    d4.\p d8 d4 r %260
+    f!4. f8 es4 r
+    g,8.\fE g16 a8 d d es d4
+    d r d4.\p d8
+    d4 r f!4. f8
+    es4 r g,8.\f g16 a8 d %265
+    d es d4 d b
+    b g d'2~
+    d4 r r2
+    R1\fermata \bar "||" %269 finis
+  }
+}

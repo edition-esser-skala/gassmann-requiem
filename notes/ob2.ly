@@ -441,3 +441,15 @@ RexOboeII = {
     R1\fermata \bar "||" %175 finis
   }
 }
+
+RecordareOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoRecordare
+      \set Score.currentBarNumber = #176
+    R1*7 %182
+    r2 r4\fermata r
+    R1*85 %288
+    R1\fermata \bar "||" %289 finis
+  }
+}

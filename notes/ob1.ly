@@ -441,3 +441,84 @@ RexOboeI = {
     R1\fermata \bar "||" %175 finis
   }
 }
+
+RecordareOboeI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoRecordare
+      \set Score.currentBarNumber = #176
+    d'4.-\solo g8 es es4 c16( b)
+    a8 a4 d8 \appoggiatura c b4 r
+    es8-! es~ es16 g es( d) cis4( d8) r
+    d-! d~ d16 f32( g as[ f d c]) h4( c8) r
+    c-! c~ c16 g'32( f es[ d c b]) a16([ g32 f)] f8 r f'~ %180
+    f a,4 f'8~ f16 d b8 r f'~
+    f c4 f8~ f16 es d8 r b~
+    b g'4 a8 a4\fermata b8 r
+    r b,4 c8 b4 f'~
+    f16 es( d c) h( as' g f) f( es) es8 g4~ %185
+    g16 f( e d) cis( b' a g) g( fis) fis8 d d
+    g4. cis,8 cis( d) r \once \tieDashed d~
+    d es!4 d8 d( c) r c~
+    c a4 d16( c) \appoggiatura c8 b4 r8 g'~
+    g g,4 a b h8 %190
+    c4. g'8 fis4 b16( a g fis)
+    g d( es) cis( d) es( c) a( d8) g,16 a a4\trill
+    b'16 fis( g) cis,( d) es( c) a( d8) g,16 a a4\trill
+    g r r2
+    R1*7 %201
+    r2 r4 r8 f'~
+    f a,4 f'8~ f16 d b8 r f'~
+    f c4 f8~ f16 es d8 r b~
+    b g'4 a8 a4( b8) r %205
+    r b,4 c8 b4 f'~
+    f16 es d c h as' g f \appoggiatura f32 es16[ d32 c] c8 r4
+    r8 g'4 es8 c4 r
+    r8 a'~ a16 b a g f16([ e32 d)] d8 r4
+    r8 a' f d r2 %210
+    R1*2
+    r4 r8 es16 c b4 c
+    b8 b f'4~ f16 es( d! c) h( as' g f)
+    es8 c g'4~ g16 f( e d) cis( b' a g) %215
+    f8 d a'4. g16 f e8 d
+    a' a~ a16 e cis e a,4 r
+    R1*5 %222
+    r8 b4 es8 \appoggiatura d c4 r8 as'~
+    as b,4 as'8 \appoggiatura as g4 r8 g~
+    g as,4 f' g, es'8~ %225
+    es d4 c8 h4 r8 g'~
+    g h,4 g'8 g16 es c8 r g'~
+    g d4 g8 g16 es c8 r c~
+    c as'4 f8 es c16 d d4\trill
+    c r r2 %230
+    r r8 f c8. a!16
+    b4 r r2
+    R1*3 %235
+    r2 r8 d4 g8
+    \appoggiatura f es4 es16 d c b a8 c4 f8
+    d4 r8 b4 f' as8
+    g16 d es h c g es' c b8 b16. c32 c4\trill
+    b r r2 %240
+    R1*4
+    r2 r8 g'4 c8 %245
+    \appoggiatura b as4 as16 g f es d8 f4 b8
+    \appoggiatura as g4 g16 f es d c8 f4 es8
+    d g4 f8 es4 r
+    R1*5 %253
+    r8 d a'4. g16 f e8 d
+    cis a g'4 f8 d16 e e4\trill %255
+    d r r2
+    R1*2
+    r2 r8 d d16 e fis g
+    a8 a~ a16 a, c d b8 d~ d16 g fis g %260
+    r8 f~ f16 d g f es8 \once \tieDashed c~ c16 es es g
+    g8 cis, d c b c \appoggiatura b a4
+    g8 d'~ d16 g fis g a8 c,~ c16 a d c
+    b8 d~ d16 g fis g r8 f~ f16 d g f
+    es8 \once \tieDashed c~ c16 es es g g8 cis, d c %265
+    b c \appoggiatura b a4-\critnote g b~
+    b b a2
+    g4 r r2
+    R1\fermata \bar "||" %269 finis
+  }
+}

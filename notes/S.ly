@@ -803,34 +803,148 @@ RexSopranoLyrics = \lyricmode {
   ta -- tis. %175 finis
 }
 
-% Re -- cor -- da -- re Ie -- su pi -- e,
-% quod sum cau -- sa tu -- ae vi -- ae:
-% Ne me per -- das il -- la di -- e.
-%
-% Quae -- rens me, se -- di -- sti las -- sus:
-% Re -- de -- mi -- sti cru -- cem pas -- sus:
-% Tan -- tus la -- bor non sit cas -- sus.
-%
-% Iu -- ste iu -- dex ul -- ti -- o -- nis,
-% do -- num fac re -- mis -- si -- o -- nis,
-% an -- te di -- em ra -- ti -- o -- nis.
-%
-% In -- ge -- mi -- sco, tam -- quam re -- us:
-% Cul -- pa ru -- bet vul -- tus me -- us:
-% Sup -- pli -- can -- ti par -- ce De -- us.
-%
-% Qui Ma -- ri -- am ab -- sol -- vi -- sti,
-% et la -- tro -- nem ex -- au -- di -- sti,
-% mi -- hi quo -- que spem de -- di -- sti.
-%
-% Pre -- ces me -- ae non sunt di -- gnae:
-% Sed tu bo -- nus fac be -- ni -- gne,
-% ne per -- en -- ni cre -- mer i -- gne.
-%
-% In -- ter o -- ves lo -- cum prae -- sta,
-% et ab hae -- dis me se -- que -- stra,
-% sta -- tu -- ens in par -- te dex -- tra.
-%
+RecordareSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoRecordare
+      \set Score.currentBarNumber = #176
+    R1*7 %182
+    r2 r4\fermata r
+    R1*11 %194
+    \mvTr d'4.\fE^\tuttiE g8 es4. c16([^\critnote b)] %195
+    a4. d16([ c)] c([ b)] b8 r4
+    es4. es16([ d)] cis4 d8 r
+    d4. d8 h4 c8 r
+    c4. b8 b a r4
+    b4. b8 b([ h)] c4 %200
+    c4. es16([ c)] a!8 a b es
+    d4( c) b r
+    R1*3 %205
+    r2 b4 b
+    h r8 d es4. d8
+    es16([ d)] c8 r4 es d
+    cis e f4. e8
+    f16([ e)] d8 r4 es4. d16([ c)] %210
+    h4 c des4. c16([ b)]
+    a!4 b b b
+    b8 a c es des4( c)
+    b r r2
+    R1*2 %216
+    r2 cis4. cis8
+    d4 d e4. g,8
+    g([ f)] f4 a4. a8
+    b4 b c4. es8 %220
+    es d r4 b4. es8
+    c c c as g4( f)
+    es r r2
+    R1*6 %229
+    c'4. c8 c([ h)] h4 %230
+    b4~ b16[ des?] c([ b)] b8 as r4
+    b b b8([ a)] a4
+    as~ as16[ c] b([ as)] as8([ g)] g4
+    as a b h
+    c4. c8 c es d c %235
+    b4( a) g r
+    R1*3
+    r8 d'4 d8 es4 es %240
+    es4. f16([ es)] es8 d r4
+    b4. b8 b4 b
+    c4. f,8 f f r4
+    r8 g4 g8 g4 g
+    g8 as16([ f)] es8([ d)] c4 r %245
+    R1*2
+    r2 c'4 c
+    c8([ h)] h4 d4. f,8
+    f es r4 b' b %250
+    b8([ a)] a4 c4. es,8
+    es d r4 b' b
+    a a a8 b16([ g)] f8([ e?)]
+    d4 r r2
+    R1 %255
+    d'4 d d c
+    b4. c8 a b r4
+    c4. c8 b4. b8
+    b( a4) b8 b a r4
+    c4.\p c8 b4 r %260
+    d4. d8 c4 r
+    cis8.\f cis16 d8 c b c \appoggiatura b a4
+    g r c4.\p c8
+    b4 r d4. d8
+    c4 r cis8.\f cis16 d8 c %265
+    b c \appoggiatura b a4 g b
+    b b a2
+    g4 r r2
+    R1\fermata \bar "||" %269 finis
+  }
+}
+
+RecordareSopranoLyrics = \lyricmode {
+  Re -- cor -- da -- re %195
+  Ie -- su pi -- e,
+  quod sum cau -- sa,
+  quod sum cau -- sa
+  tu -- ae vi -- ae:
+  Ne me per -- das, %200
+  ne me per -- das il -- la
+  di -- e.
+
+  Quae -- rens %206
+  me, se -- di -- sti
+  las -- sus: Re -- de --
+  mi -- sti cru -- cem
+  pas -- sus: Tan -- tus %210
+  la -- bor, tan -- tus
+  la -- bor, tan -- tus
+  la -- bor non sit cas --
+  sus.
+
+  Iu -- ste %217
+  iu -- dex ul -- ti --
+  o -- nis, do -- num
+  fac re -- mis -- si -- %220
+  o -- nis, an -- te
+  di -- em ra -- ti -- o --
+  nis.
+
+  In -- ge -- mi -- sco, %230
+  tam -- quam re -- us:
+  Cul -- pa ru -- bet
+  vul -- tus me -- us:
+  Sup -- pli -- can -- ti,
+  sup -- pli -- can -- ti par -- ce %235
+  De -- us.
+
+  Qui Ma -- ri -- am %240
+  ab -- sol -- vi -- sti,
+  et la -- tro -- nem
+  ex -- au -- di -- sti,
+  mi -- hi quo -- que
+  spem de -- di -- sti. %245
+
+  Pre -- ces %248
+  me -- ae non sunt
+  di -- gnae: Sed tu %250
+  bo -- nus fac be --
+  ni -- gne, ne per --
+  en -- ni cre -- mer i --
+  gne.
+  %255
+  In -- ter o -- ves
+  lo -- cum prae -- sta,
+  et ab hae -- dis
+  me se -- que -- stra,
+  sta -- tu -- ens, %260
+  sta -- tu -- ens,
+  sta -- tu -- ens in par -- te dex --
+  tra, sta -- tu --
+  ens, sta -- tu --
+  ens, sta -- tu -- ens in %265
+  par -- te dex -- tra, in
+  par -- te dex --
+  tra. %268 finis
+}
+
+
 % Con -- fu -- ta -- tis ma -- le -- di -- ctis,
 % flam -- mis a -- cri -- bus ad -- di -- ctis,
 % vo -- ca me cum be -- ne -- di -- ctis.
