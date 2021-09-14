@@ -911,3 +911,199 @@ RecordareBassoLyrics = \lyricmode {
   par -- te dex --
   tra. %268 finis
 }
+
+ConfutatisBasso = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoConfutatis
+      \set Score.currentBarNumber = #270
+    \partial 4 r4 R1*11 %280
+    r2 r4 \mvTr g'8.\fE^\tuttiE g16
+    es4 g es c
+    g' g, r g'8. g16
+    es4 g e c
+    f f, r f'8. f16 %285
+    d4 f d b
+    es es r g8. g16
+    as4 c as f
+    b4. b8 a4 a
+    b b, r2 %290
+    g'2.\p g4
+    as2. as4
+    b2. as4
+    b2( b,)
+    es r %295
+    f as
+    b b,
+    c2. b4
+    c1
+    f2 r %300
+    R1*10 %310
+    r2 r4 c'8.\f c16
+    as4 c a f
+    b b, r b'8. b16
+    g4 b g es
+    as as, r as'8. as16 %315
+    f4 as f d!
+    g g, r g'8. g16
+    es4 e f fis
+    g g, r2
+    es'\p e %320
+    f2. f4
+    g2. f4
+    g1
+    as2 r
+    es e %325
+    f2. f4
+    g2. f4
+    g2( g,)
+    c r
+    R1*17 %346
+    c2\f c
+    d d
+    c g
+    c4 c r2 %350
+    h2. h4
+    b2 b
+    as2. as4
+    g2 g
+    c e %355
+    f as
+    b, d
+    es g
+    as a
+    b c %360
+    des2. b4
+    c2( c,)
+    f r
+    R1*6 %369
+    f2 es! %370
+    des4.( c8) b2
+    c e
+    f f,
+    b' as
+    ges es %375
+    f a
+    b b,
+    c as'!
+    e f
+    des c %380
+    f f,
+    g' h
+    c f,
+    es h
+    c d %385
+    es as
+    f( g)
+    as r
+    g h
+    c f,^\critnote %390
+    es h
+    c d
+    es as
+    f( g)
+    c, c'~ %395
+    c es
+    as, g
+    fis fis
+    g1
+    g, %400
+    c2 r
+    R1*2
+    R1\fermata \bar "||" %404 finis
+  }
+}
+
+ConfutatisBassoLyrics = \lyricmode {
+  Con -- fu -- %281
+  ta -- tis ma -- le --
+  di -- ctis, con -- fu --
+  ta -- tis ma -- le --
+  di -- ctis, flam -- mis %285
+  a -- cri -- bus ad --
+  di -- ctis, con -- fu --
+  ta -- tis, flam -- mis
+  a -- cri -- bus ad --
+  di -- ctis, %290
+  vo -- ca
+  me cum
+  be -- ne --
+  di --
+  ctis, %295
+  vo -- ca
+  me cum
+  be -- ne --
+  di --
+  ctis. %300
+
+  Con -- fu -- %311
+  ta -- tis ma -- le --
+  di -- ctis, con -- fu --
+  ta -- tis ma -- le --
+  di -- ctis, flam -- mis %315
+  a -- cri -- bus ad --
+  di -- ctis, flam -- mis
+  a -- cri -- bus ad --
+  di -- ctis,
+  vo -- ca %320
+  me cum
+  be -- ne --
+  di --
+  ctis,
+  vo -- ca %325
+  me cum
+  be -- ne --
+  di --
+  ctis.
+
+  O -- ro %347
+  sup -- plex
+  et ac --
+  cli -- nis, %350
+  cor con --
+  tri -- tum
+  qua -- si
+  ci -- nis:
+  Ge -- re %355
+  cu -- ram,
+  ge -- re
+  cu -- ram,
+  ge -- re
+  cu -- ram %360
+  me -- i
+  fi --
+  nis.
+
+  La -- cri -- %370
+  mo -- sa
+  di -- es
+  il -- la,
+  la -- cri --
+  mo -- sa %375
+  di -- es
+  il -- la,
+  qua re --
+  sur -- get
+  ex fa -- %380
+  vil -- la
+  iu -- di --
+  can -- dus,
+  iu -- di --
+  can -- dus %385
+  ho -- mo
+  re --
+  us,
+  iu -- di --
+  can -- dus, %390
+  iu -- di --
+  can -- dus
+  ho -- mo
+  re --
+  us, iu -- %395
+  di --
+  can -- dus
+  ho -- mo
+  re --
+  _ %400
+  us. %401 finis
+}

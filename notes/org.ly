@@ -1164,3 +1164,261 @@ RecordareBassFigures = \figuremode {
   r <6 4>8 <5 _+> r4 <6 4>8 <5 _+>
   r1 %269 finis
 }
+
+ConfutatisOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoConfutatis
+      \set Score.currentBarNumber = #270
+    \partial 4 \mvTr g'8.\f-\soloE g16 es4 g es c
+    g' g, r g'8. g16
+    es4 g e c
+    f f, r f'8. f16
+    d4 f d b
+    es es, r es'8. es16 %275
+    c4 es c as
+    d d, r d'8. d16
+    h4 d h g
+    c c b b
+    a a as as %280
+    <g g'>2 r4 g'8.-\tuttiE g16
+    es4 g es c
+    g' g, r g'8. g16
+    es4 g e c
+    f f, r f'8. f16 %285
+    d4 f d b
+    es es, r g'8. g16
+    as4 c as f
+    b8 b b b a a a a
+    b4 b, b' as %290
+    g2\p g
+    as as,
+    b b4 as
+    b1
+    es2 e %295
+    f as,
+    b b
+    c c4 b
+    c1
+    f2 r4 \mvTr f'8.\f-\soloE f16 %300
+    des4 f des b
+    es es, r es'8. es16
+    c4 es c as
+    des des, r des'8. des16
+    b4 des b g %305
+    c c, r c'8. c16
+    as4 c a f
+    b b as as
+    g g c b
+    as f des des %310
+    c2 r4 c'8.-\tutti c16
+    as4 c a f
+    b b, r b'8. b16
+    g4 b g es
+    as as, r as'8. as16 %315
+    f4 as f d!
+    g g, r g'8. g16
+    es4 e f fis
+    g g, g'\p f
+    es es e e %320
+    f f f f
+    g g g f
+    g g g g
+    as as g f
+    es es e e %325
+    f f f f
+    g g g f
+    g g g, g
+    c2 r4 fis-\soloE-\senzaOrg
+    g2 r4 d8( c) %330
+    h2 r4 h
+    c2 r4 c8( d)
+    es2 e
+    f as
+    b d, %335
+    es g
+    as c,
+    d f
+    g1~
+    g~ %340
+    g~
+    g
+    as
+    g2 r4 h(
+    c) es,8 f g4 g %345
+    as es8 f g4 g,
+    \mvTr c\f-\tuttiE-\colOrgE c c c
+    d d d d
+    c c g g
+    c c d es %350
+    h h h h
+    b b b b
+    as as as as
+    g g' g g
+    c, c e e %355
+    f f as as
+    b, b d d
+    es es g g
+    as as a a
+    b b c c %360
+    des des des b
+    c c c, c
+    f2 r4 \mvTr h\p-\soloE-\senzaOrg
+    c2 r4 g8( f)
+    e2 r4 e %365
+    f2 r4 as
+    b2 r4 b
+    c2 e,
+    f4 b c c,
+    \mvTr f\f-\tuttiE-\colOrgE f es! es %370
+    des des8( c) b4 b
+    c c e e
+    f f f, f'
+    b, b' as as
+    ges ges es es %375
+    f f a a
+    b b b, b
+    c c as'! as
+    e e f f
+    des des c c %380
+    f f f, f
+    g g h h
+    c c f f
+    es es h h
+    c c d d %385
+    es es as as
+    f f g g
+    as as f f
+    g g h, h
+    c c f f %390
+    es es h h
+    c c d d
+    es es as as
+    f f g g
+    c, c c' c %395
+    c c es es
+    as, as g g
+    fis fis fis fis
+    g g g g
+    g, g g g %400
+    c2 es-\solo
+    f r
+    f g
+    c, r\fermata \bar "||" %404 finis
+  }
+}
+
+ConfutatisBassFigures = \figuremode {
+  <[_!]>4 <6>1 %270
+  <_!>
+  <6>2 <[5-]>
+  <_->2. <_!>4
+  <6>1
+  r %275
+  <6->
+  r
+  <6>
+  r2 <4!>
+  <6> <6\\> %280
+  <_!>1
+  <6>
+  <_!>
+  <6>2 <[5-]>
+  <_->2. <[_!]>4 %285
+  <6>1
+  r2. <[6]>4
+  r1
+  <7>2 <7- 5>
+  <4>4 <3>2. %290
+  <6>1
+  r
+  <6 4>2. <6 5>4
+  <6 4>2 \bo <[5 \t]>4 \bc <[\t 3]>
+  r2 <6> %295
+  r <6>
+  <_->1
+  <6 4>2. <6 [5] _->4
+  <6 4>2 <5 \t>4 <\t _!>
+  r1 %300
+  <6>
+  r
+  <6>
+  r
+  <6 [_-]> %305
+  <_!>
+  <6>2 <6 5->
+  <_-> <4!>
+  <6> <_!>
+  <6> <6!> %310
+  <_!>1
+  \bo <[6]>2 \bc <[\t]>
+  <_->2. <_!>4
+  <6>1
+  r %315
+  <6!>
+  <_!>
+  <6>4 <6 5-> <_-> <7 5 [_!]>
+  <_!>1
+  <6>2 <\t>4 <5-> %320
+  <_->1
+  <6 4>2. <5 3>4
+  <6 4>2 <5 _!>
+  <3>1
+  <6>2 <\t>4 <[5-]> %325
+  r1
+  <6 4>2. <5 3>4
+  <6 4>2 <5 _!>
+  r1*18 %346
+  <5 3>1
+  <7 5 3>4 <6! \t \t>2.
+  <6 4>4 <5 3> <6 4> <5 _!>
+  r2 <6!>4 <6> %350
+  <7>1
+  <6 4! 2>2 <\t \t _->
+  <6> <6\\>
+  <_!>1
+  r2 <6 5-> %355
+  r <6>
+  r <6 [5]>
+  r <[6]>
+  r <6 5>
+  <_-> <_!> %360
+  <6>2. <[_-]>4
+  <6 4>2 <5 _!>
+  r1*7 %369
+  r2 <4! [_-]> %370
+  <6> <_->
+  <_!> <6>4 <[5]>
+  r1
+  <_->2 <6 4! _->
+  <6> <[_-]> %375
+  <_!> <[6]>
+  <_->1
+  <_!>2 <6>
+  <6 [5]>1
+  <6>2 <7 [_!]> %380
+  r1
+  <_!>2 <[6]>
+  r <4! 2>
+  <6> <6 5>
+  r <6!> %385
+  <6>1
+  <6 5>2 <_!>
+  r <6 5>
+  <_!> <6 5>
+  r <4! 2> %390
+  <[6]> <6 [5]>
+  r <6!>
+  <6>1
+  <6 5>2 <_!>
+  r1 %395
+  r2 <6>
+  <5> <6 4>
+  <7 5 [_!]>1
+  <6 4>
+  <5 _!> %400
+  r2 <[6]>
+  r1
+  r2 <[_!]>
+  r1 %404 finis
+}

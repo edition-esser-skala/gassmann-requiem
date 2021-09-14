@@ -944,18 +944,199 @@ RecordareSopranoLyrics = \lyricmode {
   tra. %268 finis
 }
 
+ConfutatisSoprano = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoConfutatis
+      \set Score.currentBarNumber = #270
+    \partial 4 r4 R1*12 %281
+    r2 r4 \mvTr c'8.\fE^\tuttiE c16
+    h4 d h g
+    c c, r c'8. c16
+    as4 c a f %285
+    b b r b8. b16
+    g4 b g es
+    as as r as8. as16
+    d4. d8 es4 es
+    es d r2 %290
+    b2.\p b4
+    c2. as4
+    g2. f8([ g16 as)]
+    g2( f)
+    g r %295
+    c2. c4
+    des2. b4
+    as2. g8([ as16 b)]
+    as2( g)
+    f r %300
+    R1*11 %311
+    r2 r4 f'8.\f f16
+    des4 f d b
+    es es, r es'8. es16
+    c4 es c as %315
+    d! d, r d'8. d16
+    h4 d h g
+    c c, c'2
+    h4 g r2
+    c2.\p b4 %320
+    as2. as4
+    g2. as4
+    g2.( f4)
+    es2 r
+    c'2. b4 %325
+    as2. as4
+    g2. as4
+    es2( d)
+    c r
+    R1*17 %346
+    g'2\f c
+    c4( h) h2
+    c2. d4
+    es8.([ d16)] c4 r2 %350
+    as2. as4
+    g2 g
+    f fis
+    g g
+    r4 c2 b!4 %355
+    as2 c
+    b as
+    g b
+    c c
+    des c %360
+    b2. des4
+    f,2( g)
+    f r
+    R1*6 %369
+    as2 a %370
+    b4.( c8) des2
+    c2. b4
+    as4.( g8) as2
+    b ces
+    b b %375
+    a c
+    b4.( a8) b2
+    e,2 f
+    g as
+    b2. c4 %380
+    as4.( g8) f2
+    r g~
+    g g
+    g g
+    g f %385
+    es1
+    d
+    c2 r
+    g'1
+    g %390
+    g2 g
+    g f
+    es1
+    d
+    c2 g'~ %395
+    g c
+    c c
+    c c
+    c1
+    h %400
+    c2 r
+    R1*2
+    R1\fermata \bar "||" %404 finis
+  }
+}
 
-% Con -- fu -- ta -- tis ma -- le -- di -- ctis,
-% flam -- mis a -- cri -- bus ad -- di -- ctis,
-% vo -- ca me cum be -- ne -- di -- ctis.
-%
-% O -- ro sup -- plex et ac -- cli -- nis,
-% cor con -- tri -- tum qua -- si ci -- nis:
-% Ge -- re cu -- ram me -- i fi -- nis.
-%
-% La -- cri -- mo -- sa di -- es il -- la,
-% qua re -- sur -- get ex fa -- vil -- la
-% iu -- di -- can -- dus ho -- mo re -- us:
+ConfutatisSopranoLyrics = \lyricmode {
+  Con -- fu -- %282
+  ta -- tis ma -- le --
+  di -- ctis, con -- fu --
+  ta -- tis ma -- le -- %285
+  di -- ctis, flam -- mis
+  a -- cri -- bus ad --
+  di -- ctis, flam -- mis
+  a -- cri -- bus ad --
+  di -- ctis, %290
+  vo -- ca
+  me cum
+  be -- ne --
+  di --
+  ctis, %295
+  vo -- ca
+  me cum
+  be -- ne --
+  di --
+  ctis. %300
+
+  Con -- fu -- %312
+  ta -- tis ma -- le --
+  di -- ctis, con -- fu --
+  ta -- tis ma -- le -- %315
+  di -- ctis, flam -- mis
+  a -- cri -- bus ad --
+  di -- ctis, ad --
+  di -- ctis,
+  vo -- ca %320
+  me cum
+  be -- ne --
+  di --
+  ctis,
+  vo -- ca %325
+  me cum
+  be -- ne --
+  di --
+  ctis.
+
+  O -- ro %347
+  sup -- plex
+  et ac --
+  cli -- nis, %350
+  cor con --
+  tri -- tum
+  qua -- si
+  ci -- nis:
+  Ge -- re %355
+  cu -- ram,
+  ge -- re
+  cu -- ram,
+  ge -- re
+  cu -- ram %360
+  me -- i
+  fi --
+  nis.
+
+  La -- cri -- %370
+  mo -- sa
+  di -- es
+  il -- la,
+  la -- cri --
+  mo -- sa %375
+  di -- es
+  il -- la,
+  qua re --
+  sur -- get
+  ex fa -- %380
+  vil -- la
+  iu --
+  di --
+  can -- dus
+  ho -- mo %385
+  re --
+  _
+  us,
+  iu --
+  di -- %390
+  can -- dus
+  ho -- mo
+  re --
+  _
+  us, iu -- %395
+  di --
+  can -- dus
+  ho -- mo
+  re --
+  _ %400
+  us. %401 finis
+}
+
+
 % Hu -- ic er -- go par -- ce De -- us.
 % Pi -- e Ie -- su Do -- mi -- ne,
 % do -- na e -- is re -- qui -- em. A -- men.

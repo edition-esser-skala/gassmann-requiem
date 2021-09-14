@@ -588,3 +588,134 @@ RecordareViolinoI = {
     g4 r r2\fermata \bar "||" %269 finis
   }
 }
+
+ConfutatisViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoConfutatis
+      \set Score.currentBarNumber = #270
+    \partial 4 r4 r2 r4 c'8.\fE c16
+    h4 d h g
+    c c, r c'8. c16
+    as4 c a f
+    b b, r b'8. b16
+    g4 b g es %275
+    as as, r as'8. as16
+    f4 as f d
+    g g, r g'8. g16
+    es4. es8 e4. e8
+    f4. f8 fis4. fis8 %280
+    <g g,>2. r4
+    r2 r4 c8. c16
+    h4 d h g
+    c c, r c'8. c16
+    as4 c a f %285
+    b b r b8. b16
+    g4 b g es
+    as as r as8. as16
+    <d f,>8 q4 q8 <es es,> q4 q8
+    q4 <d d,> r2 %290
+    R1*4
+    r4 g,2\pE c4 %295
+    as2 r
+    R1*2
+    r2 r4 c'8.\f c16
+    as4 c as f %300
+    b b, r b'8. b16
+    g4 b g es
+    as as, r as'8. as16
+    f4 as f des
+    g g, r g'8. g16 %305
+    e4 g e c
+    f f, r f'8. f16
+    des4.^\critnote des8 d4. d8
+    es4. es8 e?4. e8
+    f4. f8 h4. h8 %310
+    c2 r
+    r r4 f,8. f16
+    des4 f d b
+    es es, r es'8. es16
+    c4 es c as %315
+    d! d, r d'8. d16
+    h4 d h g
+    c c, c'2
+    h4 g r2
+    R1*9 %328
+    r8 \mvTr g'(\p-\markup \remark "con sordino" f es d c h c)
+    h( c d es f es f g) %330
+    as-! as( g fis g f d f)
+    es( d es f g f es d)
+    c-! c'( h c g b as g)
+    as( g f g f es d es)
+    d-! b'( a b f as g f) %335
+    g( f es f es d c d)
+    c-! as'( g as es g f es)
+    f( es d es d c h c)
+    h-! g'( fis g) d-! f( es d)
+    es-! g( fis g) h,-! d( c h) %340
+    c-! g'( fis g) d-! f( es d)
+    es-! g( fis g) h,-! d( c h)
+    c( h c d) es( e f fis)
+    g( h d c) h( d g, f)
+    es( g c, as') es4 d %345
+    c8( c' c, as') es4 d
+    c8(\f es d c) g'( es d c)
+    c( f, g f) f( as' g f)
+    es-! es( d c) g'( es f d)
+    es( d c es) h( g c es) %350
+    d( f es d) f( as g f)
+    e( g f e) des'( e, g e)
+    f( as g f) c'( c, d! c)
+    h( d c h) d( f es d)
+    es( d es f) g( b, c b) %355
+    as( c b as) f'( g f es)
+    d( f es d) f( as, b as)
+    g( b as g) b( des c b)
+    c( es des c) c( es f es)
+    des( f b a) g( e d c) %360
+    b( a b des) f( b, des b)
+    as( c f as,) g( b as g)
+    f c''([\p b as)] g( f e f)
+    e( f g as) b( as b c)
+    des!-\parenthesize-! des( c b) c( b g b) %365
+    as( g f g) f2
+    r8 f( ges f ges f ges f)
+    e( c' h c) g( b as g)
+    as( c des, b') as( f e g)
+    f(\f as g f) a( c b a) %370
+    b( b, f' es) des( c b f')
+    e( g f e) g( b, c b)
+    as( b c b) as( c b as)
+    des( f es des) d( f es d)
+    es( ges f es) ges( b as ges) %375
+    f( c a c) f,( es' f es)
+    des( b f' es) des( b b' g!)
+    e( g f e) f( c as c)
+    g'( b as g) as( c, b c)
+    b( des c b) e( g as b) %380
+    as( c, as' g) f( c d! c)
+    h( d c h) d( f, g f)
+    es( g c es) h( d c h)
+    c( es d c) d( f, g f)
+    es( g c es) f( d h d) %385
+    c( es d c) c( es d c)
+    d,( c' d c) h( d c h)
+    c( es d c) as'( c, d c)
+    h( d c h) d( f es d)
+    es( g es c) h( d c h) %390
+    c( es d c) d( f, g f)
+    es( g c es) h( d c h)
+    c( es d c) c( es d c)
+    d,( c' d c) h( d c h)
+    c( g es g) <c es,> q q q %395
+    q q q q q q q q
+    q q q q q q q q
+    q q q q q q q q
+    q q q q q q q q
+    <h d,> q q q q q q q %400
+    c( g' f es) d( c h c)
+    as( c b as) g( f e f)
+    d( as' g f) es( d c h)
+    c2 r\fermata \bar "||" %404 finis
+  }
+}

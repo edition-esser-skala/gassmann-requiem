@@ -589,3 +589,133 @@ RecordareViola = {
     g4 r r2\fermata \bar "|." %269 finis
   }
 }
+
+ConfutatisViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \minor \time 2/2 \tempoConfutatis
+      \set Score.currentBarNumber = #270
+    \partial 4 r4 c8\fE c4 c c c8
+    g g4 g g g8
+    c c4 c8 b! b4 b8
+    as as4 as8 f f4 f8
+    d' d4 d d d8
+    es g,4 g g g8 %275
+    c c4 c c c8
+    d f,4 f f f8
+    g h4 h h h8
+    c g4 g g g8
+    a a4 a8 as as4 as8 %280
+    g2. r4
+    c8 c4 c c c8
+    g g4 g g g8~
+    g g4 g8 c c4 c8~
+    c c4 c8 f, f4 f8~ %285
+    f d'4 d d d8
+    es es4 es es es8
+    as, as4 as as as8~
+    as as'4 as8 ges ges4 ges8
+    f4 f r2 %290
+    R1*4
+    r2 g,\pE %295
+    f r
+    R1*3
+    c'8\f c4 c c c8 %300
+    des des4 des des des8
+    b b4 b b b8
+    c c4 c c c8
+    des des4 des des des8~
+    des des4 des des des8 %305
+    c e4 e e e8
+    f as,4 as8 a a4 a8
+    b b4 b b b8
+    es es4 es8 c c4 c8
+    c as4 as f g8 %310
+    <g c,>2 r
+    as8 as4 as8 a a4 a8
+    b des4 des8 f d4 d8
+    es g,4 g g g8
+    as as4 as as as8 %315
+    f f4 f f f8
+    g h4 h h h8
+    g g4 g8 f4 es'
+    d g, r2
+    R1*9 %328
+    es'2\p r4 es
+    d2 r4 f8( es) %330
+    d2 r4 g
+    g2 r4 g
+    g2 c,
+    c r4 f
+    f2 b, %335
+    b r4 es
+    es2 as,
+    as r4 d
+    d2 h
+    c f %340
+    es h
+    c d
+    c1
+    h2 r4 d
+    c c2 h4 %345
+    c c2 h4
+    c\f g' g g
+    f f h, h
+    g' g es8( c d h)
+    c4 g'2 g4 %350
+    f as as as
+    g g g g
+    c, c fis fis
+    g g h, h
+    c c c g' %355
+    c, c c c
+    b f' f f
+    b, es es es
+    es es f f
+    f f e8( g f e) %360
+    f4 f f f
+    f f e e
+    f2 r4 g\p
+    g2 r4 g
+    g2 r4 g %365
+    c,2 r4 c
+    des2 r4 des
+    c2 c
+    c4 b8( des) c4 b
+    as\f c c c %370
+    b b f' b
+    g g c, c
+    c c c c
+    b b f' f
+    es2 es %375
+    c c
+    b f'4 des8( b)
+    g4 g' f f
+    c c c c
+    f f g g %380
+    f f as as
+    d,! d d d
+    c c d d
+    es8( g f es) g4 g
+    g g g g %385
+    g g es es
+    as as g f
+    es es f as
+    d, g g g
+    g g g g %390
+    g g g g
+    g g f f
+    g g es es
+    as as d, d
+    c g' g8 g g g %395
+    g g g g g g g g
+    as as as as g g g g
+    a a a a a a a a
+    g g g g g g g g
+    g g g g g g g g %400
+    g2 g
+    c, r
+    as g8( f es d)
+    c2 r\fermata \bar "||" %404 finis
+  }
+}

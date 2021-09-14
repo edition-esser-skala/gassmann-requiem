@@ -516,3 +516,103 @@ RecordareTromboneII = {
     R1\fermata \bar "||" %269 finis
   }
 }
+
+ConfutatisTromboneII = {
+  \relative c' {
+    \clef tenor
+    \twotwotime \key c \minor \time 2/2 \tempoConfutatis
+      \set Score.currentBarNumber = #270
+    \partial 4 r4 R1*12 %281
+    c2.\fE c4
+    d h h2
+    c2. c4
+    as2 c %285
+    b b
+    b2. b4
+    c2 c
+    b c
+    b r %290
+    b2.\p b4
+    as2. c4
+    b2. c4
+    b1~
+    b2 c~ %295
+    c c
+    b2. des4
+    c2. des4
+    c1
+    c2 r %300
+    R1*11 %311
+    c2\f c
+    des b
+    b2. b4
+    c2. c4 %315
+    d!2. d4
+    d2. d4
+    c2. c4
+    g g r2
+    c2.\p c4 %320
+    c2. c4
+    c2. c4
+    c2 h
+    c r
+    c c %325
+    c2. c4
+    c2. as4
+    g1
+    g2 r
+    R1*17 %346
+    es'2\f es
+    d4. es8 f2~
+    f4 es2 h4
+    c8. d16 es4 r2 %350
+    d2. d4
+    e c des2
+    c2. c4
+    h2 h
+    c c %355
+    c c
+    d b
+    b b
+    as c
+    b g %360
+    f2. b4
+    as2 c
+    c r
+    R1*6 %369
+    c2 c %370
+    b b
+    g c
+    c c
+    des d
+    es4. f8 ges2 %375
+    f2. es4
+    des4. c8 des2
+    c c
+    b as
+    f g4 c %380
+    c2 c
+    h d
+    c h
+    c d
+    c g %385
+    g c
+    as g
+    as^\critnote r
+    h d
+    c h %390
+    c d
+    c g
+    g c
+    as g
+    g c~ %395
+    c c
+    c c
+    a a
+    \once \tieDashed g1~
+    g %400
+    g2 r
+    R1*2
+    R1\fermata \bar "||" %404 finis
+  }
+}

@@ -522,3 +522,110 @@ RecordareOboeI = {
     R1\fermata \bar "||" %269 finis
   }
 }
+
+ConfutatisOboeI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoConfutatis
+      \set Score.currentBarNumber = #270
+    \partial 4 r4 r2 r4 c'8.\fE c16
+    h4 d h g
+    c c, r c'8. c16
+    as4 c a f
+    b b r b8. b16
+    g4 b g es %275
+    as as r as8. as16
+    f4 as f d
+    g g r g8. g16
+    es4. es8 e4. e8
+    f4. f8 fis4. fis8 %280
+    g2. r4
+    r2 r4 c8. c16
+    h4 d h g
+    c c, r c'8. c16
+    as4 c a f %285
+    b b r b8. b16
+    g4 b g es
+    as as r as8. as16
+    d4. d8 es4. es8
+    es4 d r2 %290
+    R1*4
+    r4 g,2\pE c4 %295
+    as2 r
+    R1*2
+    r2 r4 c'8.\f c16
+    as4 c as f %300
+    b b, r b'8. b16
+    g4 b g es
+    as as, r as'8. as16
+    f4 as f des
+    g g, r g'8. g16 %305
+    e4 g e c
+    f f, r f'8. f16
+    des4.^\critnote des8 d4. d8
+    es4. es8 e?4. e8
+    f4. f8 h4. h8 %310
+    c2 r
+    r r4 f,8. f16
+    des4 f d b
+    es es, r es'8. es16
+    c4 es c as %315
+    d! d, r d'8. d16
+    h4 d h g
+    c c, c'2
+    h4 g r2
+    R1*27 %346
+    g2\fE c
+    c4 h h2
+    c2. d4
+    es8. d16 c4 r2 %350
+    as2. as4
+    g2 g
+    f fis
+    g g
+    r4 c2 b!4 %355
+    as2 c
+    b as
+    g b
+    c c
+    des c %360
+    b2. des4
+    as2 g
+    f r
+    R1*6 %369
+    as2\f a %370
+    b4. c8 des2
+    c2. b4
+    as4. g8 as2
+    b ces
+    b b %375
+    a c
+    b4. a8 b2
+    e, f
+    g as
+    b2. c4 %380
+    as4. g8 f2
+    r g~
+    g g~
+    g g~
+    g f %385
+    es1
+    d
+    c2 r
+    g'1
+    g %390
+    g2-\critnote g
+    g f
+    es1
+    d
+    c2 \once \tieDashed g'~ %395
+    g c
+    c c
+    c c
+    c1
+    h %400
+    c2 r
+    R1*2
+    R1\fermata \bar "||" %404 finis
+  }
+}

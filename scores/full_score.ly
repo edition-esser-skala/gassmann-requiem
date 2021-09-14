@@ -546,11 +546,99 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     subtitle = "R E C O R D A R E"
+  %   }
+  %   \tocSubsection "2.4" "Recordare"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \RecordareOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \RecordareOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "trb"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \RecordareTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \RecordareTromboneII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \RecordareViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \RecordareViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \RecordareViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \RecordareSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \RecordareSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \RecordareAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \RecordareAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \RecordareTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \RecordareTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \RecordareBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \RecordareBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \RecordareOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \RecordareBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
     \header {
-      subtitle = "R E C O R D A R E"
+      subtitle = "C O N F U T A T I S"
     }
-    \tocSubsection "2.4" "Recordare"
+    \tocSubsection "2.5" "Confutatis"
     \score {
       <<
         \new StaffGroup <<
@@ -558,11 +646,11 @@
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \RecordareOboeI
+              \ConfutatisOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \RecordareOboeII
+              \ConfutatisOboeII
             }
           >>
         >>
@@ -571,11 +659,11 @@
             \set GrandStaff.instrumentName = "trb"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \RecordareTromboneI
+              \ConfutatisTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \RecordareTromboneII
+              \ConfutatisTromboneII
             }
           >>
         >>
@@ -584,54 +672,54 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \RecordareViolinoI
+              \ConfutatisViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \RecordareViolinoII
+              \ConfutatisViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \RecordareViola
+            \ConfutatisViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \RecordareSoprano }
+            \new Voice = "Soprano" { \dynamicUp \ConfutatisSoprano }
           }
-          \new Lyrics \lyricsto Soprano \RecordareSopranoLyrics
+          \new Lyrics \lyricsto Soprano \ConfutatisSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \RecordareAlto }
+            \new Voice = "Alto" { \dynamicUp \ConfutatisAlto }
           }
-          \new Lyrics \lyricsto Alto \RecordareAltoLyrics
+          \new Lyrics \lyricsto Alto \ConfutatisAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \RecordareTenore }
+            \new Voice = "Tenore" { \dynamicUp \ConfutatisTenore }
           }
-          \new Lyrics \lyricsto Tenore \RecordareTenoreLyrics
+          \new Lyrics \lyricsto Tenore \ConfutatisTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \RecordareBasso }
+            \new Voice = "Basso" { \dynamicUp \ConfutatisBasso }
           }
-          \new Lyrics \lyricsto Basso \RecordareBassoLyrics
+          \new Lyrics \lyricsto Basso \ConfutatisBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \RecordareOrgano
+            \ConfutatisOrgano
           }
         >>
-        \new FiguredBass { \RecordareBassFigures }
+        \new FiguredBass { \ConfutatisBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 2 = 75 }
     }
   }
 }

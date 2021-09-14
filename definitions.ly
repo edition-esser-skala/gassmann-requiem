@@ -695,6 +695,7 @@ tempoDies = \tempoMarkup "Andante maestoso"
   tempoTuba = \tempoMarkup "Andante"
   tempoRex = \tempoMarkup "Adagio"
   tempoRecordare = \tempoMarkup "Andante"
+  tempoConfutatis = \tempoMarkup "Andante"
 
 
 \include "notes/ob1.ly"

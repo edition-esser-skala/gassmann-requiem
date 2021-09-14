@@ -952,3 +952,195 @@ RecordareTenoreLyrics = \lyricmode {
   par -- te dex --
   tra. %268 finis
 }
+
+ConfutatisTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoConfutatis
+      \set Score.currentBarNumber = #270
+    \partial 4 r4 R1*12 %281
+    \mvTr c2.\fE^\tutti c4
+    d( h) h2
+    c2. c4
+    as2 c %285
+    b b
+    b2. b4
+    c2 c
+    b( c)
+    b r %290
+    b2.\p b4
+    as2. c4
+    b2. c4
+    b1
+    b2 c~ %295
+    c c
+    b2. des4
+    c2. des4
+    c1
+    c2 r %300
+    R1*11 %311
+    c2\f c
+    des b
+    b2. b4
+    c2. c4 %315
+    d!2. d4
+    d2. d4
+    c2. c4
+    g g r2
+    c2.\p c4 %320
+    c2. c4
+    c2. c4
+    c2( h)
+    c r
+    c c %325
+    c2. c4
+    c2. as4
+    g1
+    g2 r
+    R1*17 %346
+    es'2\f es
+    d4.( es8) f2
+    f4( es2) h4
+    c8.([ d16)] es4 r2 %350
+    d2. d4
+    e( c) des2
+    c2. c4
+    h2 h
+    c c %355
+    c c
+    d b
+    b b
+    as c
+    b g %360
+    f2.^\critnote b4
+    as2( c)
+    c r
+    R1*6 %369
+    c2 c %370
+    b b
+    g c
+    c c
+    des d
+    es4.( f8) ges2 %375
+    f2. es4
+    des4.( c8) des2
+    c c
+    b as
+    f g4( c) %380
+    c2 c
+    h d
+    c h
+    c d
+    c g %385
+    g c
+    as( g)
+    as^\critnote r
+    h d
+    c h %390
+    c d
+    c g
+    g c
+    as( g)
+    g c~ %395
+    c c
+    c c
+    a a
+    \once \tieDashed g1~
+    g %400
+    g2 r
+    R1*2
+    R1\fermata \bar "||" %404 finis
+  }
+}
+
+ConfutatisTenoreLyrics = \lyricmode {
+  Con -- fu -- %282
+  ta -- tis
+  ma -- le --
+  di -- ctis, %285
+  flam -- mis
+  a -- cri --
+  bus ad --
+  di --
+  ctis, %290
+  vo -- ca
+  me cum
+  be -- ne --
+  di --
+  ctis, vo -- %295
+  ca
+  me cum
+  be -- ne --
+  di --
+  ctis. %300
+
+  Con -- fu -- %312
+  ta -- tis
+  ma -- le --
+  di -- ctis, %315
+  flam -- mis
+  a -- cri --
+  bus ad --
+  di -- ctis,
+  vo -- ca %320
+  me cum
+  be -- ne --
+  di --
+  ctis,
+  vo -- ca %325
+  me cum
+  be -- ne --
+  di --
+  ctis.
+
+  O -- ro %347
+  sup -- plex
+  et __ ac --
+  cli -- nis, %350
+  cor con --
+  tri -- tum
+  qua -- si
+  ci -- nis:
+  Ge -- re %355
+  cu -- ram,
+  ge -- re
+  cu -- ram,
+  ge -- re
+  cu -- ram %360
+  me -- i
+  fi --
+  nis.
+
+  La -- cri -- %370
+  mo -- sa
+  di -- es
+  il -- la,
+  la -- cri --
+  mo -- sa %375
+  di -- es
+  il -- la,
+  qua re --
+  sur -- get
+  ex fa -- %380
+  vil -- la
+  iu -- di --
+  can -- dus,
+  iu -- di --
+  can -- dus %385
+  ho -- mo
+  re --
+  us,
+  iu -- di --
+  can -- dus, %390
+  iu -- di --
+  can -- dus
+  ho -- mo
+  re --
+  us, iu -- %395
+  di --
+  can -- dus
+  ho -- mo
+  re --
+  %400
+  us. %401 finis
+}
