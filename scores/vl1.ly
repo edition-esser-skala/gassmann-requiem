@@ -46,26 +46,97 @@
   \bookpart {
     \header {
       number = "1"
-      title = "F I R S T"
+      title = "I N T R O I T U S"
     }
     \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Violino I"
-          \xxxViolinoI
+          \RequiemViolinoI
         }
       >>
     }
   }
   \bookpart {
     \header {
-      number = "2"
-      title = "S E C O N D"
+      subtitle = "T E   D E C E T   H Y M N U S"
     }
     \score {
       <<
-        \new Staff { \xxxViolinoI }
+        \new Staff { \TeDecetViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      subtitle = "R E Q U I E M   –   K Y R I E"
+    }
+    \score {
+      <<
+        \new Staff { \KyrieViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "2"
+      title = "S E Q U E N T I A"
+    }
+    \score {
+      <<
+        \new Staff { \DiesViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      subtitle = "T U B A   M I R U M"
+    }
+    \score {
+      <<
+        \new Staff { \TubaViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      subtitle = "R E X   T R E M E N D Æ"
+    }
+    \paper { systems-per-page = #4 }
+    \score {
+      <<
+        \new Staff { \RexViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      subtitle = "R E C O R D A R E"
+    }
+    \score {
+      <<
+        \new Staff { \RecordareViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      subtitle = "C O N F U T A T I S"
+    }
+    \score {
+      <<
+        \new Staff { \ConfutatisViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      subtitle = "H U I C   E R G O"
+    }
+    \score {
+      <<
+        \new Staff { \HuicViolinoI }
       >>
     }
   }

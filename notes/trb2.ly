@@ -435,7 +435,7 @@ RexTromboneII = {
     c r r b
     b c2 es4 %170
     d r r es
-    d-\critnote r r d
+    d^\critnote r r d
     d r r b
     a b2 b4
     b r r2\fermata \bar "||" %175 finis

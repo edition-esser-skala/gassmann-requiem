@@ -38,7 +38,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "b"
+    instrumentName = "trb 1"
   }
 }
 
@@ -48,12 +48,12 @@
       number = "1"
       title = "I N T R O I T U S"
     }
-    \paper { indent = 2\cm }
+    \paper { indent = 2.5\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \RequiemOrgano
+          \set Staff.instrumentName = "Trombone I"
+          \RequiemTromboneI
         }
       >>
     }
@@ -64,7 +64,7 @@
     }
     \score {
       <<
-        \new Staff { \TeDecetOrgano }
+        \new Staff { \TeDecetTromboneI }
       >>
     }
   }
@@ -74,7 +74,7 @@
     }
     \score {
       <<
-        \new Staff { \KyrieOrgano }
+        \new Staff { \KyrieTromboneI }
       >>
     }
   }
@@ -85,7 +85,7 @@
     }
     \score {
       <<
-        \new Staff { \DiesOrgano }
+        \new Staff { \DiesTromboneI }
       >>
     }
   }
@@ -95,7 +95,7 @@
     }
     \score {
       <<
-        \new Staff { \TubaOrgano }
+        \new Staff { \TubaTromboneI }
       >>
     }
   }
@@ -103,10 +103,10 @@
     \header {
       subtitle = "R E X   T R E M E N D Æ"
     }
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \RexOrgano }
+        \new Staff { \RexTromboneI }
       >>
     }
   }
@@ -116,7 +116,7 @@
     }
     \score {
       <<
-        \new Staff { \RecordareOrgano }
+        \new Staff { \RecordareTromboneI }
       >>
     }
   }
@@ -126,7 +126,7 @@
     }
     \score {
       <<
-        \new Staff { \ConfutatisOrgano }
+        \new Staff { \ConfutatisTromboneI }
       >>
     }
   }
@@ -136,7 +136,7 @@
     }
     \score {
       <<
-        \new Staff { \HuicOrgano }
+        \new Staff { \HuicTromboneI }
       >>
     }
   }

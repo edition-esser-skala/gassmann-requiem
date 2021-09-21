@@ -38,7 +38,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "b"
+    instrumentName = "ob 2"
   }
 }
 
@@ -52,8 +52,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \RequiemOrgano
+          \set Staff.instrumentName = "Oboe II"
+          \RequiemOboeII
         }
       >>
     }
@@ -64,7 +64,7 @@
     }
     \score {
       <<
-        \new Staff { \TeDecetOrgano }
+        \new Staff { \TeDecetOboeII }
       >>
     }
   }
@@ -74,7 +74,7 @@
     }
     \score {
       <<
-        \new Staff { \KyrieOrgano }
+        \new Staff { \KyrieOboeII }
       >>
     }
   }
@@ -85,7 +85,7 @@
     }
     \score {
       <<
-        \new Staff { \DiesOrgano }
+        \new Staff { \DiesOboeII }
       >>
     }
   }
@@ -95,7 +95,7 @@
     }
     \score {
       <<
-        \new Staff { \TubaOrgano }
+        \new Staff { \TubaOboeII }
       >>
     }
   }
@@ -103,10 +103,10 @@
     \header {
       subtitle = "R E X   T R E M E N D Æ"
     }
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #1 }
     \score {
       <<
-        \new Staff { \RexOrgano }
+        \new Staff { \RexOboeII }
       >>
     }
   }
@@ -114,9 +114,10 @@
     \header {
       subtitle = "R E C O R D A R E"
     }
+    \paper { systems-per-page = #1 }
     \score {
       <<
-        \new Staff { \RecordareOrgano }
+        \new Staff { \RecordareOboeII }
       >>
     }
   }
@@ -126,7 +127,7 @@
     }
     \score {
       <<
-        \new Staff { \ConfutatisOrgano }
+        \new Staff { \ConfutatisOboeII }
       >>
     }
   }
@@ -136,7 +137,7 @@
     }
     \score {
       <<
-        \new Staff { \HuicOrgano }
+        \new Staff { \HuicOboeII }
       >>
     }
   }

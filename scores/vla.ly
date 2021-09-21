@@ -38,7 +38,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "b"
+    instrumentName = "vla"
   }
 }
 
@@ -52,8 +52,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \RequiemOrgano
+          \set Staff.instrumentName = "Viola"
+          \RequiemViola
         }
       >>
     }
@@ -64,7 +64,7 @@
     }
     \score {
       <<
-        \new Staff { \TeDecetOrgano }
+        \new Staff { \TeDecetViola }
       >>
     }
   }
@@ -74,7 +74,7 @@
     }
     \score {
       <<
-        \new Staff { \KyrieOrgano }
+        \new Staff { \KyrieViola }
       >>
     }
   }
@@ -85,7 +85,7 @@
     }
     \score {
       <<
-        \new Staff { \DiesOrgano }
+        \new Staff { \DiesViola }
       >>
     }
   }
@@ -95,7 +95,7 @@
     }
     \score {
       <<
-        \new Staff { \TubaOrgano }
+        \new Staff { \TubaViola }
       >>
     }
   }
@@ -103,10 +103,10 @@
     \header {
       subtitle = "R E X   T R E M E N D Æ"
     }
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \RexOrgano }
+        \new Staff { \RexViola }
       >>
     }
   }
@@ -116,7 +116,7 @@
     }
     \score {
       <<
-        \new Staff { \RecordareOrgano }
+        \new Staff { \RecordareViola }
       >>
     }
   }
@@ -126,7 +126,7 @@
     }
     \score {
       <<
-        \new Staff { \ConfutatisOrgano }
+        \new Staff { \ConfutatisViola }
       >>
     }
   }
@@ -136,7 +136,7 @@
     }
     \score {
       <<
-        \new Staff { \HuicOrgano }
+        \new Staff { \HuicViola }
       >>
     }
   }

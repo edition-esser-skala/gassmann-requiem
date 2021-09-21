@@ -38,7 +38,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "b"
+    instrumentName = "ob 1"
   }
 }
 
@@ -52,8 +52,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \RequiemOrgano
+          \set Staff.instrumentName = "Oboe I"
+          \RequiemOboeI
         }
       >>
     }
@@ -64,7 +64,7 @@
     }
     \score {
       <<
-        \new Staff { \TeDecetOrgano }
+        \new Staff { \TeDecetOboeI }
       >>
     }
   }
@@ -74,7 +74,7 @@
     }
     \score {
       <<
-        \new Staff { \KyrieOrgano }
+        \new Staff { \KyrieOboeI }
       >>
     }
   }
@@ -85,7 +85,7 @@
     }
     \score {
       <<
-        \new Staff { \DiesOrgano }
+        \new Staff { \DiesOboeI }
       >>
     }
   }
@@ -95,7 +95,7 @@
     }
     \score {
       <<
-        \new Staff { \TubaOrgano }
+        \new Staff { \TubaOboeI }
       >>
     }
   }
@@ -103,10 +103,10 @@
     \header {
       subtitle = "R E X   T R E M E N D Æ"
     }
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #1 }
     \score {
       <<
-        \new Staff { \RexOrgano }
+        \new Staff { \RexOboeI }
       >>
     }
   }
@@ -116,7 +116,7 @@
     }
     \score {
       <<
-        \new Staff { \RecordareOrgano }
+        \new Staff { \RecordareOboeI }
       >>
     }
   }
@@ -126,7 +126,7 @@
     }
     \score {
       <<
-        \new Staff { \ConfutatisOrgano }
+        \new Staff { \ConfutatisOboeI }
       >>
     }
   }
@@ -136,7 +136,7 @@
     }
     \score {
       <<
-        \new Staff { \HuicOrgano }
+        \new Staff { \HuicOboeI }
       >>
     }
   }
