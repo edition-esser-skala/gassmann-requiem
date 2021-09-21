@@ -1422,3 +1422,250 @@ ConfutatisBassFigures = \figuremode {
   r2 <[_!]>
   r1 %404 finis
 }
+
+HuicOrgano = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoHuic
+      \set Score.currentBarNumber = #405
+    \mvTr as'8\fE-\tutti as as as as as as as
+    g g g g as4 r
+    es8 es es es d! d d d
+    des des des des ces4 r
+    b8 b b b h h h h
+    c c c c des des des des %410
+    c c c c f f g g
+    as as as as g g g g
+    g g f f f f es es
+    es es as as g g g, g
+    c c c c c c b! b %415
+    b b as as g g g g \noBreak
+    g g g g g g g g \bar "||"
+    \tempoAmen << {
+      r4 c'4. e8 f es \noBreak
+      d8. c16 b4. d8 es des
+      c8. b16 as4. c8 d c %420
+      h8. a16 g4. h8 c b
+      a g fis4 g8 es' d c
+    } \\ {
+      c,8 c[ d e] f g as4
+      r8 b, c d es f g4
+      r8 as, b c d es f4 %420
+      r8 g, a h c d es d
+      c es d c b c b a
+    } >>
+    g4 r r8 g' c, d16 es
+    f4 r r8 f b, c16 d
+    es4 r r8 es a, b16 c %425
+    d2 g,4 \clef "treble_8" b'8 as!
+    g as g f! es f es d
+    c4 r r8 c' f, g16 as
+    b4 r r8 b es, f16 g
+    as4 r r8 as d,! es16 f %430
+    g2 c,8 \clef treble << {
+      h''[ c b]
+      a8. g16 fis4 g8 es' d c
+      b4
+    } \\ {
+      d,8 es d
+      c es d c b! c b a
+      g4
+    } >> \clef bass g4. h8 c b
+    a8. g16 f4. a8 b as
+    g8. f16 es4. g8 a g %435
+    fis8. e16 d4. fis8 g f
+    es c h4 c8 as' g f
+    es c d es f g as4
+    r8 b, c d es f g4
+    r8 as, b c d! es f4 %440
+    r8 g, a h c d es4
+    r8 f, g a b c d4
+    es2 as,
+    des g,
+    c f, %445
+    b es,4 es'
+    e2 f
+    fis g
+    c,1
+    d %450
+    g,2 es'
+    c d
+    es c
+    d d,
+    g' \mvTr c,\p-\soloE-\senzaOrg %455
+    f b,
+    es a,
+    d g,
+    c \once \tieDashed d~
+    d8 d es d c4 d %460
+    \mvTr g4.\f-\tuttiE-\colOrgE f!8 es d c d16 es
+    f4. es8 d c b c16 d
+    es4. d8 c b a! b16 c
+    d4. c8 b a g4
+    \clef "treble_8" r4 c'4. e8 f es %465
+    d8. c16 b4. d8 es des
+    c8. b16 as4. c8 d c
+    h8. a16 g4. h8 c b
+    as4 \clef bass f4. a8 b as
+    g8. f16 es4. g8 as ges %470
+    f8. es16 des4. f8 g f
+    e8. d16 c4. e8 f es
+    des8. c16 b4. d8 es des
+    c b as4 a2
+    b h %475
+    c f
+    b,! es
+    as, g4 << {
+      r
+      r c'4. e8 f es
+      d8. c16 b4. d8 es des %480
+      c8. b16 as4. c8 d c
+      h8. a16
+    } \\ {
+      g4~
+      g8 h c b as8. g16 f4~
+      f8 a b as g8. f16 es4~ %480
+      es8 g as g f8. es16 d4~
+      d8 f g f
+    } >> es d c d16 es
+    f8 g as4 r8 f b, c16 d
+    es8 f g4 r8 es as, b16 c
+    d8 es f4 r8 d g, a16 h %485
+    c8 d es4 r8 f16 es d8 c
+    h4 c as2
+    g1~-\tasto
+    g~
+    g~ %490
+    g~
+    g~
+    g~
+    g
+    c8 c'4 b8 as g f4 %495
+    b4. as8 g f es4
+    as4. g8 f es d4
+    g4. f8 es as f g
+    c, c'4\p b8 as g f4
+    r8 b4 as8 g f es4 %500
+    r8 as4 g8 f es d4
+    r8 g4 f8 es\fE as f g
+    c,4 \clef "treble_8" f\p b es,
+    as \clef bass f\f g8 as f g
+    c,4 \clef "treble_8" f\p b es, %505
+    as \clef bass f\f g8 as f g
+    c,1
+    c
+    c2 h
+    c c %510
+    c1\fermata \bar "|." %511 FINIS
+  }
+}
+
+HuicBassFigures = \figuremode {
+  r2 <6 4- 2> %405
+  <6 5->1
+  r2 <7->
+  <6 4> <6>
+  \bo <[7 _!]> \bc <[6 5]>
+  r4. <_!>8 <7> <6->4. %410
+  <7 _!>2 <_->4 <_!>
+  <6\\>2 <_!>
+  \bo <6 4 [2]>4 <6> \bc <6 4! [2]> <6>
+  r <6> <6 4> <5 _!>
+  r <_!> <4 [2-]> <6 _-> %415
+  <4! [2]> <6> <7 5! [_!]> <6- 4>
+  <5 _!> <6 4> <5 \t> <\t _!>
+  r1
+  r
+  r %420
+  r
+  r
+  <_->2 r8 <_!>4 <[6-]>8
+  <_!>2.. <6->8
+  r2.. <6>8 %425
+  <[5! _+]>2. <6>8 <6!>
+  <[6-]> <3> <_!> <\t> <6> \bo <[3]> <3> \bc <[3]>
+  r2 r8 <[_!]>4 <6->8
+  r2.. <6->8
+  r2.. <6>8 %430
+  <_!>1
+  r
+  r4 <[_!]>4. <6>
+  q4 <[_!]>4. <6>
+  q2 r8 <[6]>4. %435
+  <6 [_!]>4 <[5! _+]>4. <6 [_!]>4 <4!>8
+  <6>4 <[6]>2 <_!>4
+  <6>2 r8 <6!> <6> <5->
+  <8 3>2 r8 <6> <6> <5->
+  <8 3>2 r8 <6> <6> <5> %440
+  <8 _!>2 r8 <6!> <6> <5->
+  <8 _->2 r8 <6!> <6> <5->
+  r1
+  r2 <[5-]>
+  <_!>1 %445
+  r
+  \bo <[6 5]>2 \bc <[_! \l]>
+  <6 5 [_!]> <7 _!>
+  r1
+  <[5!] _+> %450
+  \bo <[9!]>4 \bc <[8]>2.
+  <6! 5>2 <5! _+>
+  r <[6! 5]>
+  <5! _+> <6 4>4 <5! _+>
+  r1 %455
+  r
+  r
+  r
+  r
+  r %460
+  r4. <4!>8 <6> \bo <[6!]>4 \bc <[6-]>8
+  <_!>2 <6>8 \bo <[6!]>4 \bc <[6-]>8
+  r2 <6!>8 \bo <[6]>4 \bc q8
+  <[5!] _+>2 <6>8 <[6\\]> <_-> <_!>
+  r4 <[_!]>4. <6>8 <_->4 %465
+  <6>2 r8 <[6]> <3>4
+  <6>2 r8 \bo <[6]> \bc <[3]>4
+  <6>4 \bo <[_!]>4. <6>8 <_-> <4!>
+  <6>4 <_!>4. \bc <[6]>8 <_->4
+  <6>2 r8 <[6]> <3>4 %470
+  <6->2 r8 \bo <[6-]> \bc <[5-]>4
+  <6> \bo <[_!]>4. <6>4 \bc <[4!]>8
+  <6>4 \bo <[8 _-]>8 \bc <7- _!> <6 4> \bc <[6 \l]>4.
+  <[6]>2 <6 5>
+  <_!> <6 [5]> %475
+  <_!> <7- [_!]>
+  \bo <[7-]> <7->
+  <7>4 <6> \bc <[_!]>2
+  r1
+  r %480
+  r
+  r4 \bo <[_!]> <6>8 <6!>4 \bc <[6-]>8
+  r <6!> <6> <5-> r \bo <[_!]>4 \bc <[6-]>8
+  r <6> q <5-> r4. <[6]>8
+  r <6> <[6!]> <5-> r \bo <[5! _+]> <_!> \bc <[6! \l]> %485
+  r <6!> <6> <5-> r2
+  <6 [5]>2 <7>4 <6>
+  <[_!]>1
+  r
+  r %490
+  r
+  r
+  r
+  r
+  <[5 3]>4. <4!>8 <6> <6!>4. %495
+  r4. <4>8 <6> q4.
+  r4. <4>8 <6> q4.
+  <_!>4. <\t>8 <[6]>4 <6 5>8 <_!>
+  r4. <4!>8 <6> <6!>4.
+  r4. <4>8 <6> q4. %500
+  r4. <4>8 <6> q4.
+  r8 <_!>4 <4!>8 <6>4 <6 5>8 <_!>
+  r1
+  r4 <6 5> <_!> <6 5>8 <_!>
+  r1 %505
+  r4 \bo <[8 6]>8 \bc <[7 5]> <_!>4 <6 5>8 <_!>
+  <8 5 3>2 <7- _!>
+  <6 4> <5 _!>
+  <6 4> <[7]>
+  <6 4> <5 _!>4 <6 4> %510
+  <5 _!>1 %511 FINIS
+}

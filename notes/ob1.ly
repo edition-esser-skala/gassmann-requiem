@@ -629,3 +629,104 @@ ConfutatisOboeI = {
     R1\fermata \bar "||" %404 finis
   }
 }
+
+HuicOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoHuic
+      \set Score.currentBarNumber = #405
+    c'8\fE c c c des4 des
+    des2 c4 r
+    b8 b b b ces4 ces
+    b2 as4 r
+    as4. as8 g4 g
+    g4. c8 c b! b4
+    b4. b8 as4 g
+    fis4. fis8 g4 r
+    as2 g~
+    g4 f es d
+    c e f g
+    e f2 es4 \noBreak
+    d-\critnote es d4. d8 \bar "||"
+    \tempoAmen c4 r r2 \noBreak
+    R1*9 %427
+    r4 c'4. e8 f es
+    d8. c16 b4. d8 es des
+    c8. b16 as4. c8 d c %430
+    h8. a16 g4. h8 c b
+    a8. g16 fis4 g8 es' d c
+    b g a h c d es4
+    r8 f, g a b c d4
+    r8 es, f g a b c4 %435
+    r8 d, e fis g a b h
+    c es d4 c h
+    c4 r c2
+    b4 r b2
+    as4 r as2 %440
+    g4 r g2
+    f4 r r b~
+    b8 d es d c8. b16 as4~
+    as8 c des c b8. as16 g4~
+    g8 h c b as8. g16 f4~ %445
+    f8 a b as g8. f16 es4
+    g2 f4 r
+    a2 g4 r
+    R1
+    r4 a4. c8 d c %450
+    b2~ b8 b c b
+    a2~ a8 a b a
+    g2~ g8 g a g
+    fis2 g4 fis
+    g4 r r2 %455
+    R1*5 %460
+    r8 g a h c d es4
+    r8 f, g a? b c d4
+    r8 es, f g a b c4
+    r8 d, e fis g a b h
+    c4. b8 as g f g16 as %465
+    b4. as8 g f es f16 g
+    as4. g8 f es d! es16 f
+    g4. f8 es g4 c8~
+    c f4 es8 des8. c16 b4~
+    b8 es4 des8 c8. b16 as4~ %470
+    as8 des4 c8 b8. as16 g!4~
+    g8 c4 b8 as8. g16 f4~
+    f8 b4 as!8 g8. f16 es4~
+    es8 g as ges f4 f~
+    f8 as b as g2~ %475
+    g8 b8 c b a2
+    as8 as b as g2~
+    g4 f g r
+    R1*3 %481
+    r2 r4 c~
+    c8 e f es d8. c16 b4~
+    b8 d es des c8. b16 as4~
+    as8 c d c h8. a16 g4~ %485
+    g8 h c b as2
+    g2. f4
+    g8 a h c16 d es8 h c fis,
+    g a h c16 d es8 h c fis,
+    g4 g as2~ %490
+    as8 as b as g2~
+    g8 g as g f2~
+    f8 f g f es2~
+    es8 es f es d2
+    c4 c'4. e8 f es %495
+    d c b4. d8 es des
+    c b as4. c8 d c
+    h8.-\critnote a16 g4. c4 h8
+    c4 c4.\p e8 f es
+    d c b4. d8 es des %500
+    c b as4. c8 d c
+    h8. a16 g4. c4\f h8
+    c4 r r2
+    r4 d8 c h c4 h8
+    c4 r r2 %505
+    r4 d8 c h c4 h8
+    c2 b
+    as g
+    as1~
+    as2 g4 as %510
+    g1\fermata \bar "|." %511 FINIS
+  }
+}

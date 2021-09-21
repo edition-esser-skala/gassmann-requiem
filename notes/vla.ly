@@ -719,3 +719,116 @@ ConfutatisViola = {
     c2 r\fermata \bar "||" %404 finis
   }
 }
+
+HuicViola = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 4/4 \tempoHuic
+      \set Score.currentBarNumber = #405
+    es8\fE es es es f f f f
+    es es es es es4 r
+    es8 es es es f f f f
+    es es es es es4 r
+    d!8 d d d d d d d
+    c c c c des des des des %410
+    e e e e c c h h
+    c16 c c c c c c c h h h h h h h h
+    c c c c d d d d h h h h c c c c
+    g g g g c c c c g g g g g g g g
+    g g g g g g g g as as as as b! b b b %415
+    g g g g c c c c h h h h c c c c \noBreak
+    g g g g g g g g g g g g g g g g \bar "||"
+    \tempoAmen g4 c4. e8 f es
+    d8. c16 b4. d8 es des
+    c8. b16 as4. c8 d c %420
+    h8. a16 g4. h8 c b
+    a g fis4 g8 es' d c
+    b g a h c d es4
+    r8 f, g a b c d4
+    r8 es, f g a b c4 %425
+    r8 d, e fis g a b as
+    g as g f es f es d
+    c4 r r8 c' f, g16 as
+    b4 r r8 b es, f16 g
+    as4 r r8 as d,! es16 f %430
+    g2 c,4 r
+    R1
+    r8 b' c d es d c4
+    r8 a b c d c b4
+    r8 g a b c b a4 %435
+    r8 fis g a b a g4
+    g2-\critnote c4 r
+    r c4. e8 f es
+    d8. c16 b4. d8 es des
+    c8. b16 as4. c8 d c %440
+    h8. a16 g4. h8 c b
+    as8. g16 f4. a8 b as
+    g4 r es'2
+    des4 r des2
+    c4 r c2 %445
+    b4 b4. d!8 es des
+    c4 c4. e8 f es
+    d4 d4. f8 g f
+    es2 es
+    d fis %450
+    g es~
+    es d4. c8
+    b b c b a2~
+    a8 c d c b4 a
+    g r r8 g'\p c, d16 e %455
+    f8 g as4 r8 f b, c16 d
+    es8 f g4 r8 es a, b16 c
+    d8 e fis4 r8 d g, a16 h
+    r4 c a2
+    g8 d' es d es4 d %460
+    d r r2
+    R1*3
+    r4 c4.\f e8 f es %465
+    d8. c16 b4. d8 es des
+    c8. b16 as4. c8 d c
+    h8. a16 g4. h8 c b
+    as f g a b c des4
+    r8 es, f g as b c4 %470
+    r8 des, es f g! as b4
+    r8 c, d e f g as a
+    b c des d es b b4
+    as8 b c2 c4
+    b2 d %475
+    g,4 c2 c4
+    b!1
+    as2 r
+    r4 c4. e8 f es
+    d8. c16 b4. d8 es des %480
+    c8. b16 as4. c8 d c
+    h8. a16 g8 a16 h c8 d es4
+    r8 c f, g16 a b8 c d4
+    r8 b es, f16 g as8 b c4
+    r8 as8 d,! es16 f g8 a h4 %485
+    r c2 d4~
+    d c2 h8 c
+    d d g, a16 h c8 d es d16 c
+    h8 d g, a16 h c8 d es d16 c
+    d4 h c2 %490
+    d h
+    c a
+    h c
+    g1~
+    g8 c d e f4 r %495
+    r8 b, c d es4 r
+    r8 as, b c d4 r
+    r8 g, a h c4 as8 g
+    g c8[\p d e] f4 r
+    r8 b, c d es4 r %500
+    r8 as, b c d4 r
+    r8 g, a h c4\f as8 g
+    c \noBeam g'\p f4. f8 es4~
+    es8 \noBeam es\f d4. c8 as g
+    g \noBeam g'\p f4. f8 es4~ %505
+    es8 \noBeam es\f d4. c8 as g
+    g4 c8 es e g b! e,
+    c as' f c c e g b
+    c, as' f c d4. d8
+    c1~ %510
+    c\fermata \bar "|." %511 FINIS
+  }
+}

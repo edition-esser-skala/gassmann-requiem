@@ -688,14 +688,18 @@ mezzavoceE = \markup \remarkE "mezza voce"
 
 
 tempoRequiem = \tempoMarkup "Adagio"
-  tempoTeDecet = \tempoMarkup "Andante"
+tempoTeDecet = \tempoMarkup "Andante"
+
 tempoKyrie = \tempoMarkup "Grave"
   tempoKyrieFuga = \tempoMarkup "Allabreve"
+
 tempoDies = \tempoMarkup "Andante maestoso"
-  tempoTuba = \tempoMarkup "Andante"
-  tempoRex = \tempoMarkup "Adagio"
-  tempoRecordare = \tempoMarkup "Andante"
-  tempoConfutatis = \tempoMarkup "Andante"
+tempoTuba = \tempoMarkup "Andante"
+tempoRex = \tempoMarkup "Adagio"
+tempoRecordare = \tempoMarkup "Andante"
+tempoConfutatis = \tempoMarkup "Andante"
+tempoHuic = \tempoMarkup "Andante"
+  tempoAmen = \tempoMarkup "[Allegro]"
 
 
 \include "notes/ob1.ly"

@@ -616,3 +616,110 @@ ConfutatisTromboneII = {
     R1\fermata \bar "||" %404 finis
   }
 }
+
+HuicTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \minor \time 4/4 \tempoHuic
+      \set Score.currentBarNumber = #405
+    es8\fE es es es f4 f
+    es2 es4 r
+    es8 es es es f4 f
+    es2 es4 r
+    d!4. d8 d4 d
+    c4. g8 f4 b %410
+    g4. c8 c4 h
+    c4. c8 h4 h
+    c d h c
+    g c g4. g8
+    g4 g as b! %415
+    g c h c \noBreak
+    g2. g4 \bar "||"
+    \tempoAmen g c4. e8 f es \noBreak
+    d8. c16 b4. d8 es des
+    c8. b16 as4. c8 d c %420
+    h8. a16 g4. h8 c b
+    a g fis4 g8 es' d c
+    b g a h c d es4
+    r8 f, g a b c d4
+    r8 es, f g a b c4 %425
+    r8 d, e fis g a b as
+    g as g f es f es d
+    c4 r r8 c' f, g16 as
+    b4 r r8 b es, f16 g
+    as4 r r8 as d,! es16 f %430
+    g2 c,4 r
+    R1
+    r8 b' c d es d c4
+    r8 a b c d c b4
+    r8 g a b c b a4 %435
+    r8 fis g a b a g4
+    g2 c4 r
+    r c4. e8 f es
+    d8. c16 b4. d8 es des
+    c8. b16 as4. c8 d c %440
+    h8. a16 g4. h8 c b
+    as8. g16 f4. a8 b as
+    g4 r es'2
+    des4 r des2
+    c4 r c2 %445
+    b4 b4. d!8 es des
+    c4 c4. e8 f es
+    d4 d4. f8 g f
+    es2 es
+    d fis %450
+    g es~
+    es d4. c8
+    b b c b a2~
+    a8 c d c b4 a
+    g r r2 %455
+    R1*9 %464
+    r4 c4. e8 f es %465
+    d8. c16 b4. d8 es des
+    c8. b16 as4. c8 d c
+    h8. a16 g4. h8 c b
+    as f g a b c des4
+    r8 es, f g as b c4 %470
+    r8 des, es f g! as b4
+    r8 c, d e f g as a
+    b c des d es b b4
+    as8 b c2 c4
+    b2 d %475
+    g,4 c2 c4
+    b!1
+    as2 r
+    r4 c4. e8 f es
+    d8. c16 b4. d8 es des %480
+    c8. b16 as4. c8 d c
+    h8. a16 g8 a16 h c8 d es4
+    r8 c f, g16 a b8 c d4
+    r8 b es, f16 g as8 b c4
+    r8 as8 d,! es16 f g8 a h4 %485
+    r c2 d4~
+    d c2 h8 c
+    d d g, a16 h c8 d es d16 c
+    h8 d g, a16 h c8 d es d16 c
+    d4 h c2 %490
+    d h
+    c a
+    h c
+    g1~
+    g8 c d e f4 r %495
+    r8 b, c d es4 r
+    r8 as, b c d4 r
+    r8 g, a h c4 as8 g
+    g c8[\pE d e] f4 r
+    r8 b, c d es4 r %500
+    r8 as, b c d4 r
+    r8 g, a h c4\f as8 g
+    g4 r r2
+    r4 d'4. c8 as g
+    g4 r r2 %505
+    r4 f'8 es d c as g
+    g2 g
+    f c'
+    c d
+    c1 %510
+    c\fermata \bar "|." %511 FINIS
+  }
+}

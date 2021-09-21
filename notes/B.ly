@@ -1107,3 +1107,199 @@ ConfutatisBassoLyrics = \lyricmode {
   _ %400
   us. %401 finis
 }
+
+HuicBasso = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \autoBeamOff \tempoHuic
+      \set Score.currentBarNumber = #405
+    \mvTr as'8\fE^\tuttiE as as as as4 as
+    g2 as4 r
+    es8 es es es d!4 d
+    des2 ces4 r
+    b4. b8 h4 h
+    c4. c8 des4 des %410
+    c4. c8 f4 g
+    as4. as8 g4 g~
+    g f2 es4~
+    es as g4. g8
+    c,4 c2 b!4 %415
+    b as g2~ \noBreak
+    g2. g4 \bar "||"
+    \tempoAmen c8 c[( d e] f[ g]) as4 \noBreak
+    r8 b,([ c d] es[ f]) g4
+    r8 as,([ b c] d[ es)] f4 %420
+    r8 g,[ a h] c[ d es d]
+    c[ es d c] b[ c b a]
+    g4 r r8 g'( c,[ d16 es])
+    f4 r r8 f( b,[ c16 d])
+    es4 r r8 es( a,[ b16 c] %425
+    d2) g,4 r
+    R1*6 %432
+    r4 g'4. h8[ c b]
+    a8.[ g16] f4. a8[ b as]
+    g8.[ f16] es4. g8[ a g] %435
+    fis8.[ e16] d4. fis8[ g f]
+    es[ c] h4 c8 as'([ g f)]
+    es c([ d es] f[ g]) as4
+    r8 b,([ c d] es[ f)] g4
+    r8 as,([ b c] d![ es)] f4 %440
+    r8 g,([ a h] c[ d]) es4
+    r8 f,([ g a] b[ c]) d4
+    es2 as,
+    des g,
+    c f, %445
+    b es
+    e f
+    fis g
+    c,1
+    d %450
+    g,2 es'
+    c d
+    es c
+    d1
+    g,4 r r2 %455
+    R1*5 %460
+    g'4. f!8 es[ d] c[ d16 es]
+    f4. es8 d[ c] b[ c16 d]
+    es4. d8 c[ b] a![ b16 c]
+    d4. c8 b[ a] g4
+    R1*4 %468
+    r4 f'4. a8[ b as]
+    g8.[ f16] es4. g8[ as ges] %470
+    f8.[ es16] des4. f8[ g f]
+    e8.[ d16] c4. e8[ f es]
+    des8.[ c16] b4. d8[ es des]
+    c[ b] as4 a2
+    b h %475
+    c f
+    b,! es
+    as, g4 g'~
+    g8[ h c b] as8.[ g16] f4~
+    f8[ a b as] g8.[ f16] es4~ %480
+    es8[ g as g] f8.[ es16] d4~
+    d8[ f g f] es[ d] c[ d16 es]
+    f8[ g] as4 r8 f( b,[ c16 d]
+    es8[ f]) g4 r8 es( as,[ b16 c]
+    d8[ es]) f4 r8 d( g,[ a16 h] %485
+    c8[ d]) es4 r8 f16([ es] d8[ c]
+    h4 c) as2
+    g1~
+    g~
+    g~ %490
+    g~
+    g~
+    g~
+    g
+    c8 c'4( b8 as[ g]) f4 %495
+    b4.( as8 g[ f]) es4
+    as4.( g8 f[ es]) d4
+    g4.( f8 es[ as f g])
+    c, c'4(\p b8 as[ g]) f4
+    r8 b4( as8 g[ f]) es4 %500
+    r8 as4( g8 f[ es]) d4
+    r8 g4( f8 es[\fE as f g])
+    c,4 r r2
+    r4 f( g8[ as f g])
+    c,4 r r2 %505
+    r4 f( g8[ as f g]
+    c,1)
+    c
+    c2 h
+    c1 %510
+    c\fermata \bar "|." %511 FINIS
+  }
+}
+
+HuicBassoLyrics = \lyricmode {
+  Hu -- ic er -- go par -- ce %405
+  De -- us,
+  hu -- ic er -- go par -- ce
+  De -- us,
+  pi -- e Ie -- su,
+  pi -- e Ie -- su, %410
+  pi -- e Ie -- su
+  Do -- mi -- ne, do --
+  na e --
+  is re -- qui --
+  em, \xE do -- na %415
+  e -- is re --
+  qui --
+  em. \x A -- men,
+  a -- men,
+  a -- men, %420
+  a -- _
+  _ _
+  men, a --
+  men, a --
+  men, a -- %425
+  men,
+
+  a -- _ %433
+  _ _ _
+  _ _ _ %435
+  _ _ _
+  _ _ men, a --
+  men, a -- men,
+  a -- men,
+  a -- men, %440
+  a -- men,
+  a -- men,
+  a -- _
+  _ _
+  _ _ %445
+  men, a --
+  _ _
+  _ men,
+  a --
+  _ %450
+  men, a --
+  _ _
+  _ _
+  _
+  men. %455
+
+  A -- _ _ _ %461
+  _ _ _ _
+  _ _ _ _
+  _ _ _ men,
+
+  a -- _ %469
+  _ _ _ %470
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ men,
+  a -- _ %475
+  _ _
+  _ _
+  _ men, a --
+  _ _
+  _ _ %480
+  _ _
+  _ _
+  _ men, a --
+  men, a --
+  men, a -- %485
+  men, a --
+  men,
+  a --
+
+  men, a -- men, %495
+  a -- men,
+  a -- men,
+  a --
+  men, a -- men,
+  a -- men, %500
+  a -- men,
+  a --
+  men,
+  a --
+  men, %505
+  a --
+
+  men,
+  a -- _
+  _ %510
+  men. %511 FINIS
+}

@@ -719,3 +719,108 @@ ConfutatisViolinoI = {
     c2 r\fermata \bar "||" %404 finis
   }
 }
+
+HuicViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoHuic
+      \set Score.currentBarNumber = #405
+    r16 \mvTr c'\fE-!-\markup \remark "senza sordino" c-! c-! c( es) c-! c-! r des-! des-! des-! des( b') des,-! des-!
+    r des-! des-! des-! des( b') des,-! des-! c es,( f g) as( es' des c)
+    b b-! b-! b-! b( es) b-! b-! r ces-! ces-! ces-! ces( as') ces,-! ces-!
+    r b-! b-! b-! b( g') b,-! b-! as es( f g) as( ces b as)
+    r as-! as-! as-! as( f') as,-! as-! r g-! g-! g-! g( d'!) g,-! g-!
+    r g-! g-! g-! g( c) g-! g-! r b!-! b-! b-! b( f') b,-! b-! %410
+    r b-! b-! b-! b( g') b,-! b-! r as-! as-! as-! r g-! g-! g-!
+    r fis-! fis-! fis-! fis fis fis fis g g g g g g g g
+    as as as as as as as as g g g g g g g g
+    g g g g f f f f es es es es d d d d
+    c c c c e e e e f f f f g g g g %415
+    e e e e f f f f f f f f es es es es \noBreak
+    d d d d es es es es d d d d d d d d \bar "||"
+    \tempoAmen c4 r r2 \noBreak
+    R1*9 %427
+    r4 c'4. e8 f es
+    d8. c16 b4. d8 es des
+    c8. b16 as4. c8 d c %430
+    h8. a16 g4. h8 c b
+    a8. g16 fis4 g8 es' d c
+    b g a h c d es4
+    r8 f, g a b c d4
+    r8 es, f g a b c4 %435
+    r8 d, e fis g a b h
+    c es d4 c h
+    c4 r c2
+    b4 r b2
+    as4 r as2 %440
+    g4 r g2
+    f4 r r b~
+    b8 d es d c8. b16 as4~
+    as8 c des c b8. as16 g4~
+    g8 h c b as8. g16 f4~ %445
+    f8 a b as g8. f16 es4
+    g2 f4 r
+    a2 g4 r
+    R1
+    r4 a4. c8 d c %450
+    b2~ b8 b c b
+    a2~ a8 a b a
+    g2~ g8 g a g
+    fis2 g4 fis
+    g g'4.\p h8 c b %455
+    a8. g16 f4. a8 b as
+    g8. f16 es4. g8 a g
+    fis8. e16 d4. fis8 g f
+    es2~ es8 c d c
+    b b c b a2 %460
+    g8 g[\f a h] c d es4
+    r8 f, g a? b c d4
+    r8 es, f g a b c4
+    r8 d, e fis g a b h
+    c4. b8 as g f g16 as %465
+    b4. as8 g f es f16 g
+    as4. g8 f es d! es16 f
+    g4. f8 es g4 c8~
+    c f4 es8 des8. c16 b4~
+    b8 es4 des8 c8. b16 as4~ %470
+    as8 des4 c8 b8. as16 g!4~
+    g8 c4 b8 as8. g16 f4~
+    f8 b4 as!8 g8. f16 es4~
+    es8 g as ges f4 f~
+    f8 as b as g2~ %475
+    g8 b8 c b a2
+    as8 as b as g2~
+    g4 f g r
+    R1*3 %481
+    r2 r4 c~
+    c8 e f es d8. c16 b4~
+    b8 d es des c8. b16 as4~
+    as8 c d c h8. a16 g4~ %485
+    g8 h c b as2
+    g2. f4
+    g8 a h c16 d es8 h c fis,
+    g a h c16 d es8 h c fis,
+    g4 g as2~ %490
+    as8 as b as g2~
+    g8 g as g f2~
+    f8 f g f es2~
+    es8 es f es d2
+    c4 c'4. e8 f es %495
+    d c b4. d8 es des
+    c b as4. c8 d c
+    h8.-\critnote a16 g4. c4 h8
+    c4 c4.\p e8 f es
+    d c b4. d8 es des %500
+    c b as4. c8 d c
+    h8. a16 g4. c4\f h8
+    c8 e([\p f es] des d es des)
+    c c\f[ d c] h c4 h8
+    c e([\p f es] des d es des) %505
+    c c\f[ d c] h c4 h8
+    c c, es g c e g b!
+    as f c as g c e g
+    as f c as f' as f as,
+    as2 g4 as %510
+    g1\fermata \bar "|." %511 FINIS
+  }
+}

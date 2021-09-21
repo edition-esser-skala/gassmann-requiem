@@ -634,11 +634,99 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     subtitle = "C O N F U T A T I S"
+  %   }
+  %   \tocSubsection "2.5" "Confutatis"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ConfutatisOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ConfutatisOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "trb"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ConfutatisTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ConfutatisTromboneII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ConfutatisViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ConfutatisViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \ConfutatisViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \ConfutatisSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \ConfutatisSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \ConfutatisAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \ConfutatisAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \ConfutatisTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \ConfutatisTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \ConfutatisBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \ConfutatisBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \ConfutatisOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \ConfutatisBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 75 }
+  %   }
+  % }
   \bookpart {
     \header {
-      subtitle = "C O N F U T A T I S"
+      subtitle = "H U I C   E R G O"
     }
-    \tocSubsection "2.5" "Confutatis"
+    \tocSubsection "2.6" "Huic ergo"
     \score {
       <<
         \new StaffGroup <<
@@ -646,11 +734,11 @@
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ConfutatisOboeI
+              \HuicOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ConfutatisOboeII
+              \HuicOboeII
             }
           >>
         >>
@@ -659,11 +747,11 @@
             \set GrandStaff.instrumentName = "trb"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ConfutatisTromboneI
+              \HuicTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ConfutatisTromboneII
+              \HuicTromboneII
             }
           >>
         >>
@@ -672,54 +760,54 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ConfutatisViolinoI
+              \HuicViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ConfutatisViolinoII
+              \HuicViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \ConfutatisViola
+            \HuicViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \ConfutatisSoprano }
+            \new Voice = "Soprano" { \dynamicUp \HuicSoprano }
           }
-          \new Lyrics \lyricsto Soprano \ConfutatisSopranoLyrics
+          \new Lyrics \lyricsto Soprano \HuicSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \ConfutatisAlto }
+            \new Voice = "Alto" { \dynamicUp \HuicAlto }
           }
-          \new Lyrics \lyricsto Alto \ConfutatisAltoLyrics
+          \new Lyrics \lyricsto Alto \HuicAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \ConfutatisTenore }
+            \new Voice = "Tenore" { \dynamicUp \HuicTenore }
           }
-          \new Lyrics \lyricsto Tenore \ConfutatisTenoreLyrics
+          \new Lyrics \lyricsto Tenore \HuicTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \ConfutatisBasso }
+            \new Voice = "Basso" { \dynamicUp \HuicBasso }
           }
-          \new Lyrics \lyricsto Basso \ConfutatisBassoLyrics
+          \new Lyrics \lyricsto Basso \HuicBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \ConfutatisOrgano
+            \HuicOrgano
           }
         >>
-        \new FiguredBass { \ConfutatisBassFigures }
+        \new FiguredBass { \HuicBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 75 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }

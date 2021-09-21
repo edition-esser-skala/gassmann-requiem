@@ -1167,3 +1167,210 @@ ConfutatisAltoLyrics = \lyricmode {
   _ %400
   us. %401 finis
 }
+
+HuicAlto = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoHuic
+      \set Score.currentBarNumber = #405
+    \mvTr as'8\fE^\tuttiE as as as b4 b
+    b2 as4 r
+    g8 g g g as4 as
+    g2 as4 r
+    f4. f8 f4 f
+    es4. e8 f4 f %410
+    e4. e8 f4 d!
+    c4. d8 d4 d(
+    es) f d es
+    c2. h4
+    c r des2 %415
+    c d4 c \noBreak
+    h( c2) h4 \bar "||"
+    \tempoAmen c r r2 \noBreak
+    R1*4 %422
+    r4 g'4. h8[ c b]
+    a8.[ g16] f4. a8[ b as]
+    g8.[ f16] es4. g8[ a g] %425
+    fis8.[ e16] d4. fis8[ g f]
+    es[ c] h4 c8 as'([ g f)]
+    es c([ d es] f[ g]) as4
+    r8 b,([ c d] es[ f)] g4
+    r8 as,([ b c] d[ es)] f4 %430
+    r8 g,[ a h] c[ d es d]
+    c[ es d c] b[ c b a]
+    g4 r g'2
+    f4 r f2
+    es4 r es2 %435
+    d4 r d2
+    c4 g' es8[ c] d4
+    c8 es([ f g] as[ g)] f4
+    r8 d([ es f] g[ f)] es4
+    r8 c([ d! es] f[ es)] d4 %440
+    r8 h([ c d] es[ d)] c4
+    r8 as([ b c] d[ c)] b4
+    r es4. g8[ as g]
+    f8.[ es16] des4. f8[ g f]
+    es8.[ d16] c4. e8[ f es] %445
+    d[ c] b4 r g'~
+    g8[ b c b] a4 a~
+    a8[ c d c] h4 h
+    c g2 a8[ g]
+    fis2 a~ %450
+    a8 a([ b a)] g2~
+    g8 g([ a g] fis2)
+    g4 r es2
+    d1
+    d4 r r2 %455
+    R1*5 %460
+    r4 g4. h8[ c b]
+    a8.[ g16] f4. a8[ b as]
+    g8.[ f16] es4. g8[ a g]
+    fis8.[ e16] d4. fis8[ g f]
+    es c([ d e] f[ g)] as!4 %465
+    r8 b,([ c d] es[ f)] g4
+    r8 as,([ b c] d[ es)] f4
+    r8 g,([ a h] c[ d es e])
+    f4 r f2
+    es4 r es2 %470
+    des4 r des2
+    c4 r c2
+    b4 r r2
+    r4 c4.( es8[ f es])
+    d!2~ d8 f([ g f)] %475
+    e2( es8) es([ f es)]
+    d2( des8) des([ es des]
+    c2) h4 r
+    R1*3 %481
+    r4 g'4. h8[ c b]
+    as8.[ g16] f4. a8[ b as]
+    g8.[ f16] es4. g8[ as g]
+    f8.[ es16] d4. fis?8[ g f] %485
+    es[ d] c2 f4~
+    f es4. c8([ d c)]
+    h fis'([ g f] es[ d)] c4
+    r8 fis([ g f] es[ d]) c4
+    h g'4. g8[( as g)] %490
+    f2~ f8 f([ g f)]
+    es2~ es8 es([ f es)]
+    d2~ d8 d([ es d)]
+    c2~ c8 c( h4)
+    c8 es([ f g] as[ b]) as4 %495
+    r8 d,([ es f] g[ as)] g4
+    r8 c,([ d es] f[ g)] f4
+    r8 h,([ c d] es4 d)
+    c8 es([\p f g] as[ b]) as4
+    r8 d,([ es f] g[ as]) g4 %500
+    r8 c,([ d es] f[ g]) f4
+    r8 h,([ c d] es4\f d)
+    c r r2
+    r4 as'( g8[ es] d4)
+    c r r2 %505
+    r4 as'( g8[ es] d4)
+    c2 e(
+    f) e
+    f1~
+    f2 e4 f %510
+    e1\fermata \bar "|." %511 FINIS
+  }
+}
+
+HuicAltoLyrics = \lyricmode {
+  Hu -- ic er -- go par -- ce %405
+  De -- us,
+  hu -- ic er -- go par -- ce
+  De -- us,
+  pi -- e Ie -- su,
+  pi -- e Ie -- su, %410
+  pi -- e Ie -- su
+  Do -- mi -- ne, do --
+  na e -- is
+  re -- qui --
+  em, \xE do -- %415
+  na e -- is
+  re -- qui --
+  em. \x
+
+  A -- _ %423
+  _ _ _
+  _ _ _ %425
+  _ _ _
+  _ _ men, a --
+  men, a -- men,
+  a -- men,
+  a -- men, %430
+  a -- _
+  _ _
+  men, a --
+  men, a --
+  men, a -- %435
+  men, a --
+  _ _ _ _
+  men, a -- men,
+  a -- men,
+  a -- men, %440
+  a -- men,
+  a -- men,
+  a -- _
+  _ _ _
+  _ _ _ %445
+  _ men, a --
+  men, a --
+  men, a --
+  _ _ _
+  _ men, __ %450
+  a -- men, __
+  a --
+  men, a --
+  _
+  men. %455
+
+  A -- _ %461
+  _ _ _
+  _ _ _
+  _ _ _
+  men, a -- men, %465
+  a -- men,
+  a -- men,
+  a --
+  men, a --
+  men, a -- %470
+  men, a --
+  men, a --
+  men,
+  a --
+  men, __ a -- %475
+  men, __ a --
+  men, __ a --
+  men,
+
+  a -- _ %482
+  _ _ _
+  _ _ _
+  _ _ _ %485
+  _ _ _
+  men, a --
+  men, a -- men,
+  a -- men,
+  a -- men, a -- %490
+  men, __ a --
+  men, __ a --
+  men, __ a --
+  men, __ a --
+  men, a -- men, %495
+  a -- men,
+  a -- men,
+  a --
+  men, a -- men,
+  a -- men, %500
+  a -- men,
+  a --
+  men,
+  a --
+  men, %505
+  a --
+  men, a --
+  men,
+  a --
+  _ _ %510
+  men. %511 FINIS
+}
