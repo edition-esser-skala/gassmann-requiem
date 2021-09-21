@@ -2,7 +2,7 @@ composer: Gassmann, Florian Leopold
 title: Requiem
 id: KosG 6
 genre: requiem
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 trb, 2 vl, vla, b, org
+scoring: S, A, T, B (coro), 2 ob, 2 trb, 2 vl, vla, b, org
 sources:
   1:
     siglum: F-Pn
@@ -19,5 +19,5 @@ sources:
     rism:
     url: https://gallica.bnf.fr/ark:/12148/btv1b52513401n/
 github: gassmann-requiem
-imslp:
+imslp: Requiem_(Gassmann,_Florian_Leopold)
 notes:
