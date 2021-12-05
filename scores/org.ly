@@ -1,53 +1,13 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  indent = 1\cm
-  top-margin = 1.5\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 18)
-       (minimum-distance . 18)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  systems-per-page = #9
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-  \context {
-    \Staff
-    instrumentName = "org"
-  }
-}
+#(define option-instrument-name "org")
+\include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "1"
-      title = "I N T R O I T U S"
-    }
+    \section "1" "Introitus"
+    \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
@@ -60,9 +20,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "T E   D E C E T   H Y M N U S"
-    }
+    \subsection "Te decet hymnus"
+    \addTocEntry
     \score {
       <<
         \new Staff { \TeDecetOrgano }
@@ -71,9 +30,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "R E Q U I E M   –   K Y R I E"
-    }
+    \subsection "Requiem – Kyrie"
+    \addTocEntry
     \score {
       <<
         \new Staff { \KyrieOrgano }
@@ -82,10 +40,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "2"
-      title = "S E Q U E N T I A"
-    }
+    \section "2" "Sequentia"
+    \addTocEntry
     \score {
       <<
         \new Staff { \DiesOrgano }
@@ -94,9 +50,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "T U B A   M I R U M"
-    }
+    \subsection "Tuba mirum"
+    \addTocEntry
     \score {
       <<
         \new Staff { \TubaOrgano }
@@ -105,9 +60,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "R E X   T R E M E N D Æ"
-    }
+    \subsection "Rex tremendæ"
+    \addTocEntry
     \paper { systems-per-page = #4 }
     \score {
       <<
@@ -117,9 +71,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "R E C O R D A R E"
-    }
+    \subsection "Recordare"
+    \addTocEntry
     \score {
       <<
         \new Staff { \RecordareOrgano }
@@ -128,9 +81,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "C O N F U T A T I S"
-    }
+    \subsection "Confutatis"
+    \addTocEntry
     \score {
       <<
         \new Staff { \ConfutatisOrgano }
@@ -139,9 +91,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "H U I C   E R G O"
-    }
+    \subsection "Huic ergo"
+    \addTocEntry
     \paper { page-count = #3 }
     \score {
       <<

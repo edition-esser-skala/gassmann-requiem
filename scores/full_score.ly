@@ -1,21 +1,13 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
-}
-
-#(set-global-staff-size 15.87)
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "1"
-      title = "I N T R O I T U S"
-    }
+    \section "1" "Introitus"
+    \addTocEntry
     \paper { indent = 3\cm }
-    \tocSection "1" "Introitus"
     \score {
       <<
         \new StaffGroup <<
@@ -63,25 +55,19 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \SopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitSoprano
             \new Voice = "Soprano" { \dynamicUp \RequiemSoprano }
           }
           \new Lyrics \lyricsto Soprano \RequiemSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \AltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitAlto
             \new Voice = "Alto" { \dynamicUp \RequiemAlto }
           }
           \new Lyrics \lyricsto Alto \RequiemAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \TenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitTenore
             \new Voice = "Tenore" { \dynamicUp \RequiemTenore }
           }
           \new Lyrics \lyricsto Tenore \RequiemTenoreLyrics
@@ -106,10 +92,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "T E   D E C E T   H Y M N U S"
-    }
-    \tocSubsection "1.2" "Te decet hymnus"
+    \subsection "Te decet hymnus"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -194,10 +178,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "R E Q U I E M   –   K Y R I E"
-    }
-    \tocSubsection "1.3" "Requiem – Kyrie"
+    \subsection "Requiem – Kyrie"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -282,11 +264,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "2"
-      title = "S E Q U E N T I A"
-    }
-    \tocSection "2" "Sequentia"
+    \section "2" "Sequentia"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -371,10 +350,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "T U B A   M I R U M"
-    }
-    \tocSubsection "2.2" "Tuba mirum"
+    \subsection "Tuba mirum"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -459,10 +436,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "R E X   T R E M E N D Æ"
-    }
-    \tocSubsection "2.3" "Rex tremendae"
+    \subsection "Rex tremendæ"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -547,10 +522,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "R E C O R D A R E"
-    }
-    \tocSubsection "2.4" "Recordare"
+    \subsection "Recordare"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -635,10 +608,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "C O N F U T A T I S"
-    }
-    \tocSubsection "2.5" "Confutatis"
+    \subsection "Confutatis"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -723,10 +694,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "H U I C   E R G O"
-    }
-    \tocSubsection "2.6" "Huic ergo"
+    \subsection "Huic ergo"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
